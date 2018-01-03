@@ -1,7 +1,8 @@
 ---
 # required metadata
 
-title: Create compliance policy for Android for WorktitleSuffix: "Azure portal"
+title: Create compliance policy for Android for Work
+titleSuffix: "Azure portal"
 description: Learn how to create a compliance policy for Android for Work devices."
 keywords:
 author: andredm7

@@ -53,6 +53,7 @@ The **IntuneManagementExtensionHealthState** lists all possible health states of
 The **IntuneManagementExtension** lists the IntuneManagementExtension health on each Windows 10 device per day.
 The data is retained for the last 60 days. 
 
+
 | Property  | Description | Example |
 |---------|------------|--------|
 | DateKey |Unique identifier of the Date. | 123 |

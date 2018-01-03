@@ -1,7 +1,8 @@
 ---
 # required metadata
 
-title: How to configure the Company Portal apptitleSuffix: "Azure portal"
+title: How to configure the Company Portal app
+titleSuffix: "Azure portal"
 description: Learn how you can apply company specific branding to the Intune Company Portal app. "
 keywords:
 author: mattbriggs

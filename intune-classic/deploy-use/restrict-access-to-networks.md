@@ -75,12 +75,12 @@ b. Choose the lock icon &gt;  **More information**.
 
 ### Obtain a self-signed cert from ISE 
 
-1.  In the ISE console, go to **Administration** > **Certificates** > **System Certificates** > **Generate Self Signed Certificate**.  
-2.       Export the self-signed certificate.
+1. In the ISE console, go to **Administration** > **Certificates** > **System Certificates** > **Generate Self Signed Certificate**.  
+2. Export the self-signed certificate.
 3. In a text editor, edit the exported certificate:
 
- - Delete **-----BEGIN CERTIFICATE-----**
- - Delete **-----END CERTIFICATE-----**
+   - Delete **-----BEGIN CERTIFICATE-----**
+   - Delete **-----END CERTIFICATE-----**
  
 Ensure all of the text is a single line
 
@@ -93,13 +93,13 @@ Ensure all of the text is a single line
 5. Save the file without changing its name.
 6. Provide your app with permissions to Microsoft Graph and the Microsoft Intune API.
 
- a. For Microsoft Graph, choose the following:
+   a. For Microsoft Graph, choose the following:
     - **Application permissions**: Read directory data
     - **Delegated permissions**:
         - Access user’s data anytime
         - Sign users in
 
- b. For the Microsoft Intune API, in **Application permissions**, choose **Get device state and compliance from Intune**.
+   b. For the Microsoft Intune API, in **Application permissions**, choose **Get device state and compliance from Intune**.
 
 7. Choose **View Endpoints** and copy the following values for use in configuring ISE settings:
 
@@ -110,7 +110,7 @@ Ensure all of the text is a single line
 |Update your code with your Client ID|Client ID|
 
 ### Step 4: Upload the self-signed certificate from ISE into the ISE app you created in Azure AD
-1.     Get the base64 encoded cert value and thumbprint from a .cer X509 public cert file. This example uses PowerShell:
+1. Get the base64 encoded cert value and thumbprint from a .cer X509 public cert file. This example uses PowerShell:
    
       
       $cer = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2
@@ -122,10 +122,10 @@ Ensure all of the text is a single line
       $keyid = [System.Guid]::NewGuid().ToString()
  
 	Store the values for $base64Thumbprint, $base64Value and $keyid, to be used in the next step.
-2.       Upload the certificate through the manifest file. Log in to the [Azure Management Portal](https://manage.windowsazure.com)
-2.      In to the Azure AD snap-in find the application that you want to configure with an X.509 certificate.
-3.      Download the application manifest file. 
-5.      Replace the empty “KeyCredentials”: [], property with the following JSON.  The KeyCredentials complex type is documented in[Entity and complex type reference](https://msdn.microsoft.com/library/azure/ad/graph/api/entity-and-complex-type-reference#KeyCredentialType).
+2. Upload the certificate through the manifest file. Log in to the [Azure Management Portal](https://manage.windowsazure.com)
+3. In to the Azure AD snap-in find the application that you want to configure with an X.509 certificate.
+4. Download the application manifest file. 
+5. Replace the empty “KeyCredentials”: [], property with the following JSON.  The KeyCredentials complex type is documented in[Entity and complex type reference](https://msdn.microsoft.com/library/azure/ad/graph/api/entity-and-complex-type-reference#KeyCredentialType).
 
  
     “keyCredentials“: [
@@ -150,9 +150,9 @@ For example:
     }
     ],
  
-6.      Save the change to the application manifest file.
-7.      Upload the edited application manifest file through the Azure management mortal.
-8.      Optional:  Download the manifest again, to check that your X.509 cert is present on the application.
+6. Save the change to the application manifest file.
+7. Upload the edited application manifest file through the Azure management mortal.
+8. Optional:  Download the manifest again, to check that your X.509 cert is present on the application.
 
 >[!NOTE]
 >

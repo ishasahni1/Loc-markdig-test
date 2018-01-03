@@ -41,7 +41,7 @@ When you deploy apps, you can choose from one of the following deployment action
     > [!TIP]
     > For iOS devices that are not in supervised mode, and for all Android devices, the user must accept the app offer before it is installed.
     >
-	>  If a user uninstalls an app that you deployed as a required install, Intune automatically reinstalls the app after the next inventory cycle, which typically occurs every seven days.
+    >  If a user uninstalls an app that you deployed as a required install, Intune automatically reinstalls the app after the next inventory cycle, which typically occurs every seven days.
 
 -   **Available install** – The app is displayed in the company portal, and users can install it on demand.
 
@@ -63,6 +63,7 @@ When you deploy apps, you can choose from one of the following deployment action
 |External link (deployed to a device group)|No|No|No|No|
 |Managed iOS app from the app store (deployed to a user group)|Yes|Yes|Yes|Yes|
 |Managed iOS app from the app store (deployed to a device group)|Yes|No|Yes|Yes|
+
 > [!TIP]
 > When you deploy apps, if you select both user and device groups, you can only deploy the app as an **Available install**.
 

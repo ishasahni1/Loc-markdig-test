@@ -69,18 +69,18 @@ The Intune Managed Browser supports opening web content from [Microsoft Intune a
 
 ## Create a Managed Browser app configuration
 
-1.	Sign into the Azure portal.
-2.	Choose **More Services** > **Monitoring + Management** > **Intune**.
-3.	On the **Mobile apps** blade of the Manage list, choose **App configuration policies**.
-4.	On the **App Configuration policies** blade, choose **Add**.
-5.	On the **Add app configuration** blade, enter a **Name**, and optional **Description** for the app configuration settings.
-6.	For **Device enrollment** type, choose **Managed apps**.
-7.	Choose **Select the required apps** and then, on the **Targeted apps** blade, choose the **Managed Browser** for iOS, for Android, or for both.
-8.	Choose **OK** to return to the **Add app configuration** blade.
-9.	Choose **Configuration Settings**. On the **Configuration** blade, you define key and value pairs to supply configurations for the Managed Browser. Use the sections later in this article to learn about the different key and value pairs you can define.
-10.	When you are done, choose **OK**.
-11.	On the **Add app configuration** blade, choose **Create**.
-12.	The new configuration is created, and displayed on the **App configuration** blade.
+1.  Sign into the Azure portal.
+2.  Choose **More Services** > **Monitoring + Management** > **Intune**.
+3.  On the **Mobile apps** blade of the Manage list, choose **App configuration policies**.
+4.  On the **App Configuration policies** blade, choose **Add**.
+5.  On the **Add app configuration** blade, enter a **Name**, and optional **Description** for the app configuration settings.
+6.  For **Device enrollment** type, choose **Managed apps**.
+7.  Choose **Select the required apps** and then, on the **Targeted apps** blade, choose the **Managed Browser** for iOS, for Android, or for both.
+8.  Choose **OK** to return to the **Add app configuration** blade.
+9.  Choose **Configuration Settings**. On the **Configuration** blade, you define key and value pairs to supply configurations for the Managed Browser. Use the sections later in this article to learn about the different key and value pairs you can define.
+10. When you are done, choose **OK**.
+11. On the **Add app configuration** blade, choose **Create**.
+12. The new configuration is created, and displayed on the **App configuration** blade.
 
 >[!IMPORTANT]
 >Currently, the Managed Browser relies on auto-enrollment. For app configurations to apply, another application on the device must already be managed by Intune app protection policies.
@@ -105,7 +105,7 @@ The Intune Managed Browser and [Azure AD Application Proxy]( https://docs.micros
 ### Before you start
 
 - Set up your internal applications through the Azure AD Application Proxy.
-	- To configure Application Proxy and publish applications, see the [setup documentation]( https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-get-started#how-to-get-started). 
+    - To configure Application Proxy and publish applications, see the [setup documentation]( https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-get-started#how-to-get-started). 
 - You must be using minimum version 1.2.0 of the Managed Browser app.
 - Users of the Managed Browser app have an [Intune app protection policy]( app-protection-policy.md) assigned to the app.
 Note: Updated Application Proxy redirection data can take up to 24 hours to take effect in the Managed Browser.
@@ -126,6 +126,7 @@ This procedure configures the Managed Browser app to use app proxy redirection. 
 
 This setting allows you to configure the homepage that users see when they start the Managed Browser or create a new tab. Using the procedure to create a Managed Browser app configuration, supply the following key and value pair:
 
+
 |||
 |-|-|
 |Key|Value|
@@ -142,6 +143,7 @@ This setting allows you to configure a set of bookmarks that is available to use
 
 Using the procedure to create a Managed Browser app configuration, supply the following key and value pair:
 
+
 |||
 |-|-|
 |Key|Value|
@@ -150,6 +152,7 @@ Using the procedure to create a Managed Browser app configuration, supply the fo
 ## How to specify allowed and blocked URLs for the Managed Browser
 
 Using the procedure to create a Managed Browser app configuration, supply the following key and value pair:
+
 
 |||
 |-|-|
@@ -163,19 +166,19 @@ Using the procedure to create a Managed Browser app configuration, supply the fo
 ### URL format for allowed and blocked URLs
 Use the following information to learn about the allowed formats and wildcards that you can use when specifying URLs in the allowed and blocked lists:
 
--   You can use the wildcard symbol (**&#42;**) according to the rules in the following permitted patterns list:
+- You can use the wildcard symbol (**&#42;**) according to the rules in the following permitted patterns list:
 
--   Ensure that you prefix all URLs with **http** or **https** when entering them into the list.
+- Ensure that you prefix all URLs with **http** or **https** when entering them into the list.
 
--   You can specify port numbers in the address. If you do not specify a port number, the values used are:
+- You can specify port numbers in the address. If you do not specify a port number, the values used are:
 
-    -   Port 80 for http
+  -   Port 80 for http
 
-    -   Port 443 for https
+  -   Port 443 for https
 
-    Using wildcards for the port number is not supported. For example, **http&colon;//www&period;contoso&period;com:*;** and **http&colon;//www&period;contoso&period;com: /*;** are not supported.
+  Using wildcards for the port number is not supported. For example, **http&colon;//www&period;contoso&period;com:*;** and **http&colon;//www&period;contoso&period;com: /*;** are not supported.
 
--   Use the following table to learn about the permitted patterns that you can use when you specify URLs:
+- Use the following table to learn about the permitted patterns that you can use when you specify URLs:
 
 |URL|Details|Matches|Does not match|
 |-------|---------------|-----------|------------------|
@@ -188,27 +191,27 @@ Use the following information to learn about the allowed formats and wildcards t
 |https://www.contoso.com|Matches a single, secure page|https://www.contoso.com|http://www.contoso.com|
 |http://www.contoso.com/images/&#42;|Matches a single folder and all subfolders|www.contoso.com/images/dogs<br /><br />www.contoso.com/images/cats|www.contoso.com/videos|
 
--   The following are examples of some of the inputs that you cannot specify:
+- The following are examples of some of the inputs that you cannot specify:
 
-    -   &#42;.com
+  - &#42;.com
 
-    -   &#42;.contoso/&#42;
+  - &#42;.contoso/&#42;
 
-    -   www.contoso.com/&#42;images
+  - www.contoso.com/&#42;images
 
-    -   www.contoso.com/&#42;images&#42;pigs
+  - www.contoso.com/&#42;images&#42;pigs
 
-    -   www.contoso.com/page&#42;
+  - www.contoso.com/page&#42;
 
-    -   IP addresses
+  - IP addresses
 
-    -   https://&#42;
+  - https://&#42;
 
-    -   http://&#42;
+  - http://&#42;
 
-    -   http://www.contoso.com:&#42;
+  - http://www.contoso.com:&#42;
 
-    -   http://www.contoso.com: /&#42;
+  - http://www.contoso.com: /&#42;
 
 ## How to access to managed app logs using the Managed Browser on iOS
 

@@ -41,13 +41,13 @@ Prerequisites for compliance policy with Lookout Mobile Threat Defense:
 As part of the Lookout Mobile Threat Defense setup, in the [Lookout console](https://aad.lookout.com), you created a policy that classifies various threats as high, medium and low. In the Intune compliance policy, you set the maximum allowed threat level.
 
 1. In the [Intune administrator console](https://manage.microsoft.com), go to the **Compliance Policies** page. You can either use an existing compliance policy or create a new one. Go to **Device Health** and enable **Device Threat Protection**.
-  ![screenshot showing the device threat protection rule setting in ](../media/mtp/mtp-compliance-policy-rule.png)
+   ![screenshot showing the device threat protection rule setting in ](../media/mtp/mtp-compliance-policy-rule.png)
 
 2. Select the **Maximum allowed threat level**:
-  * **None (Secured)**: This is the most secure.  The device cannot have any threats present and still access company resources.  If any threats are found, the device is evaluated as non-compliant.  
-  * **Low**: The device is compliant if only low level threats are present. Anything higher puts the device in a non-compliant status.
-  * **Medium**: The device is compliant if the threats found on the device are low or medium level. If high level threats are detected, the device is determined as non-compliant.
-  * **High**: This is the least secure. This allows all threat levels, and uses Lookout mobile threat protection for reporting purposes only.
+   * **None (Secured)**: This is the most secure.  The device cannot have any threats present and still access company resources.  If any threats are found, the device is evaluated as non-compliant.  
+   * **Low**: The device is compliant if only low level threats are present. Anything higher puts the device in a non-compliant status.
+   * **Medium**: The device is compliant if the threats found on the device are low or medium level. If high level threats are detected, the device is determined as non-compliant.
+   * **High**: This is the least secure. This allows all threat levels, and uses Lookout mobile threat protection for reporting purposes only.
 
 ![screenshot showing the threat level option for the device threat protection rule setting](../media/mtp/mtp-compliance-policy-setting.png)
 

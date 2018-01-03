@@ -94,3 +94,4 @@ There are two categories of policy settings: data relocation settings and access
 | **Offline interval before app data is wiped (days)** | After this many days (defined by the admin) of running offline, the app itself will do a selective wipe. This selective wipe is the same wipe as the one that can be initiated by the admin in the MAM wipe work-flow. <br><br> | 90 days |
 | **Block screen capture and Android Assistant (Android 6.0+)** | Choose **Yes** to block screen capture and the **Android Assistant** capabilities of the device when using this app. Choosing **Yes** will also blur the App-switcher preview image when using this app with a work or school account. | No |
 | **Disable app PIN when device PIN is managed** | Choose **Yes** to disable the app PIN when a device lock is detected on an enrolled device. | No |
+

@@ -31,6 +31,7 @@ The **Date** category contains the **Date** entity used to define date reference
 
 The **Date** entity represents dates that are referenced across multiple data warehouse entities.
 
+
 | Property  | Description | Example |
 |---------|------------|--------|
 | DateKey | Unique identifier for this date in the data warehouse. | 20160703 |
@@ -51,3 +52,4 @@ The **Date** entity represents dates that are referenced across multiple data wa
 | MonthOfYear | Month of the year | 7 |
 | CalendarQuarter | Calendar quarter | 3 |
 | CalendarYear | Calendar year | 2016 |
+

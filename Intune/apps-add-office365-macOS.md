@@ -71,12 +71,12 @@ Provide information about the app suite. This information helps you to identify 
 
 In this step, configure the assignments for the app suite. Note that the available app type is coming soon.
 
-1.	Select the app suite in the list of apps, and select **Assignments**.
-2.	Choose **Select groups**.
-3.	Assign the suite to the groups you choose. For more information, see [How to assign apps to groups with Microsoft Intune](/intune/apps-deploy).
-4.	For each group, you select **Require Install**.
-		>[!Note]
-		> You cannot uninstall Office 365 through Intune.
+1. Select the app suite in the list of apps, and select **Assignments**.
+2. Choose **Select groups**.
+3. Assign the suite to the groups you choose. For more information, see [How to assign apps to groups with Microsoft Intune](/intune/apps-deploy).
+4. For each group, you select **Require Install**.
+       >[!Note]
+       > You cannot uninstall Office 365 through Intune.
 
 5. Select **Save** to commit your assignments.
 

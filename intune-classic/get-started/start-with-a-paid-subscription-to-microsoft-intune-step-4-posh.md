@@ -75,6 +75,6 @@ Verify with:
 
 ### Next steps
 Congratulations! You have just completed step 4 of the *Intune quick start guide*.
->[!div class="step-by-step"]
-(/intune/custom-domain-name-configure)
->[&larr; **Sync users to Intune**](/intune/custom-domain-name-configure)     [**Organize users and devices** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-5.md)  
+> [!div class="step-by-step"]
+> (/intune/custom-domain-name-configure)
+> [&larr; **Sync users to Intune**](/intune/custom-domain-name-configure)     [**Organize users and devices** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-5.md)  

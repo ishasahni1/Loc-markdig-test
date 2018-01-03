@@ -35,9 +35,9 @@ The policy settings described in this topic apply to Android for Work devices.
 
 If you are looking for information about other platforms, select one of the following:
 > [!div class="op_single_selector"]
-- [Compliance policy setting for Android](android-compliance-policy-settings-in-microsoft-intune.md)
-- [Compliance policy settings for iOS devices](ios-compliance-policy-settings-in-microsoft-intune.md)
-- [Compliance policy settings for Windows devices](windows-compliance-policy-settings-in-microsoft-intune.md)
+> - [Compliance policy setting for Android](android-compliance-policy-settings-in-microsoft-intune.md)
+> - [Compliance policy settings for iOS devices](ios-compliance-policy-settings-in-microsoft-intune.md)
+> - [Compliance policy settings for Windows devices](windows-compliance-policy-settings-in-microsoft-intune.md)
 
 ## System security settings
 ### Password

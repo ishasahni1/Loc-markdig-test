@@ -72,6 +72,7 @@ In the **Compliant &amp; Noncompliant Apps list for Mac OS X**, enable **Managed
 |**Import Apps**|Import a list of apps that you have specified in a comma-separated values file. In the file, use this format: app name, publisher, app bundle ID.|
 |**Edit**|Edit the name, publisher, and app bundle ID of the selected app.|
 |**Delete**|Delete the selected app from the list.|
+
 > [!TIP]
 > For more information about Intune reports, see [Understand Microsoft Intune operations by using reports](understand-microsoft-intune-operations-by-using-reports.md).
 
