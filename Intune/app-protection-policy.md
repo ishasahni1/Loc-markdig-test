@@ -44,12 +44,12 @@ App protection policies can be configured for app running on devices that are:
 
 - **Enrolled in Microsoft Intune:** The devices in this category are typically corporate owned devices.
 
--   **Enrolled in a third-party Mobile device management (MDM)  solution:**   The devices in this category are typically corporate owned devices.
+- **Enrolled in a third-party Mobile device management (MDM)  solution:**   The devices in this category are typically corporate owned devices.
 
   > [!NOTE]
   > Mobile app management policies should not be used with third party mobile app management  or secure container solutions.
 
--   **Not enrolled in any mobile device management solution:**  The devices in this category are typically employee owned devices that are not managed or enrolled in Intune or other MDM solutions.
+- **Not enrolled in any mobile device management solution:**  The devices in this category are typically employee owned devices that are not managed or enrolled in Intune or other MDM solutions.
 
 > [!IMPORTANT]
 > You can create mobile app management policies for Office mobile apps that connect to Office 365 services. App protection policies are not supported for apps that connect to on-premises Exchange, Skype for Business, or SharePoint services.

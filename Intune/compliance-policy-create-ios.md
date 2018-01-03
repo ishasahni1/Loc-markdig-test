@@ -1,7 +1,8 @@
 ---
 # required metadata
 
-title: How to create a compliance policy for iOStitleSuffix: "Azure portal"
+title: How to create a compliance policy for iOS
+titleSuffix: "Azure portal"
 description: Learn how to create a compliance policy for iOS devices."
 keywords:
 author: andredm7
@@ -47,6 +48,7 @@ The table below describes how noncompliant settings are managed when a complianc
 |**Minimum OS version** | Quarantined |
 | **Maximum OS version** | Quarantined |  
 | **Windows health attestation** | Not applicable |  
+
 ----------------------------
 
 

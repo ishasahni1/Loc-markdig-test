@@ -55,4 +55,4 @@ Windows PC management with modern mobile device management has the following adv
 - **Scalability** - MDM management scales with Intune cloud management. The Intune software client is limited to 7000 PCs.
 - **Simplicity** - Uses modern management capabilities included in the operating system without relying on a downloaded software client
 - **Consistency** - Your Windows PCs are managed like all other mobile devices in your organization
-<!-- - **Cloud optimization** - -->
+  <!-- - **Cloud optimization** - -->

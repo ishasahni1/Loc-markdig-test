@@ -59,8 +59,8 @@ Getting access to your organization’s apps, data, and resources makes it easie
 
 8. Your Mac will show you a message that says, **"CompanyPortal" is an application downloaded from the Internet. Are you sure you want to open it?** Click **Open**.
 
-  > [!NOTE]
-  > Intune needs access to your computer to make sure that your device is secure enough to access your organization's resources. If your computer refuses to open the Company Portal app, try [turning off Gatekeeper](https://support.apple.com/HT202491) and then opening the app.
+   > [!NOTE]
+   > Intune needs access to your computer to make sure that your device is secure enough to access your organization's resources. If your computer refuses to open the Company Portal app, try [turning off Gatekeeper](https://support.apple.com/HT202491) and then opening the app.
 
 9. The first screen you see in the Company Portal app prompts you to **Sign In** with the same work or school account you used to log in to the Company Portal website.
 

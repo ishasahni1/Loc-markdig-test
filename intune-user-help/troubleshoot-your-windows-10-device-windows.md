@@ -5,14 +5,17 @@ title: Troubleshoot your Windows 10 device enrollment | Microsoft Docs
 description:
 keywords:
 author: barlanmsft
-ms.author: barlan
+
+ms.author: barlan
 manager: angrobe
 ms.date: 07/13/2017
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
 ms.technology:
-ms.assetid: 4ab630b6-47ff-443b-a2a5-be23388bcea7searchScope: - User help
+ms.assetid: 4ab630b6-47ff-443b-a2a5-be23388bcea7
+searchScope:
+ - User help
 
 # optional metadata
 
@@ -41,15 +44,15 @@ If you followed the steps in [Enroll your Windows 10 Mobile or Windows 10 deskto
 
 ## Troubleshooting steps to follow if you see "Access work or school"
 
-1.  If you followed the steps above, but you still can’t access your work or school email and files, go back to **Access work or school**.
+1. If you followed the steps above, but you still can’t access your work or school email and files, go back to **Access work or school**.
 
 2. Do one of the following:
 
-	- If you see a connection that looks similar to the image below, tap it, and then check that you see the Manage, Info and Disconnect options. If you see these option, you’re now enrolled and connected.
+   - If you see a connection that looks similar to the image below, tap it, and then check that you see the Manage, Info and Disconnect options. If you see these option, you’re now enrolled and connected.
 
-	![validate-successful-enrollment](./media/w10-enroll-rs1-validate-successful-enrollment.png)
+     ![validate-successful-enrollment](./media/w10-enroll-rs1-validate-successful-enrollment.png)
 
-	- If you don’t see the connection information shown above, or you do see it, but it’s missing some of the options, tap **Connect**, and then sign in with your work or school credentials. You should now be connected.
+   - If you don’t see the connection information shown above, or you do see it, but it’s missing some of the options, tap **Connect**, and then sign in with your work or school credentials. You should now be connected.
 
 ## Troubleshooting steps to follow if you see "Your account"
 

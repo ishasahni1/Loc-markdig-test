@@ -68,21 +68,21 @@ Note the folder to which you installed the tool. The default location is: C:\Pro
 
 ## Run the App Wrapping Tool
 
-1.  On the Windows computer where you installed the App Wrapping Tool, open a PowerShell window.
+1. On the Windows computer where you installed the App Wrapping Tool, open a PowerShell window.
 
-2.  From the folder where you installed the tool, import the App Wrapping Tool PowerShell module:
+2. From the folder where you installed the tool, import the App Wrapping Tool PowerShell module:
 
-    ```
-    Import-Module .\IntuneAppWrappingTool.psm1
-    ```
+   ```
+   Import-Module .\IntuneAppWrappingTool.psm1
+   ```
 
-3.  Run the tool by using the **invoke-AppWrappingTool** command, which has the following usage syntax:
-	```
-	Invoke-AppWrappingTool [-InputPath] <String> [-OutputPath] <String> -KeyStorePath <String> -KeyStorePassword <SecureString>
-    -KeyAlias <String> -KeyPassword <SecureString> [-SigAlg <String>] [<CommonParameters>]
-	```
+3. Run the tool by using the **invoke-AppWrappingTool** command, which has the following usage syntax:
+   ```
+   Invoke-AppWrappingTool [-InputPath] <String> [-OutputPath] <String> -KeyStorePath <String> -KeyStorePassword <SecureString>
+   -KeyAlias <String> -KeyPassword <SecureString> [-SigAlg <String>] [<CommonParameters>]
+   ```
 
- The following table details the properties of the **invoke-AppWrappingTool** command:
+   The following table details the properties of the **invoke-AppWrappingTool** command:
 
 |Property|Information|Example|
 |-------------|--------------------|---------|

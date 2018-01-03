@@ -40,21 +40,21 @@ Possible configurations are:
 
 - **Mobile Device Management for Office 365** - integration of Office 365 with the Intune cloud solution. You configure Intune from your Office 365 Admin Center. Includes a subset of the capabilities that are available with Intune Standalone. Set the MDM authority in Office 365 Admin Center.
 
->[!IMPORTANT]    
-In Configuration Manager version 1610 or later and Microsoft Intune version 1705, you change the MDM authority without having to contact Microsoft Support, and without having to unenroll and reenroll your existing managed devices. For details, see [What to do if you choose the wrong MDM authority setting](/intune-classic/deploy-use/prerequisites-for-enrollment#what-to-do-if-you-choose-the-wrong-mdm-authority-setting).
+> [!IMPORTANT]    
+> In Configuration Manager version 1610 or later and Microsoft Intune version 1705, you change the MDM authority without having to contact Microsoft Support, and without having to unenroll and reenroll your existing managed devices. For details, see [What to do if you choose the wrong MDM authority setting](/intune-classic/deploy-use/prerequisites-for-enrollment#what-to-do-if-you-choose-the-wrong-mdm-authority-setting).
 
 ## Set MDM authority to Intune
 
 1. In the [Azure portal](https://portal.azure.com), choose **More Services** > **Monitoring + Management** > **Intune**.
 2. Select the orange banner to open the **Mobile Device Management Authority** setting.
 3. Under **Mobile Device Management Authority**, choose your MDM authority from the following options:
-  - **Intune MDM Authority**
-  - **Configuration Manager MDM Authority**
-  - **None**
+   - **Intune MDM Authority**
+   - **Configuration Manager MDM Authority**
+   - **None**
 
-  ![Screenshot of Intune set mobile device management authority screen](media/set-mdm-auth.png)
+   ![Screenshot of Intune set mobile device management authority screen](media/set-mdm-auth.png)
 
-  A message indicates that you have successfully set your MDM authority to Intune.
+   A message indicates that you have successfully set your MDM authority to Intune.
 
 ## Enable device enrollment
 

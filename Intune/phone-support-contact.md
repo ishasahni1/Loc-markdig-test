@@ -123,4 +123,5 @@ ms.custom: intune-classic
 |United States|24 x 7|Monday – Friday<br /><br />09:00 – 17:00 PST (UTC -8)|English|800-865-9408||
 |Uruguay|24 x 7|Monday – Friday<br /><br />09:00 – 17:00 UYST (UTC -2)|Spanish&#42;, English|000-411-002-7131||
 |Venezuela|24 x 7|Monday – Friday<br /><br />09:00 – 17:00 VET (UTC -4:30)|Spanish&#42;, English|0-800-100-8763||
+
 &#42; Supported with over-the-phone interpretation.
