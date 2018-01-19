@@ -107,13 +107,13 @@ You can synchronize the data held by Apple with Intune at any time by choosing *
 
 ## To assign a volume-purchased app
 
-1. On the **Intune** blade, choose **Mobile apps** > **Apps** under **Manage**.
-2. On the list of apps blade, choose the app you want to assign, and then choose **Assignments**.
-3. On the ***App name*** - **Assignments** blade, choose **Select Groups** then, on the **Select groups** blade, choose the Azure AD user or device groups to which you want to assign the app.
-4. For each group you selected, choose the following settings:
-   - **Type** - Choose whether the app will be **Available** (end users can install the app from the Company Portal), or **Required** (end user devices will automatically get the app installed).
-   - **License type** - Choose from **User licensing**, or **Device licensing**.
-5. Once you are done, choose **Save**.
+1.	On the **Intune** blade, choose **Mobile apps** > **Apps** under **Manage**.
+2.	On the list of apps blade, choose the app you want to assign, and then choose **Assignments**.
+3.	On the ***App name*** - **Assignments** blade, choose **Select Groups** then, on the **Select groups** blade, choose the Azure AD user or device groups to which you want to assign the app.
+5.	For each group you selected, choose the following settings:
+	- **Type** - Choose whether the app will be **Available** (end users can install the app from the Company Portal), or **Required** (end user devices will automatically get the app installed).
+	- **License type** - Choose from **User licensing**, or **Device licensing**.
+6.	Once you are done, choose **Save**.
 
 
 >[!NOTE]

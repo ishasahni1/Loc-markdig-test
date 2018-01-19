@@ -4,17 +4,14 @@
 title: Enroll your device in Intune | Microsoft Docs
 description: Provides links to information about how to enroll different devices in Intune
 keywords:
-author: barlanmsft
-ms.author: barlan
+author: barlanmsftms.author: barlan
 manager: angrobe
 ms.date: 02/08/2017
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
 ms.technology:
-ms.assetid: b51dbdd6-aaa3-48dd-a47f-9d01a4ca37f6
-searchScope:
- - User help
+ms.assetid: b51dbdd6-aaa3-48dd-a47f-9d01a4ca37f6searchScope: - User help
 
 
 # optional metadata

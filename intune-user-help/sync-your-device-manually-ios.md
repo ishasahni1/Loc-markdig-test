@@ -4,17 +4,14 @@
 title: Manually sync your iOS device | Microsoft Docs
 description:
 keywords:
-author: barlanmsft
-ms.author: barlan
+author: barlanmsftms.author: barlan
 manager: angrobe
 ms.date: 01/11/2017
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
 ms.technology:
-ms.assetid: 2780101b-f703-4b78-9d33-f68490b9382d
-searchScope:
- - User help
+ms.assetid: 2780101b-f703-4b78-9d33-f68490b9382dsearchScope: - User help
 
 # optional metadata
 

@@ -121,7 +121,7 @@ Microsoft Intune collects data on usage statistics for your app.
 
 * **Intune App SDK for Android**: Telemetry data is not logged through the SDK.
 
-  iOS and Android line-of-business app version number is visible <!-- 1380712 -->
+ iOS and Android line-of-business app version number is visible <!-- 1380712 -->
 
 ## Line-of-business app version numbers
 
@@ -154,7 +154,7 @@ Build number|CFBundleVersion|PackageVersionCode |This number is used to indicate
 
 - **CFBundleShortVersionString**  
     Specifies the release version number of the bundle. This number identifies a released version of the app. The number is used by end users to reference the app.​
-  - **CFBundleVersion**  
+ - **CFBundleVersion**  
     The build version of the bundle, which identifies an iteration of the bundle. The number may be identify a release or unreleased bundle. The number is used for app detection.
 
 #### Android

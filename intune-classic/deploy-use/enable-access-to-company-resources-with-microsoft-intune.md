@@ -51,19 +51,15 @@ Deploy virtual private network (VPN) settings to your users. These settings make
 ## [Email profiles](configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md) and supported platforms
 Create, deploy, and monitor native email client settings on devices in your organization.
 
-
 |Windows 8.1 and later|Windows Phone 8.1 and later|iOS|Android|Samsung KNOX Standard|
 |---------------------|---------------------------|---|-------|------------|
 |No|Yes|Yes|No|Yes|
-
 > [!NOTE]
 > [This Intune team blog post](https://blogs.technet.microsoft.com/enterprisemobility/2015/02/19/using-oma-uri-to-create-custom-wi-fi-profiles-for-windows-phone-8-1/) gives information about how to configure a Windows Phone 8.1 Wi-Fi profile using OMA-URI.
 
 ## [Certificate profiles](secure-resource-access-with-certificate-profiles.md) and supported platforms
 Help secure access to company resources including wireless networks and VPN connections.
 
-
 |Windows 8.1 and later|Windows Phone 8.1 and later|iOS|Android|Samsung KNOX Standard|
 |---------------------|---------------------------|---|-------|------------|
 |Yes|Yes|Yes|Yes|Yes|
-

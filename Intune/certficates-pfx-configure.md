@@ -59,7 +59,7 @@ You need a root or intermediate CA certificate on each device for authentication
 
    For example:
 
-4. After the wizard completes, but before closing the wizard, click **Launch the Certificate Connector UI**.
+4.  After the wizard completes, but before closing the wizard, click **Launch the Certificate Connector UI**.
 
    `certutil -ca.cert certnew.cer`
 

@@ -77,12 +77,12 @@ Unlike other Intune policies, you don't deploy conditional access policies. Inst
 
 2. [Create a device compliance policy](create-a-device-compliance-policy-in-microsoft-intune.md).
 
-3. Create a conditional access policy for one of the following Microsoft cloud services/product:
+2.  Create a conditional access policy for one of the following Microsoft cloud services/product:
 
-   - [Create a conditional access policy for Exchange Online](restrict-access-to-exchange-online-with-microsoft-intune.md)
-   - [Create a conditional access policy for Exchange On-premises](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
-   - [Create a conditional access policy for new Exchange Online Dedicated](restrict-access-to-exchange-online-with-microsoft-intune.md)
-   - [Create a conditional access policy for legacy Exchange Online Dedicated](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
-   - [Create a conditional access policy for SharePoint Online](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
-   - [Create a conditional access policy for Skype for Business Online](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
-   - [Create a conditional access policy for Dynamics CRM Online](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)
+  - [Create a conditional access policy for Exchange Online](restrict-access-to-exchange-online-with-microsoft-intune.md)
+  - [Create a conditional access policy for Exchange On-premises](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
+  - [Create a conditional access policy for new Exchange Online Dedicated](restrict-access-to-exchange-online-with-microsoft-intune.md)
+  - [Create a conditional access policy for legacy Exchange Online Dedicated](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
+  - [Create a conditional access policy for SharePoint Online](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
+  - [Create a conditional access policy for Skype for Business Online](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
+  - [Create a conditional access policy for Dynamics CRM Online](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)

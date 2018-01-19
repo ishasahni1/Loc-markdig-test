@@ -5,8 +5,7 @@ title: How to turn off Microsoft data collection for macOS devices | Microsoft D
 description:
 keywords:
 author: barlanmsft
-
-ms.author: barlan
+ms.author: barlan
 manager: angrobe
 ms.date: 12/08/2017
 ms.topic: article
@@ -14,8 +13,7 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology:
 ms.assetid:
-searchScope:
- - User help
+searchScope: - User help
 
 # optional metadata
 

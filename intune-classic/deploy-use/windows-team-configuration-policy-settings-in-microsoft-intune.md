@@ -32,7 +32,6 @@ ms.custom: intune-classic
 
 Use the Microsoft Intune **Windows 10 Team general configuration policy** to configure settings for enrolled Windows 10 Team devices such as the Microsoft Surface Hub.
 
-
 |Setting name|Details|
 |----------------|-----------|
 |**Allow screen to wake automatically when someone in the room**|Allows the device to wake automatically when its sensor detects someone in the room.|

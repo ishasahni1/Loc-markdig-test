@@ -42,7 +42,7 @@ The syntax for Get-AppxPackage is:
 ` Get-AppxPackage [[-Name] <String> ] [[-Publisher] <String> ] [-AllUsers] [-User <String> ] [ <CommonParameters>]`
 
 > [!NOTE]
-> You may have to run PowerShell as an admin to retrieve the PFN.
+You may have to run PowerShell as an admin to retrieve the PFN.
 
 For example, to get info about all the universal apps installed on the computer, use `Get-AppxPackage`.
 

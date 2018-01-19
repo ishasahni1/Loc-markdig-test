@@ -38,17 +38,17 @@ Before you can access your work, your company needs you to install the Lookout f
 
 ## What you need to do
 
-1. If you see the following prompt, tap **Install** to allow Lookout for Work to be installed on your device.
+1.	If you see the following prompt, tap **Install** to allow Lookout for Work to be installed on your device.
 
-   ![Tap install to install Lookout for Work](./media/ios-mtd-install-app-request.png)
+  ![Tap install to install Lookout for Work](./media/ios-mtd-install-app-request.png)
 
 2. When you see the following message, tap **Settings**, turn on **Location Services**, and then tap **Continue**.
 
-   ![Tap Settings and then Location Services](./media/ios-lfw-allow-location-services.png)
+  ![Tap Settings and then Location Services](./media/ios-lfw-allow-location-services.png)
 
 3. Review the permissions that Lookout for Work needs, and tap **Continue**.
 
-   ![you are now connected to Lookout for Work](./media/ios-lfw-permissions-lookout-needs.png)
+  ![you are now connected to Lookout for Work](./media/ios-lfw-permissions-lookout-needs.png)
 
 4. At the prompt asking you to allow Lookout for Work to send you notifications, tap **Allow**.
 

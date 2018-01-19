@@ -57,7 +57,6 @@ Use the Microsoft Intune **Windows general configuration policy (Windows 8.1 and
 |Setting name|Details|
 |----------------|-----|
 |**Require encryption on mobile device**<sup>1</sup>|Requires that files on the device are encrypted.|
-
 <sup>1</sup> Additional information for devices that run Windows 8.1
 
 -   To enforce encryption on devices that run Windows 8.1, you must install the [December 2014 MDM client update for Windows](http://support.microsoft.com/kb/3013816) on each device.

@@ -111,9 +111,9 @@ The native **Mail** application on Windows 8.1 and later (when enrolled with Int
 12. On the **Advanced Exchange Active Sync access settings** blade, set the global default rule for access from devices that are not managed by Intune, and for platform-level rules as described in the next two steps.
 
 13. For a device that is not affected by conditional access or other rules, you can choose to allow it to access Exchange, or block it.
-    - When you set this to allow access, all devices will be able to access Exchange on-premises immediately.  Devices that belong to the users in the **Groups Included**, are blocked if they are subsequently evaluated as not compliant with the compliant policies or not enrolled in Intune.
-    - When you set this to block access, all devices will be immediately blocked from accessing Exchange on-premises initially.  Devices that belong to users in the **Groups Included** will get access once the device is enrolled in Intune and is evaluated as compliant. On Android devices that do not run Samsung KNOX standard will always be blocked as they do not support this setting.
-    <br></br>
+  - When you set this to allow access, all devices will be able to access Exchange on-premises immediately.  Devices that belong to the users in the **Groups Included**, are blocked if they are subsequently evaluated as not compliant with the compliant policies or not enrolled in Intune.
+  - When you set this to block access, all devices will be immediately blocked from accessing Exchange on-premises initially.  Devices that belong to users in the **Groups Included** will get access once the device is enrolled in Intune and is evaluated as compliant. On Android devices that do not run Samsung KNOX standard will always be blocked as they do not support this setting.
+<br></br>
 14. Under **Device platform exceptions**, choose **Add** to specify the platforms. If the **unmanaged device access** setting is set to **blocked**, devices that are enrolled and compliant will be allowed even if there is a platform exception to block. Choose **Ok** to save the settings.
 
 15. On the **On-premises** blade, click **Save** to save the conditional access policy.

@@ -29,13 +29,13 @@ ms.custom: intune-classic
 # Accessibility Products and Services from Microsoft
 [!INCLUDE[accessibility1](./includes/accessibility1_md.md)]
 
-- [!INCLUDE[accessibility2](./includes/accessibility2_md.md)]
+-   [!INCLUDE[accessibility2](./includes/accessibility2_md.md)]
 
-- [!INCLUDE[accessibility3](./includes/accessibility3_md.md)]
+-   [!INCLUDE[accessibility3](./includes/accessibility3_md.md)]
 
-- [!INCLUDE[accessibility4](./includes/accessibility4_md.md)]
+-   [!INCLUDE[accessibility4](./includes/accessibility4_md.md)]
 
-- [!INCLUDE[accessibility5](./includes/accessibility5_md.md)]
+-   [!INCLUDE[accessibility5](./includes/accessibility5_md.md)]
 
 > [!NOTE]
 > [!INCLUDE[accessibility6](./includes/accessibility6_md.md)]
@@ -65,9 +65,9 @@ ms.custom: intune-classic
 ## Customer Service for people with hearing impairments
 [!INCLUDE[accessibility13](./includes/accessibility13_md.md)]
 
-- [!INCLUDE[accessibility14](./includes/accessibility14_md.md)]
+-   [!INCLUDE[accessibility14](./includes/accessibility14_md.md)]
 
-- [!INCLUDE[accessibility15](./includes/accessibility15_md.md)]
+-   [!INCLUDE[accessibility15](./includes/accessibility15_md.md)]
 
 [!INCLUDE[accessibility16](./includes/accessibility16_md.md)]
 

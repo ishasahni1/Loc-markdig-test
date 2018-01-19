@@ -4,17 +4,14 @@
 title: Send enrollment errors to your company support | Microsoft Docs
 description: Send enrollment errors to your admin
 keywords:
-author: barlanmsft
-ms.author: barlan
+author: barlanmsftms.author: barlan
 manager: angrobe
 ms.date: 01/03/2017
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
 ms.technology:
-ms.assetid: d7c871b8-e5d8-4912-b87f-7e6bc59897be
-searchScope:
- - User help
+ms.assetid: d7c871b8-e5d8-4912-b87f-7e6bc59897besearchScope: - User help
 
 # optional metadata
 

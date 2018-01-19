@@ -76,7 +76,7 @@ Before you start, make sure that you already have an Intune and a Datalert telec
 
     The following screenshot shows the green check marks that you can expect to see once the connection is successful.
 
-   ![Datalert page showing connection successful](./media/tem-mdm-configuration-mdm-server-page.png)
+  ![Datalert page showing connection successful](./media/tem-mdm-configuration-mdm-server-page.png)
 
 ### Step 2: Check that the telecom expense management feature is Active in Intune
 
@@ -92,7 +92,7 @@ After you complete Step 1 above, your connection should be automatically enabled
 
    Look for the **Active** connection status at the top of the page.
 
-   ![Azure portal showing datalert connection status Active](./media/tem-azure-portal-enable-service.png)
+  ![Azure portal showing datalert connection status Active](./media/tem-azure-portal-enable-service.png)
 
 ### Step 3: Deploy the Datalert app to corporate enrolled devices
 
@@ -122,11 +122,11 @@ Follow these steps to create the Datalert app in Intune for each platform. iOS i
 
 6. Select the **Datalert** app, and select **OK**.
 
-   ![Screenshot of the Add a policy blade](./media/tem-select-app-from-apple-app-store.png)
+  ![Screenshot of the Add a policy blade](./media/tem-select-app-from-apple-app-store.png)
 
 7. Complete the remaining steps to create an app for iOS.
 
-   ![Screenshot of the Add a policy blade](./media/tem-steps-to-create-the-app.png)
+  ![Screenshot of the Add a policy blade](./media/tem-steps-to-create-the-app.png)
 
 #### Assign the Datalert app to the corporate device group
 
@@ -138,7 +138,7 @@ Follow these steps to create the Datalert app in Intune for each platform. iOS i
 
 4. Choose whether to make the app installation required or optional for the group. The following example screenshot shows the installation as required, which means that users must install the Datalert app installation after enrolling their device.
 
-   ![Screenshot of the Add a policy blade](./media/tem-assign-datalert-app-to-device-group.png)
+  ![Screenshot of the Add a policy blade](./media/tem-assign-datalert-app-to-device-group.png)
 
 ### Step 4: Add corporate paid phone lines to the Datalert console
 

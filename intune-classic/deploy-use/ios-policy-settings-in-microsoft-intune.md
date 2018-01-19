@@ -50,7 +50,6 @@ If the setting you are looking for does not appear in this topic, you might be a
 ### Security settings
 All settings apply to iOS 8.0 and later.
 
-
 |Setting name|Details|
 |----------------|-------|
 |**Require a password to unlock mobile devices**|Specify whether the user is required to enter a password to access their device.|
@@ -65,7 +64,6 @@ All settings apply to iOS 8.0 and later.
 |**Remember password history** – **Prevent reuse of previous passwords**|Specify the number of previously used passwords that the device remembers.|
 |**Minutes of inactivity before screen turns off**<sup>1</sup>|Specify the number of minutes before the device display is turned off.|
 |**Allow fingerprint unlock**|Allow using a fingerprint to unlock the device.|
-
 <sup>1</sup> For iOS devices, when you configure the settings **Minutes of inactivity before screen turns off** and **Minutes of inactivity before password is required**, they are applied in sequence. For example, if you set the value for both settings to **5** minutes, the screen will turn off automatically after 5 minutes, and the device will be locked after an additional 5 minutes. However, if the user turns off the screen manually, the second setting is immediately applied. In the same example, after the user turns off the screen, the device will lock 5 minutes later.
 
 ### System settings
@@ -93,7 +91,7 @@ All settings apply to iOS 8.0 and later.
 |**Allow managed apps to sync data to iCloud**|Allow apps that you manage with Intune to sync data to the user's iCloud account.|
 |**Allow Handoff to continue activities on another device**|Allow the user to continue work that they started on an iOS device on another iOS or Mac OS X device.|
 |**Allow iCloud Photo Sharing**|Set to **No** to disable **iCloud Photo Sharing** on the device.|
-|**Allow iCloud Photo Library**|If set to **No**, disables the use of iCloud photo library which lets users store photos and videos in the cloud.   Any photos not fully downloaded from iCloud Photo Library to the device will be removed from the device if this is set to **No**.|
+|**Allow iCloud Photo Library**|If set to **No**, disables the use of iCloud photo library which lets users store photos and videos in the cloud.	Any photos not fully downloaded from iCloud Photo Library to the device will be removed from the device if this is set to **No**.|
 
 ### Application settings for the browser
 All settings apply to iOS 8.0 and later.
@@ -206,7 +204,6 @@ Policies containing compliant and noncompliant app settings must be deployed to 
 |**Enable assistive touch**|Enable or disable the **Assistive Touch** accessibility setting, which helps the user perform on-screen gestures that might be difficult for them to perform.|
 |**Enable assistive touch adjustments**|Enable or disable assistive touch adjustments, which let the user adjust the assistive touch function.|
 |**Enable speech selection**|Enable or disable the **Speak Selection** accessibility settings, which can read aloud the text that the user selects.|
-
 > [!NOTE]
 > The following notes apply to kiosk mode settings for iOS devices:
 >
@@ -357,6 +354,8 @@ Use the information in this list to identify the name, publisher, and bundle ID 
 ,com.apple.Passbook,Wallet,Apple
 ,com.apple.Bridge,Watch,Apple
 ,com.apple.weather,Weather,Apple
+
+
 ```
 
 

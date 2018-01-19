@@ -50,29 +50,29 @@ After you create update rings, you assign them to groups of devices. By using up
 - To update Windows 10 PCs, they must be running at least Windows 10 Pro with the Windows Anniversary update.
 
 - Windows Update supports the following Windows 10 versions:
-    - Windows 10
-    - Windows 10 Team (for Surface Hub devices)
+	- Windows 10
+	- Windows 10 Team (for Surface Hub devices)
 
-  Devices running Windows 10 Mobile and Windows 10 Holographic are not supported.
+ Devices running Windows 10 Mobile and Windows 10 Holographic are not supported.
 
 - On Windows devices, **Feedback & diagnostics** > **Diagnostic and usage data** must be set to at least **Basic**.
 
-    ![Windows setting for diagnostic and usage data](./media/telemetry-basic.png)
+	![Windows setting for diagnostic and usage data](./media/telemetry-basic.png)
 
-    You can configure this setting manually, or you can use an Intune device restriction profile for Windows 10 and later. To do this, configure the setting **General** > **Diagnostic data submission** to at least **Basic**. For more information about device profiles, see [How to configure device restriction settings](device-restrictions-configure.md).
+	You can configure this setting manually, or you can use an Intune device restriction profile for Windows 10 and later. To do this, configure the setting **General** > **Diagnostic data submission** to at least **Basic**. For more information about device profiles, see [How to configure device restriction settings](device-restrictions-configure.md).
 
 - In the Intune administration console, there are four settings that control software updates behavior. These settings are part of the general configuration policy for Windows 10 desktop and Mobile devices:
-    - **Allow automatic updates**
-    - **Allow pre-release features**
-    - **Scheduled Install Day**
+	- **Allow automatic updates**
+	- **Allow pre-release features**
+	- **Scheduled Install Day**
     - **Scheduled Install Time**
 
   The classic portal also has a limited number of other Windows 10 updates settings in the device configuration profile. If you have any of these settings configured in the Intune administration console when you migrate to the Azure portal, we strongly recommend that you do the following:
 
 1. Create Windows 10 update rings in the Azure portal with the settings that you need. The **Allow pre-release features** setting is not supported in the Azure portal because it is no longer applicable to the latest Windows 10 builds. You can configure the other three settings, as well as other Windows 10 updates settings, when you create update rings.
 
-   > [!NOTE]
-   > Windows 10 updates settings created in the classic portal are not displayed in the Azure portal after migration. However, these settings continue to be applied. If you have migrated any of these settings and edit the migrated policy from the Azure portal, these settings are removed from the policy.
+  > [!NOTE]
+  > Windows 10 updates settings created in the classic portal are not displayed in the Azure portal after migration. However, these settings continue to be applied. If you have migrated any of these settings and edit the migrated policy from the Azure portal, these settings are removed from the policy.
 
 2. Delete the update settings in the classic portal. After you migrate to the Azure portal and add the same settings to an update ring, you must delete the settings in the classic portal to avoid any potential policy conflicts. For example, when the same setting is configured with different values there is a conflict and no easy way to know because the setting configured in the classic portal does not display in the Azure portal.
 
@@ -85,25 +85,24 @@ After you create update rings, you assign them to groups of devices. By using up
 5. On the blade showing the list of update rings, choose **Create**.
 6. On the **Create Update Ring** blade, supply a name and optional description for the update ring, and then choose **Settings**.
 7. On the **Settings** blade, configure the following information:
-   - **Servicing channel**: Set the channel for which the device receives Windows updates (Semi-Annual Channel (Targeted) or Semi-Annual Channel.
-   - **Microsoft updates**: Choose whether to scan for app updates from Microsoft Update.
-   - **Windows drivers**: Choose whether to exclude Windows Update drivers during updates.
-   - **Automatic update behavior**: Choose how to manage automatic update behavior to scan, download, and install updates. For details, see  [Update/AllowAutoUpdate](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/policy-configuration-service-provider#update-allowautoupdate).
-   - **Quality update deferral period (days)** - Specify the number of days for which quality updates are deferred. You can defer receiving these Quality Updates for a period of up to 30 days from their release.  
+	- **Servicing channel**: Set the channel for which the device receives Windows updates (Semi-Annual Channel (Targeted) or Semi-Annual Channel.
+	- **Microsoft updates**: Choose whether to scan for app updates from Microsoft Update.
+	- **Windows drivers**: Choose whether to exclude Windows Update drivers during updates.
+	- **Automatic update behavior**: Choose how to manage automatic update behavior to scan, download, and install updates. For details, see  [Update/AllowAutoUpdate](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/policy-configuration-service-provider#update-allowautoupdate).
+	- **Quality update deferral period (days)** - Specify the number of days for which quality updates are deferred. You can defer receiving these Quality Updates for a period of up to 30 days from their release.  
 
-     Quality Updates are generally fixes and improvements to existing Windows functionality and are typically published the first Tuesday of every month, though can be released at any time by Microsoft. You can define if, and for how long, you would like to defer receiving Quality Updates following their availability.
-   - **Feature update deferral period (days)** - Specify the number of days for which Feature Updates are deferred. You can defer receiving these Feature Updates for a period of 180 days from their release.
+  	Quality Updates are generally fixes and improvements to existing Windows functionality and are typically published the first Tuesday of every month, though can be released at any time by Microsoft. You can define if, and for how long, you would like to defer receiving Quality Updates following their availability.
+	- **Feature update deferral period (days)** - Specify the number of days for which Feature Updates are deferred. You can defer receiving these Feature Updates for a period of 180 days from their release.
 
-     Feature Updates are generally new features for Windows. After you configure the **Servicing channel** setting (Semi-Annual Channel (Targeted) or Semi-Annual Channel, you can then define if, and for how long, you would like to defer receiving Feature Updates following their availability from Microsoft on Windows Update.
+	Feature Updates are generally new features for Windows. After you configure the **Servicing channel** setting (Semi-Annual Channel (Targeted) or Semi-Annual Channel, you can then define if, and for how long, you would like to defer receiving Feature Updates following their availability from Microsoft on Windows Update.
 
-     For example:  
-     **If the Servicing channel is set to Semi-Annual Channel (Targeted)and the deferral period is 30 days**: Let's say that Feature Update X is first publicly available on Windows Update as aSemi-Annual Channel (Targeted) in January. The device will not receive the update until February - 30 days later.
+	For example:  
+	**If the Servicing channel is set to Semi-Annual Channel (Targeted)and the deferral period is 30 days**: Let's say that Feature Update X is first publicly available on Windows Update as aSemi-Annual Channel (Targeted) in January. The device will not receive the update until February - 30 days later.
 
-     **If the Servicing channel is set to Semi-Annual Channel and the deferral period is 30 days**: Let's say the Feature Update X is first publicly available on Windows Update as a Semi-Annual Channel (Targeted) in January. Four months later, in April, Feature Update X is released to Semi-Annual Channel. The device will receive the Feature Update 30 days following this Semi-Annual Channel release and will update in May.
+	**If the Servicing channel is set to Semi-Annual Channel and the deferral period is 30 days**: Let's say the Feature Update X is first publicly available on Windows Update as a Semi-Annual Channel (Targeted) in January. Four months later, in April, Feature Update X is released to Semi-Annual Channel. The device will receive the Feature Update 30 days following this Semi-Annual Channel release and will update in May.
 
-   - **Delivery optimization** - Choose the method for which devices will download Windows updates. For details, see [DeliveryOptimization/DODownloadMode](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization#download-mode).
-
-8. Once you are done, click **OK**, and then on the **Create Update Ring** blade, click **Create**.
+	- **Delivery optimization** - Choose the method for which devices will download Windows updates. For details, see [DeliveryOptimization/DODownloadMode](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization#download-mode).
+1. Once you are done, click **OK**, and then on the **Create Update Ring** blade, click **Create**.
 
 The new update ring is displayed in the list of update rings.
 
@@ -122,11 +121,11 @@ Review a policy report to view the deployment status for the Windows 10 update r
 3. On the **Intune** blade, choose **Software Updates**.
 4. On the **Software Updates** blade, choose **Overview**. From here, you can see general information about the status of any update rings you assigned.
 5. Open one of the following reports: 
-
+     
    **For all deployment rings:**
    1. On the **Software updates** > **Windows 10 Update Rings** blade. 
    2. In the **Monitor section**, choose **Per update ring deployment state**.
-
+                   
    **For specific deployment rings:** 
    1. On the **Software updates** > **Windows 10 Update Rings** blade, choose the deployment ring to review.
    2. In the **Monitor** section, choose from the following reports to view more detailed information about the update ring:

@@ -4,17 +4,14 @@
 title: You need to enable Secure Boot | Microsoft Docs
 description:
 keywords:
-author: barlanmsft
-ms.author: barlan
+author: barlanmsftms.author: barlan
 manager: angrobe
 ms.date: 03/16/2017
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
 ms.technology:
-ms.assetid: de881f1b-7622-4ec2-8bf8-025f71ca9887
-searchScope:
- - User help
+ms.assetid: de881f1b-7622-4ec2-8bf8-025f71ca9887searchScope: - User help
 
 # optional metadata
 

@@ -109,7 +109,6 @@ For non-MDM Windows devices, policy errors in the policyplatform.log file may be
 ## Client installation error codes
 The following table describes error codes that are displayed in **Alerts** if client software installation fails. It includes suggestions for resolving the problem that is represented by each error code.
 
-
 |Error code|Possible problem|Suggested resolution|
 |--------------|--------------------|------------------------|
 |**0x80CF0437**|The clock on the client computer is not set to the correct time.|Make sure that the clock and the time zone on the client computer are set to the correct time and time zone.|
@@ -132,7 +131,6 @@ The following table describes error codes that are displayed in **Alerts** if cl
 |**0xAB2**|The Windows Installer could not access VBScript run time for a custom action.|This error is caused by a custom action that is based on Dynamic-Link Libraries (DLLs). When troubleshooting the DLL, you might have to use the tools that are described in [Microsoft Support KB198038: Useful Tools for Package and Deployment Issues](http://go.microsoft.com/fwlink/?LinkID=234255).|
 |**0x8004300f**|The software cannot be installed because the System Center Configuration Manager client is already installed.|Remove the Configuration Manager client and then retry the client software installation.|
 |**0x80043010**|The software cannot be installed because the Open Mobile Alliance Device Management (OMADM) client is already installed.|Un-enroll the OMADM client and then retry the client software installation.|
-
 If installation problems persist, contact Support as described in [How to get support for Microsoft Intune](how-to-get-support-for-microsoft-intune.md). Have the client computer enrollment log (located in %*programfiles*%\Microsoft\OnlineManagement\Logs\Enrollment.log and %*userprofile*%\AppData\Local\Microsoft\OnlineManagement\Logs\Enrollement.log) and Windows Update log (%*windir*%\windowsupdate.log) available to show to support engineers.
 
 ## What to do if Endpoint Protection is not uninstalled when you uninstall the client

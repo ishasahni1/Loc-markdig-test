@@ -44,7 +44,6 @@ Before you start deploying apps with Microsoft Intune, take some time to familia
 |**Windows Phone app package (&#42;.xap, .appx, .appxbundle)**|To deploy apps, you need an enterprise mobile code-signing certificate. For details, see [Set up Windows Phone management with Microsoft Intune](set-up-windows-device-management-with-microsoft-intune.md).|
 |**Windows app package (.appx, .appxbundle)**|To deploy apps, you need an enterprise mobile code-signing certificate. For details, see [Set up Windows device management with Microsoft Intune](set-up-windows-device-management-with-microsoft-intune.md).|
 |**Windows Installer through MDM (&#42;.msi)**|You use this app to create and deploy Windows Installer-based apps to enrolled PCs that run Windows 10. These PCs are managed through mobile device management (MDM).<br /><br />You can upload only a single file with the extension .msi.<br><br>The file's product code and product version are used for app detection.<br><br>The default restart behavior of the app is used. Intune does not control this behavior.<br><br>Per-user MSI packages are installed for a single user.<br><br>Per-machine MSI packages are installed for all users on the device.<br><br>Dual-mode MSI packages are currently installed only for all users on the device.<br><br>App updates are supported when the MSI product code of each version is the same.<br>
-
 All software installer app types are uploaded to your cloud storage space.
 
 ### **External Link**

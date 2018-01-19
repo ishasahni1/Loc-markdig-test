@@ -132,7 +132,6 @@ In the **Allowed and blocked apps** list, specify a list of apps that you want t
 |**Import Apps**|Imports a list of apps that you have specified in a comma-separated values file. Use the format, application name, publisher, and app URL in the file.|
 |**Edit**|Lets you edit the name, publisher, and URL of the selected app.|
 |**Delete**|Deletes the selected app from the list.|
-
 > [!IMPORTANT]
 > If you specify a list of allowed apps for Windows Phone 8.1 devices, you must add the Company Portal app to this list or it will be blocked.
 

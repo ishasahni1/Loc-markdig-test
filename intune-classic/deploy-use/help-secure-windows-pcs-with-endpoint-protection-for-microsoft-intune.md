@@ -38,13 +38,11 @@ Use the information in the following sections to help you configure, deploy, and
 ## Choose when to use Endpoint Protection
 As an IT admin, one of your top priorities is keeping the computers that you manage free of malware and viruses. Before you deploy Intune to Windows PCs in your organization, you should decide how to protect your computers by selecting one of the following options and configuring its associated policy settings:
 
-
 |You want to:|Endpoint Protection policy settings|More information|
 |--------------|---------------------------------------|--------------------|
 |Use Microsoft Intune Endpoint Protection only if no third-party endpoint protection application is installed.<br /><br />You can use Microsoft Intune Endpoint Protection on all computers where a third-party endpoint protection application is not installed.|Install Endpoint Protection = **Yes**<br /><br />Enable Endpoint Protection = **Yes**<br /><br />Install Endpoint Protection even if a third-party endpoint protection application is installed = **No**|If a third-party endpoint protection application is detected, Microsoft Intune Endpoint Protection is not installed, and is uninstalled if it was installed previously.|
 |Use Microsoft Intune Endpoint Protection, even if a third-party endpoint protection application is installed.<br /><br />With this approach, you will be running Microsoft Intune Endpoint Protection and the third-party endpoint protection application simultaneously. Because of potential performance issues, we don't recommend this configuration. |Install Endpoint Protection = **Yes**<br /><br />Enable Endpoint Protection = **Yes**<br /><br />Install Endpoint Protection even if a third-party endpoint protection application is installed = **Yes**|Use when:<br /><br />-   You want to switch to using Microsoft Intune Endpoint Protection.<br />-   You deploy a new client that will use Microsoft Intune Endpoint Protection.<br />-   You upgrade any client that will use Microsoft Intune Endpoint Protection.|
 |Use Intune without Microsoft Intune Endpoint Protection. Instead, you will rely on a third-party endpoint protection application.|Install Endpoint Protection = **No**|If you are not using a third-party endpoint protection application, this configuration is not recommended, because it could expose your organization’s computers to malware or other attacks.<br /><br />Microsoft Intune Endpoint Protection is not installed, and is uninstalled if it was installed previously.|
-
 To switch from your current endpoint protection application to Microsoft Intune Endpoint Protection, do the following:
 
 1.  Leave your current endpoint protection application running while you deploy the Intune client software to those computers.
@@ -83,8 +81,7 @@ You can view the deployed Endpoint Protection policy on the **All Policies** pag
 |**Disable Client UI**|Set to **Yes** to hide the Microsoft Intune Endpoint Protection client user interface from users (requires a client computer restart to take effect).<br /><br />Recommended value: **No**|
 |**Install Endpoint Protection even if a third-party endpoint protection application is installed**|Set to **Yes** to force the installation of Microsoft Intune Endpoint Protection, even if a third-party endpoint protection application is detected.<br /><br />Recommended value: **No**|
 |**Create a system restore point before malware remediation**|Set to **Yes** to create a Windows System Restore Point before any malware remediation begins.<br /><br />Recommended value: **Yes**|
-|**Track resolved malware (days)**|Enables Endpoint Protection to track resolved malware for a specified time so that you can manually check previously infected computers.<br /><br />You can specify a value from 0 to 30 days.<br /><br />Recommended value: **7 days**|
-
+|**Track resolved malware (days)**|Enables Endpoint Protection to track resolved malware for a specified time so that you can manually check previously infected computers.<br /><br />You can specify a value from 0 to 30 days.<br /><br />Recommended value: **7 days**|
 If you have set the policy values for the settings **Install Endpoint Protection** and **Enable Endpoint Protection** to **Yes**, and the policy value for **Install Endpoint Protection even if a third-party endpoint protection application is installed** to **No**, Microsoft Intune Endpoint Protection detects that another endpoint protection application is installed. This means that Endpoint Protection won't be installed, or will be uninstalled if it is already present. However, Microsoft Intune Endpoint Protection does report about the health of the other endpoint protection application in Intune.
 
   Microsoft Security Essentials alerts you with real-time protection when potential threats such as viruses and spyware are trying to install themselves or run on your PC. The moment this happens, you’ll see a message in the notification area to the right side of the taskbar.
@@ -124,7 +121,7 @@ If you have set the policy values for the settings **Install Endpoint Protection
 |**Scan files opened from network shared folders**|Set to **Yes** to configure Endpoint Protection to scan files that are opened from shared folders on the network. These are typically files that are accessed by using a Universal Naming Convention (UNC) path. Enabling this feature can cause problems for users who have read-only access because they cannot remove malware.<br /><br />Recommended value: **No**|
 |**Scan mapped network drives**|Set to **Yes** to configure Endpoint Protection to scan files on mapped network drives. Enabling this feature can cause problems for users who have read-only access because they cannot remove malware.<br /><br />Recommended value: **No**|
 |**Scan removable drives**|Set to **Yes** to configure Endpoint Protection to scan for malware and unwanted software on removable drives, like USB flash drives, when you run a full scan on computers.<br /><br />Recommended value: **Yes**|
-|**Limit CPU usage during a scan**|Set the maximum percentage of CPU usage that can be used during scheduled scans on computers. You can set this value from 1 to 100 percent.<br /><br />Recommended value: **50%**|
+|**Limit CPU usage during a scan**|Set the maximum percentage of CPU usage that can be used during scheduled scans on computers. You can set this value from 1 to 100 percent.<br /><br />Recommended value: **50%**|
 
 ### Choose default actions settings
 
@@ -153,10 +150,10 @@ You can also **Receive dynamic definitions based on Microsoft Active Protection 
 
 ## Choose management tasks for Endpoint Protection
 The following tasks help you to carry out various management tasks on managed computers that run Endpoint Protection:
-- Update malware definitions
+ - Update malware definitions
   - Intune console - From the **Groups** workspace, select the computers that you want to update. Choose **Remote Tasks** &gt; **Update Malware Definitions**.
   - Managed computer - Start the Endpoint Protection client software from the Windows notification area. Choose the **Update** tab, and then choose **Update**.
-- Run a malware scan:
+ - Run a malware scan:
   - Intune console - From the **Groups** workspace, select the computers that you want to scan. Choose **Run a Full Malware Scan** or **Run a Quick Malware Scan**.
   - Managed computer - Start the Endpoint Protection client software from the Windows notification area. Select **Quick**, **Full**, or **Custom**, and then choose **Scan now**.
 
@@ -164,12 +161,12 @@ You can view the status of a remote task by choosing the **Remote Tasks** link i
 
 ## Monitor Endpoint Protection
 You monitor the status of malware on your computers by using the **Protection** workspace of the [Microsoft Intune administration console](https://manage.microsoft.com/). This workspace contains two pages:
-- **Protection Overview** -Displays important issues as links that you can choose for more information. Issues that might be displayed include:
+ - **Protection Overview** -Displays important issues as links that you can choose for more information. Issues that might be displayed include:
   - **Malware instances that need follow-up** – Click the link to see a list of malware issues, including the follow-up action that needs to be taken to resolve the issue. You can further explore this list to see which computers are affected.
   - **Computers with malware that need follow-up** – Click the link to see all computers with unresolved malware issues, as well as the follow-up action that needs to be taken to resolve the issue.
   - **Devices that are not protected** – Click the link to see computers that are not protected by any endpoint protection software, either because no software is installed, or because there is an error. Select a computer to view more details.
   - **Devices with another endpoint protection application running** – Click the link to see computers that are running a third-party endpoint protection application.
-- **All Malware** -  Displays a list of all active malware that's found on your computers. You can explore this list to see all computers that are affected by a particular piece of malware, or you can select one of the following tasks:
+ - **All Malware** -  Displays a list of all active malware that's found on your computers. You can explore this list to see all computers that are affected by a particular piece of malware, or you can select one of the following tasks:
   - **View Properties** – Opens a page with more information about the selected malware.
   - **Learn About This Malware** – Opens a topic from the Microsoft Malware Protection Center with more information about the malware.
 

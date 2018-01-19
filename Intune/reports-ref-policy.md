@@ -85,7 +85,6 @@ The **UserConfigurationProfileDeviceActivity** entity lists the number of users 
 
 The **PolicyTypeActivity** entity lists the cumulative number of devices in the succeeded, pending, failed, or error state. It lists these states with respect to a device configuration profile, app configuration profile, or compliance policy per day.
 
-
 | Property  | Description | Example |
 |---------|------------|--------|
 | DateKey |Date Key when the device Configuration profile check-in was recorded in the data warehouse. |20160703 |

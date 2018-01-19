@@ -4,17 +4,14 @@
 title: An existing company email account was found | Microsoft Docs
 description:
 keywords:
-author: barlanmsft
-ms.author: barlan
+author: barlanmsftms.author: barlan
 manager: angrobe
 ms.date: 01/03/2017
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
 ms.technology:
-ms.assetid: 74c51f7b-7bd8-45cf-99bd-02d1972267cb
-searchScope:
- - User help
+ms.assetid: 74c51f7b-7bd8-45cf-99bd-02d1972267cbsearchScope: - User help
 
 # optional metadata
 

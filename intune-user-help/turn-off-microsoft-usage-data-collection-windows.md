@@ -4,17 +4,14 @@
 title: How to turn off Microsoft data collection for Windows | Microsoft Docs
 description:
 keywords:
-author: barlanmsft
-ms.author: barlan
+author: barlanmsftms.author: barlan
 manager: angrobe
 ms.date: 01/23/2017
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
 ms.technology:
-ms.assetid: 51f1594d-0283-41d2-b4c3-a7a4ad70b369
-searchScope:
- - User help
+ms.assetid: 51f1594d-0283-41d2-b4c3-a7a4ad70b369searchScope: - User help
 
 # optional metadata
 

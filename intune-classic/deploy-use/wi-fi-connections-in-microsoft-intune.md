@@ -49,7 +49,7 @@ You can deploy Wi-Fi profiles to the following platforms:
 
 -   Android 4.0 and later
 
--   Android for Work   
+-	Android for Work   
 
 -   iOS 8.0 and later
 
@@ -63,7 +63,7 @@ For devices that run Windows 8.1 or Windows 10 desktop or mobile operating syste
 
     -   Wi-Fi Profile (Android 4 and later)
 
-    -   Wi-Fi Profile (Android for Work)
+	-   Wi-Fi Profile (Android for Work)
 
     -   Wi-Fi Profile (iOS 8.0 and later)
 
@@ -72,16 +72,15 @@ For devices that run Windows 8.1 or Windows 10 desktop or mobile operating syste
 
 There are no recommended settings for this policy type. You must create a custom policy.
 
-3. Provide the name and description for the profile.
+3.  Provide the name and description for the profile.
 
 4. Specify the **Network Connections** values.
-   - **SSID (Service Set Identifier)**: Select this option if you want users to see the network name and not the SSID.
-   - **Connect when the network is not broadcasting its name (SSID)**: Select this option to enable devices to connect to the network when it is not visible in the list of networks (because it is hidden and not broadcasting its name).
+ - **SSID (Service Set Identifier)**: Select this option if you want users to see the network name and not the SSID.
+ - **Connect when the network is not broadcasting its name (SSID)**: Select this option to enable devices to connect to the network when it is not visible in the list of networks (because it is hidden and not broadcasting its name).
 
 5. Configure the **Security Settings** for the selected platform. The available settings depend on the security types you select. They are described in [Security settings](#security-settings).
 
 6. Configure **Proxy Settings** (iOS and MAC OS X only).
-
 
     |Setting name|More information|When to use|
     |----------------|-------------------|-------------|
@@ -89,8 +88,7 @@ There are no recommended settings for this policy type. You must create a custom
     |**Proxy server address** and **Port number**|Specify the URL and port number of the proxy server.|If **Proxy settings for this Wi-Fi connection** is set to **Manual**|
     |**Proxy Server URL**|Specify the URL of the file that contains the proxy server settings.|If **Proxy settings for this Wi-Fi connection** is set to **Automatic**|
 
-
-7. Save the Wi-Fi profile
+7.  Save the Wi-Fi profile
 
 The new policy is displayed in the **Configuration Policies** node of the **Policy** workspace. See **Next steps** for information about deploying the profile.
 
@@ -119,7 +117,7 @@ Use the **Windows Wi-Fi Import Policy** to import a set of Wi-Fi settings that y
 
     This policy can be applied to devices that run Windows 8.1 and Windows 10 desktop and mobile operating systems.
 
-    You can only create and deploy a *custom* Windows Wi-Fi import policy. Recommended settings are not available.
+	You can only create and deploy a *custom* Windows Wi-Fi import policy. Recommended settings are not available.
 
 3.  Specify the following general values for the Windows Wi-Fi Import Policy:
 

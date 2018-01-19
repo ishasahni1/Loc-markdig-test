@@ -65,7 +65,7 @@ Before you begin to establish and to respond to remote assistance requests, ensu
 ## Respond to a remote assistance request
 
 1. When a user submits a remote assistance request, you can view it in the **Alerts** workspace, under **Monitoring** > **Remote Assistance**. For example:
-   > ![Screenshot of a remote assistance request](./media/team-viewer.png)
+> ![Screenshot of a remote assistance request](./media/team-viewer.png)
 
 <br>If a request goes unanswered for more than 4 hours, it is removed.
 2. To accept the request, choose **Approve request and launch Remote Assistance**.

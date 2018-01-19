@@ -50,10 +50,10 @@ Some existing capabilities of Intune groups are not available in Azure AD:
 
 - The **Ungrouped Users** and **Ungrouped Devices** Intune groups won't be migrated.
 - The option to **Exclude specific members** from a group that currently exists in the Intune console does not exist in the Azure portal. However, you can use an Azure AD security group with advanced rules to replicate this behavior. For example, you could create an advanced rule that includes all people in your Sales department in a security group, but not those who have the word "Assistant" in their title, by using this advanced rule:
-  `(user.department -eq "Sales") -and -not (user.jobTitle -contains "Assistant")`.
+ `(user.department -eq "Sales") -and -not (user.jobTitle -contains "Assistant")`.
 - The **All Exchange ActiveSync Managed Devices** group that's built-in to the Intune console will not be migrated to Azure AD. However, you can still access information about EAS managed devices from the Azure portal.
 - You won't be able to filter reports by groups in the classic Intune console.
-  <!--- - Custom group targeting of notification rules will not be available. ROB I took this out as I couldn't replicate the behavior. --->
+<!--- - Custom group targeting of notification rules will not be available. ROB I took this out as I couldn't replicate the behavior. --->
 
 ## How to get ready
 

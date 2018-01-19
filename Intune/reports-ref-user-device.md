@@ -26,7 +26,6 @@ ms.custom: intune-classic
 
 The **UserDeviceAssociation** entity contains user device associations in your organization.
 
-
 | Name               | Description                                                                                      | Example                |
 |--------------------|--------------------------------------------------------------------------------------------------|------------------------|
 | UserKey            | Unique identifier of the user in the data warehouse. (Surrogate key).                              | 123                    |
@@ -34,4 +33,3 @@ The **UserDeviceAssociation** entity contains user device associations in your o
 | CreatedDateTimeUTC | Date and time when the user device association was created. Uses UTC format.                                | 11/23/2016 12:00:00 AM |
 | IsDeleted          | Indicates that the user unenrolled that device, and that the association is not current anymore. | True/False             |
 | EndedDateTimeUTC   | Date and time in UTC when IsDeleted changed to **True**.                                              | 06/23/2017 12:00:00 AM |
-

@@ -301,6 +301,7 @@ boolean diagnosticIsFileEncryptionInUse();
 String toString();
 
 }
+
 ```
 
 > [!NOTE]
@@ -421,6 +422,7 @@ public interface MAMNotificationReceiver {
      */
     boolean onReceive(MAMNotification notification);
 }
+
 ```
 
 ### Types of notifications
@@ -550,6 +552,7 @@ All the necessary authentication and registration APIs can be found in the `MAME
 MAMEnrollmentManager mgr = MAMComponents.get(MAMEnrollmentManager.class);
 
 // make use of mgr
+
 ```
 
 The `MAMEnrollmentManager` instance returned is guaranteed not to be null. The API methods fall into two categories: **authentication** and **account registration**.
@@ -677,6 +680,7 @@ A new type of `MAMNotification` has been added in order to inform the app that t
 public interface MAMEnrollmentNotification extends MAMUserNotification {
     MAMEnrollmentManager.Result getEnrollmentResult();
 }
+
 ```
 
 The `getEnrollmentResult()` method returns the result of the enrollment request.  Since `MAMEnrollmentNotification` extends `MAMUserNotification`, the identity of the user for whom the enrollment was attempted is also available. The app must implement the `MAMNotificationReceiver` interface to receive these notifications, detailed in the [Register for notifications from the SDK](#Register-for-notifications-from-the-SDK) section.
@@ -699,7 +703,7 @@ Intune allows you to utilize all the [Auto Backup features](https://developer.an
 1. If your app does **not** use its own custom BackupAgent, use the default MAMBackupAgent to allow for automatic full backups that are Intune policy compliant. If you do this, you can ignore the `android:fullBackupOnly` manifest attribute, as it’s not applicable for our backup agent. Place the following in the app manifest:
 
     ```xml
-   android:backupAgent="com.microsoft.intune.mam.client.app.backup.MAMDefaultBackupAgent"
+android:backupAgent="com.microsoft.intune.mam.client.app.backup.MAMDefaultBackupAgent"
     ```
 
 
@@ -861,6 +865,7 @@ The following methods in `MAMPolicyManager` may be used to set the identity and 
   public static AppPolicy getPolicyForIdentity(final String identity);
 
   public static boolean getIsIdentityManaged(final String identity);
+
   ```
 
 >[!NOTE]
@@ -962,9 +967,9 @@ In addition to the app's ability to set the identity, a thread or a context's id
 
 The method `onMAMIdentitySwitchRequired` is called for all implicit identity changes except for those made through a Binder returned from `MAMService.onMAMBind`. The default implementations of `onMAMIdentitySwitchRequired` immediately call:
 
-* `reportIdentitySwitchResult(FAILURE)` when the reason is RESUME_CANCELLED.
+*  `reportIdentitySwitchResult(FAILURE)` when the reason is RESUME_CANCELLED.
 
-* `reportIdentitySwitchResult(SUCCESS)` in all other cases.
+*  `reportIdentitySwitchResult(SUCCESS)` in all other cases.
 
   It is not expected that most apps will need to block or delay an identity switch in a different manner, but if an app needs to do so, the following points must be considered:
 
@@ -994,7 +999,7 @@ To use `MAMAsyncTask`, simply inherit from it instead of AsyncTask and replace o
     protected Object doInBackgroundMAM(final Object[] params) {
         // Do operations.
     }
-
+    
     @Override
     protected void onPreExecuteMAM() {
         // Do setup.
@@ -1028,7 +1033,7 @@ To use `MAMAsyncTask`, simply inherit from it instead of AsyncTask and replace o
          *             If the file cannot be changed.
          */
         public static void protect(final File file, final String identity) throws IOException;
-
+        
         /**
         * Protect a file obtained from a content provider. This is intended to be used for
         * sdcard (whether internal or removable) files accessed through the Storage Access Framework.
@@ -1070,6 +1075,7 @@ To use `MAMAsyncTask`, simply inherit from it instead of AsyncTask and replace o
     public interface MAMFileProtectionInfo {
         String getIdentity();
     }
+
   ```
 #### App Responsibility
 MAM cannot automatically infer a relationship between files being read and
@@ -1212,6 +1218,7 @@ public final class MAMDataProtectionManager {
      */
     public static MAMDataProtectionInfo getProtectionInfo(final byte[] input) throws IOException;
 }
+
 ```
 
 ### Content Providers
@@ -1399,6 +1406,7 @@ In order to have style changes apply to the Intune MAM views, you must first cre
         name="logo_image"
         resource="@drawable/app_logo"/>
 </styleOverrides>
+
 ```
 
 You must reuse resources that already exist within your app. For example, you must define the color green in the colors.xml file and reference it here. You cannot use the Hex color code “#0000ff." The maximum size for the app logo is 110 dip (dp). You may use a smaller logo image, but adhering to the maximum size will yield the best looking results. If you exceed the 110 dip limit, the image will scale down and possibly cause blurring.
@@ -1436,7 +1444,7 @@ For large code bases that run without [ProGuard](http://proguard.sourceforge.net
     ```
 
     In this second case, multi-identity apps must take care to set the thread identity appropriately (or pass an explicit identity to the `getPolicy` call).
-
+    
 ### Exported services
 
  The AndroidManifest.xml file included in the Intune App SDK contains **MAMNotificationReceiverService**, which must be an exported service to allow the Company Portal to send notifications to an enlightened app. The service checks the caller to ensure that only the Company Portal is allowed to send notifications.

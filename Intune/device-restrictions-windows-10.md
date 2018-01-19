@@ -57,7 +57,7 @@ ms.custom: intune-azure
 - **Device discovery** - Block a device from being discovered by other devices.
 - **Task Switcher (mobile only)** - Blocks the task switcher on the device.
 - **SIM card error dialog (mobile only)** - Blocks an error message from displaying on the device if no SIM card is detected.
-  <!--- **Automatic redeployment** - Allows users with administrative rights to delete all user data and settings using **CTRL + Win + R** at the device lock screen. The device is automatically reconfigured and reenrolled into management. -->
+<!--- **Automatic redeployment** - Allows users with administrative rights to delete all user data and settings using **CTRL + Win + R** at the device lock screen. The device is automatically reconfigured and reenrolled into management. -->
 
 
 ## Password
@@ -177,7 +177,7 @@ For devices running Windows 10 Mobile: After sign-in fails the number of times y
 	- 	**System** - Blocks access to the system area of the settings app.
 		- 	**Power and sleep settings modification (desktop only)** - Prevents the end user from changing power and sleep settings on the device.
 	- 	**Devices** - Blocks access to the devices area of the settings app.
-    -   **Network ​Internet** - Blocks access to the network and internet area of the settings app.
+	- 	**Network ​Internet** - Blocks access to the network and internet area of the settings app.
 	- 	**Personalization** - Blocks access to the personalization area of the settings app.
 	- 	**Accounts** - Blocks access to the accounts area of the settings app.
 	- 	**Time and Language** - Blocks access to the time and language area of the settings app.
@@ -229,38 +229,38 @@ For devices running Windows 10 Mobile: After sign-in fails the number of times y
 
 ## Defender
 
-- **Real-time monitoring** - Enables real-time scanning for malware, spyware, and other unwanted software.
-- **Behavior monitoring** - Lets Defender check for certain known patterns of suspicious activity on devices.
-- **Network Inspection System (NIS)** - NIS helps to protect devices against network-based exploits. It uses the signatures of known vulnerabilities from the Microsoft Endpoint Protection Center to help detect and block malicious traffic.
-- **Scan all downloads** - Controls whether Defender scans all files downloaded from the Internet.
-- **Scan scripts loaded in Microsoft web browsers** - Lets Defender scan scripts that are used in Internet Explorer.
-- **End user access to Defender** - Controls whether the Windows Defender user interface is hidden from end users.
-  When this setting is changed, it takes effect the next time the end user's PC is restarted.
-- **Signature update interval (in hours)** - Specify the interval at which Defender checks for new signature files.
-- **Monitor file and program activity** - Allows Defender to monitor file and program activity on devices.
-- **Days before deleting quarantined malware** - Lets Defender continue to track resolved malware for the number of days you specify so that you can manually check previously affected devices. If you set the number of days to **0**, malware remains in the Quarantine folder and is not automatically removed.
-- **CPU usage limit during a scan** - Lets you limit the amount of CPU that scans are allowed to use (from **1** to **100**).
-- **Scan archive files** - Allows Defender to scan archived files such as Zip or Cab files.
-- **Scan incoming mail messages** - Allows Defender to scan email messages as they arrive on the device.
-- **Scan removable drives during a full scan** - Lets Defender scan removable drives like USB sticks.
-- **Scan mapped network drives during a full scan** - Lets Defender scan files on mapped network drives.<br>If the files on the drive are read-only, Defender cannot remove any malware found in them.
-- **Scan files opened from network folders** - Lets Defender scan files on shared network drives (for example, files accessed from a UNC path).
-  If the files on the drive are read-only, Defender cannot remove any malware found in them.
-- **Cloud protection** - Allows or blocks the Microsoft Active Protection Service from receiving information about malware activity from devices that you manage. This information is used to improve the service in the future.
-- **Prompt users before sample submission** - Controls whether potentially malicious files that might require further analysis are automatically sent to Microsoft.
-- **Time to perform a daily quick scan** - Lets you schedule a quick scan that occurs daily at the time you select.
-- **Type of system scan to perform** - Lets you specify the level of scanning that is performed when you schedule a system scan.
-- **Detect potentially unwanted applications**  – Choose the level of protection when Windows detects potentially unwanted applications from:
-      - **Block**
-      - **Audit**
-  For more information about potentially unwanted apps, see [this topic](https://docs.microsoft.com/windows/threat-protection/windows-defender-antivirus/detect-block-potentially-unwanted-apps-windows-defender-antivirus).
-- **Actions on detected malware threats** – Enable this option to specify the actions you want Defender to take for each threat level it detects (Low, Moderate, High, and Severe). The actions you can take are:
-  -   **Clean**
-  -   **Quarantine**
-  -   **Remove**
-  -   **Allow**
-  -   **User defined**
-  -   **Block**
+- 	**Real-time monitoring** - Enables real-time scanning for malware, spyware, and other unwanted software.
+- 	**Behavior monitoring**	- Lets Defender check for certain known patterns of suspicious activity on devices.
+- 	**Network Inspection System (NIS)**	- NIS helps to protect devices against network-based exploits. It uses the signatures of known vulnerabilities from the Microsoft Endpoint Protection Center to help detect and block malicious traffic.
+- 	**Scan all downloads** - Controls whether Defender scans all files downloaded from the Internet.
+- 	**Scan scripts loaded in Microsoft web browsers** - Lets Defender scan scripts that are used in Internet Explorer.
+- 	**End user access to Defender**	- Controls whether the Windows Defender user interface is hidden from end users.
+When this setting is changed, it takes effect the next time the end user's PC is restarted.
+- 	**Signature update interval (in hours)** - Specify the interval at which Defender checks for new signature files.
+- 	**Monitor file and program activity** - Allows Defender to monitor file and program activity on devices.
+- 	**Days before deleting quarantined malware** - Lets Defender continue to track resolved malware for the number of days you specify so that you can manually check previously affected devices. If you set the number of days to **0**, malware remains in the Quarantine folder and is not automatically removed.
+- 	**CPU usage limit during a scan** - Lets you limit the amount of CPU that scans are allowed to use (from **1** to **100**).
+- 	**Scan archive files** - Allows Defender to scan archived files such as Zip or Cab files.
+- 	**Scan incoming mail messages**	- Allows Defender to scan email messages as they arrive on the device.
+- 	**Scan removable drives during a full scan** - Lets Defender scan removable drives like USB sticks.
+- 	**Scan mapped network drives during a full scan** - Lets Defender scan files on mapped network drives.<br>If the files on the drive are read-only, Defender cannot remove any malware found in them.
+- 	**Scan files opened from network folders** - Lets Defender scan files on shared network drives (for example, files accessed from a UNC path).
+If the files on the drive are read-only, Defender cannot remove any malware found in them.
+- 	**Cloud protection** - Allows or blocks the Microsoft Active Protection Service from receiving information about malware activity from devices that you manage. This information is used to improve the service in the future.
+- 	**Prompt users before sample submission** - Controls whether potentially malicious files that might require further analysis are automatically sent to Microsoft.
+- 	**Time to perform a daily quick scan** - Lets you schedule a quick scan that occurs daily at the time you select.
+- 	**Type of system scan to perform** - Lets you specify the level of scanning that is performed when you schedule a system scan.
+- 	**Detect potentially unwanted applications**  – Choose the level of protection when Windows detects potentially unwanted applications from:
+		- **Block**
+		- **Audit**
+	For more information about potentially unwanted apps, see [this topic](https://docs.microsoft.com/windows/threat-protection/windows-defender-antivirus/detect-block-potentially-unwanted-apps-windows-defender-antivirus).
+-	**Actions on detected malware threats** – Enable this option to specify the actions you want Defender to take for each threat level it detects (Low, Moderate, High, and Severe). The actions you can take are:
+	-	**Clean**
+	-	**Quarantine**
+	-	**Remove**
+	-	**Allow**
+	-	**User defined**
+	-	**Block**
 
 
 

@@ -67,7 +67,7 @@ If you do not specify any URLs, then end users cannot access any websites except
 2. Click **Add** after you enter the information for each website.
 3. When you are finished, click **OK**.
 
-> [!IMPORTANT] 
+>[!IMPORTANT] 
 > The following URLs are permitted automatically by Intune.
 > - www.microsoft.com
 > - www.microsoft.net

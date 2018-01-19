@@ -4,17 +4,14 @@
 title: You need to update your Windows device | Microsoft Docs
 description:
 keywords:
-author: barlanmsft
-ms.author: barlan
+author: barlanmsftms.author: barlan
 manager: angrobe
 ms.date: 03/16/2017
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
 ms.technology:
-ms.assetid: 2df6fca5-9731-4ea0-a8ee-45b648caa5b4
-searchScope:
- - User help
+ms.assetid: 2df6fca5-9731-4ea0-a8ee-45b648caa5b4searchScope: - User help
 
 # optional metadata
 

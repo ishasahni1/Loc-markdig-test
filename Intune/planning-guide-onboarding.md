@@ -72,8 +72,8 @@ This step is optional. You need an Office 365 subscription if you plan to use Ex
 You may need to add users or security groups in Active Directory or Azure Active Directory based on your Intune deployment use-case scenarios and requirements. Review your current users and security groups in Active Directory or Azure Active Directory and determine if they fully meet your needs. When adding new users and security groups, we recommend adding them in Active Directory and synchronizing with Azure Active Directory using Azure AD Connect.
 
 
-- Learn more about [how to add users/groups in Intune](users-permissions-add.md).
-  <!---why not send them to the AAD connect topic? Question out to Andre: https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect--->
+-   Learn more about [how to add users/groups in Intune](users-permissions-add.md).
+<!---why not send them to the AAD connect topic? Question out to Andre: https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect--->
 
 
 

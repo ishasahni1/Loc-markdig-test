@@ -5,8 +5,7 @@ title: You need to update your iOS device | Microsoft Docs
 description:
 keywords:
 author: barlanmsft
-
-ms.author: barlan
+ms.author: barlan
 manager: angrobe
 ms.date: 12/06/2017
 ms.topic: article
@@ -14,9 +13,7 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology:
 ms.assetid: fa6b0851-6c68-4485-a371-307bd075b9be
-
-searchScope:
- - User help
+searchScope: - User help
 
 # optional metadata
 

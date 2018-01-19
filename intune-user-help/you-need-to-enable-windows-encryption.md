@@ -4,17 +4,14 @@
 title: You need to enable encryption | Microsoft Docs
 description:
 keywords:
-author: barlanmsft
-ms.author: barlan
+author: barlanmsftms.author: barlan
 manager: angrobe
 ms.date: 01/31/2017
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
 ms.technology:
-ms.assetid: e0c5993b-3fa5-411e-bae0-93fb66c49bea
-searchScope:
- - User help
+ms.assetid: e0c5993b-3fa5-411e-bae0-93fb66c49beasearchScope: - User help
 
 # optional metadata
 

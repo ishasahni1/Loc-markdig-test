@@ -45,11 +45,11 @@ Let’s talk about a few concepts when adding a WIP policy.
 
 ### Types of apps
 
-- **Recommended apps:** a pre-populated list of (mostly Microsoft Office) apps that allow you easily import into policy. <!---I really don't know what you mean by "easily import into policy"--->
+-   **Recommended apps:** a pre-populated list of (mostly Microsoft Office) apps that allow you easily import into policy. <!---I really don't know what you mean by "easily import into policy"--->
 
-- **Store apps:** You can add any app from the Windows store to the policy.
+-   **Store apps:** You can add any app from the Windows store to the policy.
 
-- **Windows desktop apps:** You can add any traditional Windows desktop apps to the policy (for example, .exe, .dll)
+-   **Windows desktop apps:** You can add any traditional Windows desktop apps to the policy (for example, .exe, .dll)
 
 ## Pre-requisites
 
@@ -62,7 +62,7 @@ Additionally, you need to have the following:
 
 > [!IMPORTANT]
 > WIP does not support multi-identity, only one managed identity can exist at a time.
-> <!---Should you be linking to a topic that explains what multi-identity is?--->
+<!---Should you be linking to a topic that explains what multi-identity is?--->
 
 ## To add a WIP policy
 

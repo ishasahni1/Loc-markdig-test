@@ -86,9 +86,9 @@ Administrators can delete devices in the Azure Active Directory portal.
 8.  Remove devices as appropriate, such as those that are no longer in use, or those that have inaccurate definitions.
 
 > [!NOTE]
-> 
+
 > You can avoid the device enrollment cap by using Device Enrollment Manager account, as described in [Enroll corporate-owned devices with the Device Enrollment Manager in Microsoft Intune](/intune-classic/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune).
-> 
+>
 > A user account that is added to Device Enrollment Managers account will not be able to complete enrollment when Conditional Access policy is enforced for that specific user login.
 
 ### Company Portal Temporarily Unavailable
@@ -196,27 +196,27 @@ If Resolution #2 doesn't work, have your users follow these steps to make Smart 
 
 1. Launch the Smart Manager app on the device.
 
-   ![Select Smart Manager icon on device](./media/smart-manager-app-icon.png)
+  ![Select Smart Manager icon on device](./media/smart-manager-app-icon.png)
 
 2. Choose the **Battery** tile.
 
-   ![Select the Battery tile](./media/smart-manager-battery-tile.png)
+  ![Select the Battery tile](./media/smart-manager-battery-tile.png)
 
 3. Under **App power saving** or **App optimization**, select **Detail**.
 
-   ![Select Detail under App power saving or App optimization](./media/smart-manager-app-power-saving-detail.png)
+  ![Select Detail under App power saving or App optimization](./media/smart-manager-app-power-saving-detail.png)
 
 4. Choose **Company Portal** from the list of apps.
 
-   ![Select Company Portal from the apps list](./media/smart-manager-company-portal.png)
+  ![Select Company Portal from the apps list](./media/smart-manager-company-portal.png)
 
 5. Choose **Turned off**.
 
-   ![Select Turned off from App optimization dialog](./media/smart-manager-app-optimization-turned-off.png)
+  ![Select Turned off from App optimization dialog](./media/smart-manager-app-optimization-turned-off.png)
 
 6. Under **App power saving** or **App optimization**, confirm that Company Portal is turned off.
 
-   ![Verify that Company Portal is turned off](./media/smart-manager-verify-comp-portal-turned-off.png)
+  ![Verify that Company Portal is turned off](./media/smart-manager-verify-comp-portal-turned-off.png)
 
 
 ### Profile installation failed

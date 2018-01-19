@@ -415,7 +415,6 @@ The **MdmDeviceInventoryHistories** entity contains daily snapshots of inventory
 
 The **ApplicationInventory** entity lists the apps found on the device at the time of inventory collection.
 
-
 | Property  | Description |
 |---------|------------|
 | DeviceKey |A reference to devices table. |
@@ -423,4 +422,3 @@ The **ApplicationInventory** entity lists the apps found on the device at the ti
 | ApplicationName |? (copied from ExchangeDeviceService\DeviceApplication). |
 | ApplicationVersion |? (copied from ExchangeDeviceService\DeviceApplication). |
 | BundleSize |? (copied from ExchangeDeviceService\DeviceApplication). |
-

@@ -53,7 +53,6 @@ The **MamApplication** entity lists Line-of-Business (LOB) apps that are managed
 
 The **MamApplicationInstance** entity lists managed Mobile Application Management (MAM) apps as singular instances per user per device. All users and devices listed with in the entity are protected, as in, they have at least one MAM Policy assigned to them.
 
-
 | Property | Description | Example |
 |---------|------------|--------|
 | ApplicationInstanceKey |Unique identifier of the MAM app instance in the data warehouse - surrogate key. |123 |
@@ -115,7 +114,6 @@ The **MamEffectivePolicy** entity lists all Mobile Application Management (MAM) 
 
 The **MamGlobalApplication** entity lists store apps that are managed through Mobile Application Management (MAM) without enrollment in your enterprise.
 
-
 | Property | Description | Example |
 |---------|------------|--------|
 | ApplicationKey |Unique identifier of the store app in the data warehouse, known as the surrogate key. |123 |
@@ -127,11 +125,9 @@ The **MamGlobalApplication** entity lists store apps that are managed through Mo
 
 The **MamPlatform** entity lists platform names and types on which a Mobile Application Management (MAM) app was installed.
 
-
 | Property | Description | Example |
 |---------|------------|--------|
 | PlatformKey |Unique identifier of the platform in the data warehouse - surrogate key. |123 |
 | Platform |Unique identifier of the platform - similar to PlatformKey, but is a natural key. |123 |
 | PlatformName |Platform name |Not Available <br>None <br>Windows <br>IOS <br>Android. |
 | RowLastModifiedDateTimeUtc |Date and time in UTC when this platform was last modified in the data warehouse. |11/23/2016 12:00:00 AM |
-

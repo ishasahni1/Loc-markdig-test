@@ -30,7 +30,6 @@ ms.custom: intune-azure
 
 Microsoft Intune helps you enable your workforce with mobile devices while keeping your corporate data protected. Since your end users will interact with Intune on their devices rather than in the admin console, you want to make sure that you are fluent with the enrollment experience. This way, you can combine well-crafted compliance policies with your experience to show empathy for your users. This is especially important because your users will know exactly what information that you as an admin can see:
 
-
 | What IT cannot see | What IT can see |
 |---|---|
 | Calling and web browsing history | Model |
@@ -41,7 +40,6 @@ Microsoft Intune helps you enable your workforce with mobile devices while keepi
 | Passwords to your personal accounts | Device name |
 | Calendar events | Manufacturer (for devices not made by Apple) |
 | Pictures, including what's in the photos app or camera roll | Phone number (for work devices, the whole number. For personal devices, just the last four digits.) |
-
 ​
 ## How do I enroll a device?
 

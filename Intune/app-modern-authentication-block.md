@@ -39,6 +39,7 @@ To block access to these apps we recommend the following:
 
 ```
  Set-SPOTenant -LegacyAuthProtocolsEnabled $false
+
 ```
 
 
