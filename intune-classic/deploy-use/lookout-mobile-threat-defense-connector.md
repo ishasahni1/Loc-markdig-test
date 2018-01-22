@@ -28,7 +28,7 @@ ms.custom: intune-classic
 
 # Lookout Mobile Threat Defense connector with Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 You can control mobile device access to corporate resources based on risk assessment conducted by Lookout, a Mobile Threat Defense solution integrated with Microsoft Intune. Risk is assessed based on telemetry collected from devices by the Lookout service including:
 - Operating system vulnerabilities
@@ -97,8 +97,8 @@ Detect threats to your network such as Man-in-the-middle attacks, and prevent sy
 
 ## Next steps
 Here are the main steps you must do to implement this solution:
-1.	[Set up your Lookout subscription](setup-your-lookout-mtd-subscription.md)
-2.	[Enable Lookout Mobile Threat Defense in Intune](enable-lookout-mtd-connection.md)
+1.  [Set up your Lookout subscription](setup-your-lookout-mtd-subscription.md)
+2.  [Enable Lookout Mobile Threat Defense in Intune](enable-lookout-mtd-connection.md)
 3.  [Configure and deploy Lookout Mobile Threat Defense app](configure-deploy-lookout-for-work-app.md)
-4.	[Configure Lookout device compliance policy](create-lookout-device-compliance-policy.md)
-5.	[Troubleshoot Lookout Mobile Threat Defense integration](/intune-classic/troubleshoot/device-threat-protection-troubleshooting)
+4.  [Configure Lookout device compliance policy](create-lookout-device-compliance-policy.md)
+5.  [Troubleshoot Lookout Mobile Threat Defense integration](/intune-classic/troubleshoot/device-threat-protection-troubleshooting)

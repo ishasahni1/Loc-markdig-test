@@ -29,7 +29,7 @@ ms.custom: intune-azure
 # How to manage iOS eBooks you purchased through a volume-purchase program with Microsoft Intune
 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 The Apple Volume Purchase Program (VPP) lets you purchase multiple licenses for a book that you want to distribute to users in your company. You can distribute books from the Business, or Education stores.
 
@@ -63,9 +63,9 @@ Before you start, get a VPP token from Apple and upload it to your Intune accoun
 1.  In the **Mobile Apps** workload, choose **Setup** > **iOS VPP Tokens**.
 2.  On the list of VPP tokens blade, click **Add**.
 3.  On the **New VPP Token** blade, specify the following information:
-	- **VPP token file** - Ensure you have signed for the Volume Purchase Program for Business or the Volume Purchase Program for Education. Then, download the Apple VPP token for your account and select it here.
-	- **Apple ID** - Enter the Apple ID of the account associated with the volume-purchase program.
-	- **Type of VPP account** - Choose from **Business** or **Education**.
+    - **VPP token file** - Ensure you have signed for the Volume Purchase Program for Business or the Volume Purchase Program for Education. Then, download the Apple VPP token for your account and select it here.
+    - **Apple ID** - Enter the Apple ID of the account associated with the volume-purchase program.
+    - **Type of VPP account** - Choose from **Business** or **Education**.
 4. When you are done, click **Upload**.
 
 The token is displayed in the list of tokens blade.

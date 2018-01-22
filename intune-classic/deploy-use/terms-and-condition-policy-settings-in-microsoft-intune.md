@@ -28,7 +28,7 @@ ms.custom: intune-classic
 
 # Terms and condition policy settings in Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 You can deploy Intune terms and conditions to user groups to explain how enrollment, access to work resources, and the Company Portal app affect devices and users. Users must accept the terms and conditions before they can use the Company Portal to enroll and access their work.
 
@@ -38,7 +38,7 @@ You can create and deploy multiple policies containing different terms and condi
 
 1.  In the [Microsoft Intune administration console](https://manage.microsoft.com) click **Policy** &gt; **Terms and Conditions**.
 
-	![Terms and conditions policy screenshot](./media/pol-sa-terms-conditions.png)
+    ![Terms and conditions policy screenshot](./media/pol-sa-terms-conditions.png)
 
 2.  Click **Add** to create a new terms and conditions policy.
 

@@ -30,7 +30,7 @@ ms.custom: intune-azure
 # Troubleshooting device profiles in Microsoft Intune
 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 The information in this topic can be used to help you troubleshoot common issues around Intune device profiles.
 
@@ -100,38 +100,38 @@ When you delete a profile, or you remove a device from a group to which a profil
 
 - Wi-Fi, VPN, certificate, and email profiles: These profiles are removed from all supported enrolled devices.
 - All other profile types:
-	- **Windows and Android devices**: Settings are not removed from the device.
-	- **Windows Phone 8.1 devices**: The following settings are removed:
-		- Require a password to unlock mobile devices
-		- Allow simple passwords
-		- Minimum password length
-		- Required password type
-		- Password expiration (days)
-		- Remember password history
-		- Number of repeated sign-in failures to allow before the device is wiped
-		- Minutes of inactivity before password is required
-		- Required password type – minimum number of character sets
-		- Allow camera
-		- Require encryption on mobile device
-		- Allow removable storage
-		- Allow web browser
-		- Allow application store
-		- Allow screen capture
-		- Allow geolocation
-		- Allow Microsoft account
-		- Allow copy and paste
-		- Allow Wi-Fi tethering
-		- Allow automatic connection to free Wi-Fi hotspots
-		- Allow Wi-Fi hotspot reporting
-		- Allow factory reset
-		- Allow Bluetooth
-		- Allow NFC
-		- Allow Wi-Fi
+    - **Windows and Android devices**: Settings are not removed from the device.
+    - **Windows Phone 8.1 devices**: The following settings are removed:
+        - Require a password to unlock mobile devices
+        - Allow simple passwords
+        - Minimum password length
+        - Required password type
+        - Password expiration (days)
+        - Remember password history
+        - Number of repeated sign-in failures to allow before the device is wiped
+        - Minutes of inactivity before password is required
+        - Required password type – minimum number of character sets
+        - Allow camera
+        - Require encryption on mobile device
+        - Allow removable storage
+        - Allow web browser
+        - Allow application store
+        - Allow screen capture
+        - Allow geolocation
+        - Allow Microsoft account
+        - Allow copy and paste
+        - Allow Wi-Fi tethering
+        - Allow automatic connection to free Wi-Fi hotspots
+        - Allow Wi-Fi hotspot reporting
+        - Allow factory reset
+        - Allow Bluetooth
+        - Allow NFC
+        - Allow Wi-Fi
 
-	- **iOS**: All settings are removed, except:
-		- Allow voice roaming
-		- Allow data roaming
-		- Allow automatic synchronization while roaming
+    - **iOS**: All settings are removed, except:
+        - Allow voice roaming
+        - Allow data roaming
+        - Allow automatic synchronization while roaming
 
 ## I changed a device restriction profile, but the changes haven't taken effect
 Windows Phone devices do not allow security policies set via MDM or EAS to be reduced in security once you've set them. For example, you set a **Minimum number of character password** to 8  then try to reduce it to 4. The more restrictive profile has already been applied to the device.

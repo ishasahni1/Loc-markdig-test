@@ -30,7 +30,7 @@ ms.custom: intune-azure
 
 # How to configure Intune settings for the iOS Classroom app
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 ## Introduction
 [Classroom](https://itunes.apple.com/app/id1085319084) is an app that helps teachers to guide learning, and control student devices in the classroom. For example, using the app, a teacher can:
@@ -81,13 +81,13 @@ You can import information into SDS by using one of the following methods:
 
 1. Sign into the Azure portal.
 2. Choose **More Services** > **Monitoring + Management** > **Intune**.
-3.	On the **Intune** blade, choose **Configure devices**.
-4.	On the **Device Configuration** blade, choose **Manage** > **Profiles**.
-5.	On the profiles blade, choose **Create Profile**.
-6.	On the **Create Profile** blade, enter a **Name** and **Description** for the iOS education profile.
-7.	From the **Platform** drop-down list, choose **iOS**.
-8.	From the **Profile type** drop-down list, choose **Education**.
-9.	Choose **Settings** > **Configure**.
+3.  On the **Intune** blade, choose **Configure devices**.
+4.  On the **Device Configuration** blade, choose **Manage** > **Profiles**.
+5.  On the profiles blade, choose **Create Profile**.
+6.  On the **Create Profile** blade, enter a **Name** and **Description** for the iOS education profile.
+7.  From the **Platform** drop-down list, choose **iOS**.
+8.  From the **Profile type** drop-down list, choose **Education**.
+9.  Choose **Settings** > **Configure**.
 
 
 Next, you need certificates to establish a trust relationship between teacher and student iPads. Certificates are used to seamlessly and silently authenticate connections between devices without having to enter user names and passwords.
@@ -123,8 +123,8 @@ When you have finished configuring certificates, choose **OK**.
 
 ### Configure student certificates
 
-1.	On the **Education** blade, choose **Student certificates**.
-2.	On the **Student certificates** blade, from the **Student device certificates** type list, choose **1:1**.
+1.  On the **Education** blade, choose **Student certificates**.
+2.  On the **Student certificates** blade, from the **Student device certificates** type list, choose **1:1**.
 
 #### Configure student root certificate
 
@@ -146,9 +146,9 @@ When you are finished configuring certificates, choose **OK**.
 
 ## Finish up
 
-1.	On the **Education** blade, choose OK.
-2.	On the **Create Profile** blade, choose **Create**.
-	
+1.  On the **Education** blade, choose OK.
+2.  On the **Create Profile** blade, choose **Create**.
+    
 The profile is created and appears on the profiles list blade.
 
 Assign the profile to student devices in the classroom groups that were created when you synchronized your school data with Azure AD (see [How to assign device profiles](device-profile-assign.md).

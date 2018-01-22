@@ -46,11 +46,11 @@ Starting at the new Azure portal, **Azure Active Directory (Azure AD)** provides
 
 - **Conditional Access Administrator:** Users with this role only have permissions to view, create, modify, and delete conditional access policies.
 
-	> [!IMPORTANT]
-	> The Intune Service Administrator role does not provide the ability to manage Azure AD’s conditional access settings.
+    > [!IMPORTANT]
+    > The Intune Service Administrator role does not provide the ability to manage Azure AD’s conditional access settings.
 
-	> [!TIP]
-	> Intune also shows three Azure AD extensions: **Users**, **Groups**, and **Conditional access**, which are controlled using Azure AD RBAC. Additionally, the **User Account Administrator** only performs AAD user/group activities and does not have full permissions to perform all activities in Intune. Refer to [RBAC with Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles) for more details.
+    > [!TIP]
+    > Intune also shows three Azure AD extensions: **Users**, **Groups**, and **Conditional access**, which are controlled using Azure AD RBAC. Additionally, the **User Account Administrator** only performs AAD user/group activities and does not have full permissions to perform all activities in Intune. Refer to [RBAC with Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles) for more details.
 
 ## Roles created in the Intune classic portal
 
@@ -74,14 +74,14 @@ The following roles are built into Intune and you can assign them to groups with
 
 2. On the <*role name*> - **Properties** blade, choose **Manage**, then **Assignments**.
 
-	> [!NOTE]
-	> You cannot delete or edit the built-in roles
+    > [!NOTE]
+    > You cannot delete or edit the built-in roles
 
 3. On the custom role blade, choose **Assign**.
 
 4. On the **Role Assignments** blade, enter a **Name** and optional **Description** for the assignment, and then choose the following:
-	- **Members** - Select a group that contains the user you want to give the permissions to.
-	- **Scope** - Select a group containing the users who the member above will be allowed to manage.
+    - **Members** - Select a group that contains the user you want to give the permissions to.
+    - **Scope** - Select a group containing the users who the member above will be allowed to manage.
 <br></br>
 5. When you are done, click **OK**. The new assignment is displayed in the list of assignments.
 
@@ -125,8 +125,8 @@ You can create a custom role that includes any permissions required for a specif
 3. On the custom role blade, choose **Assign**.
 
 4. On the **Role Assignments** blade, enter a **Name** and optional **Description** for the assignment, and then choose the following:
-	- **Members** - Select a group that contains the user you want to give the permissions to.
-	- **Scope** - Select a group containing the users who the member above will be allowed to manage.
+    - **Members** - Select a group that contains the user you want to give the permissions to.
+    - **Scope** - Select a group containing the users who the member above will be allowed to manage.
 <br></br>
 5. When you are done, click **OK**. The new assignment is displayed in the list of assignments.
 

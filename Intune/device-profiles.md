@@ -29,7 +29,7 @@ ms.custom: intune-azure
 
 # What are Microsoft Intune device profiles?
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Use the Microsoft Intune **Device configuration** workload to manage settings and features on all of the devices you manage. You mostly use this workload to create device profiles, which let you manage and control a whole range of different features and functionality on devices.
 

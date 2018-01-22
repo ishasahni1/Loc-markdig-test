@@ -30,7 +30,7 @@ ms.custom: intune-azure
 
 # How to configure Intune education settings for shared iPad devices
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Intune supports the iOS Classroom app that helps teachers to guide learning, and control student devices in the classroom. In addition, to the Classroom app, Apple supports the ability for student iPad devices to be configured such that multiple students can share a single device. This document guides you to achieve this goal with Intune.
 
@@ -190,7 +190,7 @@ The device is now associated to the device category. Repeat this process for all
 5. On the profiles blade, choose **Create Profile**.
 6. On the **Create Association** blade, enter a **Name** and **Description**.
 7. Choose **Select Classes** > **Configure** to associate groups to the Cart Profile.
-8. Choose the classes to include to the Cart Profile then choose **Select**. 
+8. Choose the classes to include to the Cart Profile then choose **Select**. 
 9. Choose **Select Carts** > **Configure** to associate groups to the Cart Profile.
 10. Choose the groups to include to the Cart Profile then choose **Select**.
 11. On the **Create Association** blade, choose **Save** to save the Cart Profile.
@@ -205,7 +205,7 @@ The profile is created and appears on the profiles list blade.
 4. On the **Device Configuration** blade, choose **Monitor** > **Assignment status**.
 5. On the **Assignment status** blade, select the **Cart Profile** you created.
 6. On the **Cart Profile** blade choose **Assignments** and then, under **Include** choose **Select groups to include**.
-7. Select the classes you want the cart profile to target (do not select a group), then choose **Select**. 
+7. Select the classes you want the cart profile to target (do not select a group), then choose **Select**. 
 8. When you are finished, choose **Save**.
 
 The assignment completes, and Intune deploys the Classroom profile to the targeted devices based on the classroom assignment.

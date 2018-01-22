@@ -28,8 +28,7 @@ ms.custom: intune-azure
 
 # How to add Windows line-of-business (LOB) apps to Microsoft Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
-
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 ## Step 1 - Specify the software setup file
 
@@ -51,18 +50,18 @@ ms.custom: intune-azure
 
 1. On the **Add app** blade, choose **App package** file.
 2. On the **App information** blade, configure the following information (some of the values in this blade might be automatically filled-in):
-	- **Name** - Enter the name of the app as it is displayed in the company portal. Make sure all app names that you use are unique. If the same app name exists twice, only one of the apps is displayed to users in the company portal.
-	- **Description** - Enter a description for the app. The description is displayed to users in the company portal.
-	- **Publisher** - Enter the name of the publisher of the app.
-	- **Category** - Select one or more of the built-in app categories, or a category you created. Categorizing apps makes it easier for users to find the app when they browse the company portal.
-	- **Display this as a featured app in the Company Portal** - Display the app prominently on the main page of the company portal when users browse for apps.
-	- **Information URL** - Optionally, enter the URL of a website that contains information about the app. The URL is displayed to users in the company portal.
-	- **Privacy URL** - Optionally, enter the URL of a website that contains privacy information for the app. The URL is displayed to users in the company portal.
-	- **Command-line arguments** - Optionally, enter any command-line arguments that you want to apply to the .msi file when it runs, like **/q**.
-	- **Developer** - Optionally, enter the name of the app developer.
-	- **Owner** - Optionally, enter a name for the owner of this app, for example, **HR department**.
-	- **Notes** - Enter any notes you would like to associate with this app.
-	- **Logo** - Upload an icon that is associated with the app. The icon is displayed with the app when users browse the company portal.
+    - **Name** - Enter the name of the app as it is displayed in the company portal. Make sure all app names that you use are unique. If the same app name exists twice, only one of the apps is displayed to users in the company portal.
+    - **Description** - Enter a description for the app. The description is displayed to users in the company portal.
+    - **Publisher** - Enter the name of the publisher of the app.
+    - **Category** - Select one or more of the built-in app categories, or a category you created. Categorizing apps makes it easier for users to find the app when they browse the company portal.
+    - **Display this as a featured app in the Company Portal** - Display the app prominently on the main page of the company portal when users browse for apps.
+    - **Information URL** - Optionally, enter the URL of a website that contains information about the app. The URL is displayed to users in the company portal.
+    - **Privacy URL** - Optionally, enter the URL of a website that contains privacy information for the app. The URL is displayed to users in the company portal.
+    - **Command-line arguments** - Optionally, enter any command-line arguments that you want to apply to the .msi file when it runs, like **/q**.
+    - **Developer** - Optionally, enter the name of the app developer.
+    - **Owner** - Optionally, enter a name for the owner of this app, for example, **HR department**.
+    - **Notes** - Enter any notes you would like to associate with this app.
+    - **Logo** - Upload an icon that is associated with the app. The icon is displayed with the app when users browse the company portal.
 3. When you are finished, choose **OK**.
 
 ## Step 4 - Finish up
@@ -72,7 +71,7 @@ ms.custom: intune-azure
 
 ## Step 5 - Update a line of business app
 
-[!INCLUDE[shared-proc-lob-updateapp](./includes/shared-proc-lob-updateapp.md)]
+[!INCLUDE [shared-proc-lob-updateapp](./includes/shared-proc-lob-updateapp.md)]
 
 ## Next steps
 

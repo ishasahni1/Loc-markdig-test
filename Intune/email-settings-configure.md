@@ -29,7 +29,7 @@ ms.custom: intune-azure
 
 # How to configure email settings in Microsoft Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Email profiles can be used to configure devices you manage with the settings necessary to connect to , and synchronize with company email. This can help ensure that settings are standard across all of your devices, and also help to reduce support calls from end users who do not know the correct email settings.
 
@@ -54,17 +54,17 @@ Use the information in this topic to learn the basics about configuring an email
 3. On the profiles blade, choose **Create Profile**.
 4. On the **Create Profile** blade, enter a **Name** and **Description** for the email profile.
 5. From the **Platform** drop-down list, select the device platform to which you want to apply email settings. Currently, you can choose one of the following platforms for email device settings:
-	- **Android** (Samsung Android KNOX Standard only)
-	- **Android for Work**
-	- **iOS**
-	- **Windows Phone 8.1**
-	- **Windows 10 and later**
+    - **Android** (Samsung Android KNOX Standard only)
+    - **Android for Work**
+    - **iOS**
+    - **Windows Phone 8.1**
+    - **Windows 10 and later**
 6. From the **Profile** type drop-down list, choose **Email**.
 7. Depending on the platform you chose, the settings you can configure will be different. Go to one of the following topics for detailed settings for each platform:
-	- [Android for Work and Samsung KNOX Standard settings](email-settings-android.md)
-	- [iOS settings](email-settings-ios.md)
-	- [Windows Phone 8.1 settings](email-settings-windows-phone-8-1.md)
-	- [Windows 10 settings](email-settings-windows-10.md)
+    - [Android for Work and Samsung KNOX Standard settings](email-settings-android.md)
+    - [iOS settings](email-settings-ios.md)
+    - [Windows Phone 8.1 settings](email-settings-windows-phone-8-1.md)
+    - [Windows 10 settings](email-settings-windows-10.md)
 8. When you're done, go back to the **Create Profile** blade, and hit **Create**.
 
 The profile will be created and appears on the profiles list blade.

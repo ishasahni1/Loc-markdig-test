@@ -28,7 +28,7 @@ ms.custom: intune-azure
 
 # How to wipe only corporate data from Intune-managed apps
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 When a device is lost or stolen, or if the employee leaves your company, you want to make sure company app data is removed from the device. But you might not want to remove personal data on the device, especially if this is an employee-owned device.
 
@@ -46,7 +46,7 @@ To selectively remove company app data, create a wipe request by using the steps
 
 2.  Choose **More Services**, type **Intune** in the filter textbox, and select **Intune**. The Intune blade opens, choose the **Mobile apps** blade.
 
-	![Screenshot of the Microsoft Intune blade](./media/apps-selective-wipe01.png)
+    ![Screenshot of the Microsoft Intune blade](./media/apps-selective-wipe01.png)
 
 3.  On the **Mobile apps blade**, choose **App selective wipe**.
 
@@ -68,7 +68,7 @@ You can have a summarized report that shows the overall status of the wipe reque
 
 1.  On the **Mobile Apps - App selective wipe** blade, you can see the list of your requests grouped by users. Because the system creates a wipe request for each protected app running on the device, you might see multiple requests for a user. The status indicates whether a wipe request is **pending**, **failed**, or **successful**.
 
-	![Screenshot of the wipe request status in the App selective wipe blade](./media/wipe-request-status-1.png)
+    ![Screenshot of the wipe request status in the App selective wipe blade](./media/wipe-request-status-1.png)
 
 Additionally, you'll be able to see the device name, and its device type, which can be helpful when reading the reports.
 
@@ -83,7 +83,7 @@ Wipes with pending status are displayed until you manually delete them.  To manu
 
 2.  From the list, right-click on the wipe request you want to delete, then choose **Delete wipe request**.
 
-	![Screenshot of the wipe request list in the App selective wipe blade](./media/delete-wipe-request.png)
+    ![Screenshot of the wipe request list in the App selective wipe blade](./media/delete-wipe-request.png)
 
 3.  You're prompted to confirm the deletion, choose **Yes** or **No**, then click **OK**.
 

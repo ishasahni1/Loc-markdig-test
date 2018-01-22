@@ -58,16 +58,16 @@ If you unenroll your phone, it will remain encrypted.
 - Make sure that you've set a PIN or password on your device.
 - If you've already set a PIN or password on your device, try the following steps, which your company support might require to make your device more secure. The menu names that you see might be slightly different from the ones in the steps, depending on the type of Android device you have.
 
-	1. Go to **Settings** > **Lock Screen and Security** > **Screen lock**. Confirm your current PIN or password.
+    1. Go to **Settings** > **Lock Screen and Security** > **Screen lock**. Confirm your current PIN or password.
 
-	2. On the **Choose screen lock** screen, choose the type of screen lock you want to use. 
+    2. On the **Choose screen lock** screen, choose the type of screen lock you want to use. 
 
-	3. After you've chosen your screen lock, go back to the **Lock Screen and Security** screen and select **Secure Startup**. 
-	
-	4. On the **Secure startup** screen, tap **Require PIN to start device**, and tap **Continue**.
+    3. After you've chosen your screen lock, go back to the **Lock Screen and Security** screen and select **Secure Startup**. 
+    
+    4. On the **Secure startup** screen, tap **Require PIN to start device**, and tap **Continue**.
 
-	5. Choose a PIN (you can enter the same one that you entered previously), and tap **Confirm your PIN**.
+    5. Choose a PIN (you can enter the same one that you entered previously), and tap **Confirm your PIN**.
 
-	6. Open the Company Portal app, select your device, and tap **Check Compliance**.
+    6. Open the Company Portal app, select your device, and tap **Check Compliance**.
 
 Still need help? Contact your company support (check the [Company Portal website](https://portal.manage.microsoft.com#HelpDeskDialog) for contact information), or write the <a href="mailto:wintunedroidfbk@microsoft.com?subject=I'm having trouble with encryption on my Android device&body=Describe the issue you're experiencing here.">Microsoft Android team</a>.

@@ -1,10 +1,13 @@
 ---
 # required metadata
 
-title: Intune device compliance policiestitleSuffix: "Azure portal"
+title: Intune device compliance policies
+titleSuffix: "Azure portal"
 description: Use this topic to learn about device compliance in Microsoft Intune"
 keywords:
-author: andredm7ms.author: andredmmanager: angrobe
+author: andredm7
+ms.author: andredm
+manager: angrobe
 ms.date: 07/18/2017
 ms.topic: article
 ms.prod:
@@ -26,7 +29,7 @@ ms.custom: intune-azure
 
 # Get started with Intune device compliance policies
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 ## What is device compliance in Intune?
 

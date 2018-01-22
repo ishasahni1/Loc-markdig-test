@@ -28,7 +28,7 @@ ms.custom: intune-classic
 
 # Deploy and monitor a device compliance policy in Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 ## Deploy a compliance policy
 Deploy the compliance policy that you [created](create-a-device-compliance-policy-in-microsoft-intune.md) to one or more groups of users in your organization. When a compliance policy is deployed to a user, the user's devices are checked for compliance.
@@ -67,9 +67,9 @@ Use the status summary and alerts on the **Overview** page of the **Policy** wor
 ## How Intune resolves policy conflicts
 Policy conflicts can occur when multiple Intune policies are applied to a device. If the policy settings overlap, Intune resolves any conflicts by using the following rules:
 
--   If the conflicting settings are from an Intune configuration policy and a compliance policy, the settings in the compliance policy take precedence over the settings in the configuration policy. This happens even if the settings in the configuration policy are more secure.
+-   If the conflicting settings are from an Intune configuration policy and a compliance policy, the settings in the compliance policy take precedence over the settings in the configuration policy. This happens even if the settings in the configuration policy are more secure.
 
--   If you have deployed multiple compliance policies, Intune will use the most secure of these policies.
+-   If you have deployed multiple compliance policies, Intune will use the most secure of these policies.
 
 ## Next steps
 To learn how to use the compliance policy with conditional access policies to control access to services in your organization, see [Restrict access to email and O365 services](restrict-access-to-email-and-o365-services-with-microsoft-intune.md).

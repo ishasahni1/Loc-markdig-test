@@ -29,7 +29,7 @@ ms.custom: intune-azure
 
 # Remove devices by using factory reset or remove company data
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 You can remove devices from Intune that are no longer needed, are being repurposed, or have gone missing. You can do this by issuing a **remove company data** or **factory reset** command. Users can also issue a remote command from the Intune Company Portal to personally owned devices enrolled in Intune.
 
@@ -106,7 +106,7 @@ Removing company data from an Android for Work device removes all data, apps, an
 
 ### Windows
 
-|Data type|Windows 8.1 (MDM) and Windows RT 8.1|Windows RT|Windows Phone 8 and Windows Phone 8.1|Windows 10|
+|Data type|Windows 8.1 (MDM) and Windows RT 8.1|Windows RT|Windows Phone 8 and Windows Phone 8.1|Windows 10|
 |-------------|----------------------------------------------------------------|--------------|-----------------------------------------|--------|
 |Company apps and associated data installed by Intune|Files protected by EFS will have their key revoked and the user will not be able to open the files.|Will not remove company apps.|Apps originally installed through the company portal are uninstalled. Company app data is removed.|Apps are uninstalled and sideloading keys are removed.<br>For Windows 10 version 1703 (Creator Update) and later, Office 365 ProPlus apps are not removed.|
 |Settings|Configurations that were set by Intune policy are no longer enforced, and users can change the settings.|Configurations that were set by Intune policy are no longer enforced, and users can change the settings.|Configurations that were set by Intune policy are no longer enforced, and users can change the settings.|Configurations that were set by Intune policy are no longer enforced, and users can change the settings.|

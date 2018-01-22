@@ -38,7 +38,7 @@ When you enroll a device into management, you are giving your company permission
 - Email and text messages
 - Contacts
 - Calendar
--	Passwords
+-   Passwords
 - Pictures, including what's in the photos app or camera roll
 
 **What your company can always see**

@@ -29,7 +29,7 @@ ms.custom: intune-azure
 
 # Intune Home screen layout settings for iOS devices
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Use these settings to configure the layout of apps and folders on the dock and Home screen of iOS.
 

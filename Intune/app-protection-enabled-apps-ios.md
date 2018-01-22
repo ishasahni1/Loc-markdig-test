@@ -29,7 +29,7 @@ ms.custom: intune-azure
 
 # What to expect when your iOS app is managed by app protection policies
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 This topic describes the user experience for apps with app protection policies. App protection polices are applied only when apps are used in the work context: like accessing apps using your work account, or accessing files stored in your company OneDrive business location.
 ##  Accessing apps
@@ -47,7 +47,7 @@ For devices that are **enrolled for management in Intune**, the end-user will se
 
 App protection polices are only applied in the work context when using the app, so you may see different app behaviors depending on the context: work or personal.  
 
-For apps that support multi-identity, Intune only applies the app protection policies when the end-user is using the app in the work context.  For example, the end-user will get a PIN prompt when accessing work data.  For the **Outlook app**, the end-user is prompted for a PIN on launching the app. For the **OneDrive app**, this happens when the end-user types in the work account.  For Microsoft **Word**, **PowerPoint*, and **Excel**, this happens when the end-user accesses documents stored in the company OneDrive for Business location.
+For apps that support multi-identity, Intune only applies the app protection policies when the end-user is using the app in the work context.  For example, the end-user will get a PIN prompt when accessing work data.  For the <strong>Outlook app</strong>, the end-user is prompted for a PIN on launching the app. For the <strong>OneDrive app</strong>, this happens when the end-user types in the work account.  For Microsoft <strong>Word</strong>, <strong>PowerPoint*, and **Excel</strong>, this happens when the end-user accesses documents stored in the company OneDrive for Business location.
 ##  Managing user accounts on the device
 
 Intune only supports deploying app protection policies to only one user account per device.

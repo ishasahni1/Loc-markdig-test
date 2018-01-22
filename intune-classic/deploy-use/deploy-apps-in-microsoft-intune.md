@@ -26,7 +26,7 @@ ms.custom: intune-classic
 ---
 # Deploy apps in Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Use the information in this topic to help you deploy apps with Microsoft Intune.
 
@@ -44,16 +44,16 @@ In this procedure, you'll deploy an app to selected groups of devices or users.
 
 4.  On the **Deployment Action** page, configure the following:
 
-	- **Approval** - Choose whether the deployment is:
-		- **Required** (mandatory install)
-		- **Available** (users install from the company portal on demand)
-		- **Not Applicable** (the app is not installed or shown in the company portal)
-		- **Uninstall** (the app is uninstalled from targeted devices)
-	- **Deadline** - For required installations, choose how soon to deploy the app. You can choose from the predefined values, or you can select **Custom** to configure your own deadline.
+    - **Approval** - Choose whether the deployment is:
+        - **Required** (mandatory install)
+        - **Available** (users install from the company portal on demand)
+        - **Not Applicable** (the app is not installed or shown in the company portal)
+        - **Uninstall** (the app is uninstalled from targeted devices)
+    - **Deadline** - For required installations, choose how soon to deploy the app. You can choose from the predefined values, or you can select **Custom** to configure your own deadline.
 
 5. If the app you are deploying can be configured by a mobile application management policy, the **Mobile App Management** page is displayed. On this page, choose the mobile application management policy that you want to associate with this app.
 
-	[See which Microsoft apps are compatible with mobile application management policies.](https://www.microsoft.com/server-cloud/products/microsoft-intune/partners.aspx)
+    [See which Microsoft apps are compatible with mobile application management policies.](https://www.microsoft.com/server-cloud/products/microsoft-intune/partners.aspx)
 
 6. If the app you are deploying is compatible with Intune VPN profiles, the **VPN Profile** page is displayed. On this page, you can choose to associate iOS apps with a VPN profile that you have deployed. The VPN connection automatically opens when the app is launched. To make a VPN profile available, it must have the **Per-app VPN** profile setting enabled.
  For information about how to configure VPN profiles, including information about how to associate profiles with apps, see [VPN connections in Microsoft Intune](vpn-connections-in-microsoft-intune.md).

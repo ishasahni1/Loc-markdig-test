@@ -29,7 +29,7 @@ ms.custom: intune-azure
 
 # How to configure certificates in Microsoft Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 When you give users access to corporate resources through VPN, Wi-Fi, or email profiles, you can authenticate these connections by using certificates. You don't need to enter user names and passwords to authenticate connections when you use certificates.
 
@@ -44,13 +44,13 @@ Each of these certificate types has its own prerequisites and infrastructure req
 
 1. Ensure you have the right certificate infrastructure in place. You can use [SCEP certificates](certificates-scep-configure.md), and [PKCS certificates](certficates-pfx-configure.md).
 2. Install a root certificate or an intermediate Certification Authority (CA) certificate on each device so that the device recognizes the legitimacy of your CA. To do this, create and assign a **trusted certificate profile**. When you assign this profile, the devices that you manage with Intune request and receive the root certificate. You must create a separate profile for each platform. Trusted certificate profiles are available for these platforms:
-	- iOS 8.0 and later
-	- macOS 10.9 and later
-	- Android 4.0 and later
-	- Android for Work
-	- Windows 8.1 and later
-	- Windows Phone 8.1 and later
-	- Windows 10 and later
+    - iOS 8.0 and later
+    - macOS 10.9 and later
+    - Android 4.0 and later
+    - Android for Work
+    - Windows 8.1 and later
+    - Windows Phone 8.1 and later
+    - Windows 10 and later
 3. Create certificate profiles so that devices request a certificate to be used for authentication of VPN, Wi-Fi, and email access.
 
    You can create and assign a **PKCS** or **SCEP** certificate profile for devices running these platforms:
@@ -100,18 +100,18 @@ You must create a trusted certificate profile before you can create a SCEP or PK
 3. On the profiles blade, choose **Create Profile**.
 4. On the **Create Profile** blade, enter a **Name** and **Description** for the trusted certificate profile.
 5. From the **Platform** drop-down list, select the device platform for this trusted certificate. Currently, you can choose one of the following platforms for certificate settings:
-	- **Android**
-	- **iOS**
-	- **macOS**
-	- **Windows Phone 8.1**
-	- **Windows 8.1 and later**
-	- **Windows 10 and later**
+    - **Android**
+    - **iOS**
+    - **macOS**
+    - **Windows Phone 8.1**
+    - **Windows 8.1 and later**
+    - **Windows 10 and later**
 6. From the **Profile type** drop-down list, choose **Trusted certificate**.
 7. Browse to the certificate you saved in task 1, then click **OK**.
 8. For Windows 8.1 and Windows 10 devices only, select the **Destination Store** for the trusted certificate from:
-	- **Computer certificate store - Root**
-	- **Computer certificate store - Intermediate**
-	- **User certificate store - Intermediate**
+    - **Computer certificate store - Root**
+    - **Computer certificate store - Intermediate**
+    - **User certificate store - Intermediate**
 8. When you're done, choose **OK**, go back to the **Create Profile** blade, and hit **Create**.
 
 The profile is created and appears on the profiles list blade.

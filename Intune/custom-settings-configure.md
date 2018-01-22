@@ -29,7 +29,7 @@ ms.custom: intune-azure
 
 # How to configure custom device settings in Microsoft Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 ## When to use custom settings
 
@@ -47,19 +47,19 @@ Use the information in this topic to learn the basics about configuring profiles
 3. On the profiles blade, choose **Create Profile**.
 4. On the **Create Profile** blade, enter a **Name** and **Description** for the custom profile.
 5. From the **Platform** drop-down list, select the device platform to which you want to apply custom settings. Currently, you can choose one of the following platforms for custom device settings:
-	- **Android**
-	- **iOS**
-	- **macOS**
-	- **Windows Phone 8.1**
-	- **Windows 10 and later**
+    - **Android**
+    - **iOS**
+    - **macOS**
+    - **Windows Phone 8.1**
+    - **Windows 10 and later**
 6. From the **Profile** type drop-down list, choose **Custom**.
 7. Depending on the platform you chose, the settings you can configure will be different. Go to one of the following topics for detailed settings for each platform:
-	- [Android settings](custom-settings-android.md)
-	- [iOS settings](custom-settings-ios.md)
-	- [macOS settings](custom-settings-macos.md)
-	- [Windows Phone 8.1 settings](custom-settings-windows-phone-8-1.md)
-	- [Windows 10 settings](custom-settings-windows-10.md)
-	- [Android for Work settings](custom-settings-android-for-work.md)
+    - [Android settings](custom-settings-android.md)
+    - [iOS settings](custom-settings-ios.md)
+    - [macOS settings](custom-settings-macos.md)
+    - [Windows Phone 8.1 settings](custom-settings-windows-phone-8-1.md)
+    - [Windows 10 settings](custom-settings-windows-10.md)
+    - [Android for Work settings](custom-settings-android-for-work.md)
 8. When you're done, go back to the **Create Profile** blade, and hit **Create**.
 
 The profile will be created and appears on the profiles list blade.

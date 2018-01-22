@@ -28,7 +28,7 @@ ms.custom: intune-classic
 
 # Configure access to corporate email using email profiles with Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Many mobile platforms include a native email client that ships as part of the operating system. Some of these clients can be set up by using email profiles, as described in this topic.
 
@@ -39,11 +39,11 @@ If you need to take additional measures for data loss prevention, use [Condition
 IT admins or users may also choose to install alternative email clients (for example, Microsoft Outlook for Android or iOS). These email clients may not support email profiles, and can't be set up by using Intune email profiles.  
 
 You can use email profiles to configure the native email client on the following device types:
--	Windows Phone 8.1 and later
--	Windows 10 (for the desktop), Windows 10 Mobile, and later
--	iOS 8.0 and later
--	Samsung KNOX Standard (4.0 and later)
--	Android for Work (third-party email apps, native email app is personal-profile only)
+-   Windows Phone 8.1 and later
+-   Windows 10 (for the desktop), Windows 10 Mobile, and later
+-   iOS 8.0 and later
+-   Samsung KNOX Standard (4.0 and later)
+-   Android for Work (third-party email apps, native email app is personal-profile only)
 
 In addition to setting up an email account on the device, you can set up how much email to synchronize, and depending on the device type, which content types to synchronize.
 
@@ -86,9 +86,9 @@ The password is not contained in the email profile, so the user needs to supply 
 
     -   **Email Profile (Windows 10 Desktop and Mobile and later)**
 
-	-   **Email Profile (Android for Work  - Gmail)**
+    -   **Email Profile (Android for Work  - Gmail)**
 
-	-	**Email Profile (Android for Work  - Nine Work)**
+    -   **Email Profile (Android for Work  - Nine Work)**
 
     You can only create and deploy a custom email profile policy. Recommended settings are not available.
 
@@ -110,7 +110,7 @@ The password is not contained in the email profile, so the user needs to supply 
     |**Sync schedule** (Android for Work, Samsung KNOX, Windows Phone 8 and later, Windows 10)|Select the schedule by which devices will synchronize data from the Exchange server. You can also select **As Messages arrive**, which synchronizes data as soon as it arrives, or **Manual**, where the user of the device must initiate the synchronization.|
     |**Use SSL**|Use Secure Sockets Layer (SSL) communication when sending emails, receiving emails, and communicating with the Exchange server. For devices that run Samsung KNOX 4.0 or later, you must export your Exchange Server SSL certificate, and deploy it as an Android Trusted Certificate Profile in Intune. Intune does not support accessing this certificate if it is installed on the Exchange server by other means.|
     |**Content type to synchronize** (all platforms except Android for Work Gmail)|Select the content types that you want to synchronize to devices.|
-	|**Allow email to be sent from third party applications** (iOS only)|Allow the user to select this profile as the default  account for sending email, and allow third-party applications to open email in the native email app, for example, to attach files to email.|
+    |**Allow email to be sent from third party applications** (iOS only)|Allow the user to select this profile as the default  account for sending email, and allow third-party applications to open email in the native email app, for example, to attach files to email.|
 
 > [!IMPORTANT]
 >

@@ -1,7 +1,8 @@
 ---
 # required metadata
 
-title: How to create a compliance policy for iOStitleSuffix: "Azure portal"
+title: How to create a compliance policy for iOS
+titleSuffix: "Azure portal"
 description: Learn how to create a compliance policy for iOS devices."
 keywords:
 author: andredm7
@@ -29,7 +30,7 @@ ms.custom: intune-azure
 # How to create a device compliance policy for iOS devices in Intune
 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Compliance policies are created for each platform.  You can create a compliance policy in the Azure portal. To learn more about what compliance policy is see [what is a device compliance](device-compliance.md) topic. To learn about the prerequisites that you need to address before creating a compliance policy see [Get started with device compliance](device-compliance-get-started.md) topic.
 
@@ -38,15 +39,16 @@ The table below describes how noncompliant settings are managed when a complianc
 -------------------------------
 
 
-| **Policy setting** | **iOS 8.0 and later** |
-| --- | --- |
-| **PIN or password configuration** | Remediated |   
-| **Device encryption** | Remediated (by setting PIN) |
-| **Jailbroken or rooted device** | Quarantined (not a setting)
-| **Email profile** | Quarantined |
-|**Minimum OS version** | Quarantined |
-| **Maximum OS version** | Quarantined |  
-| **Windows health attestation** | Not applicable |  
+|        <strong>Policy setting</strong>         | <strong>iOS 8.0 and later</strong> |
+|------------------------------------------------|------------------------------------|
+| <strong>PIN or password configuration</strong> |             Remediated             |
+|       <strong>Device encryption</strong>       |    Remediated (by setting PIN)     |
+|  <strong>Jailbroken or rooted device</strong>  |    Quarantined (not a setting)     |
+|         <strong>Email profile</strong>         |            Quarantined             |
+|      <strong>Minimum OS version</strong>       |            Quarantined             |
+|      <strong>Maximum OS version</strong>       |            Quarantined             |
+|  <strong>Windows health attestation</strong>   |           Not applicable           |
+
 ----------------------------
 
 

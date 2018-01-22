@@ -33,11 +33,11 @@ ms.custom: intune-enduser
 
 The Device Enrollment Program is offered by Apple to companies and organizations that want to make the user experience easier out of the box for managing iOS devices. If your company allowed you to bring your own device, you will simply follow the [regular iOS enrollment steps](enroll-your-device-in-intune-ios.md) rather than the steps on this page. Read on if your company provided you with an iOS device and told you that it was part of the Device Enrollment Program.
 
-1.	Turn on your iPad, and proceed through the first couple of setup screens.
-2.	After you select your **Language**, connect your device to Wi-Fi.
-3.	Once you’ve connected to Wi-Fi, the **Configuration** screen will appear. This will say that **[Your Company] will automatically configure your [iPad/iPhone].**
-4.	Log in with your company **Username** and **Password**.
-5.	Agree to the **Terms and Conditions** and decide whether you want to send diagnostic information to Apple.
-6.	Once you complete your enrollment, your device may prompt you to take more actions. Some of these might be entering your password for email access, setup a passcode, agree to application installations all based on what has been setup by your company’s Intune administrator.
+1.  Turn on your iPad, and proceed through the first couple of setup screens.
+2.  After you select your **Language**, connect your device to Wi-Fi.
+3.  Once you’ve connected to Wi-Fi, the **Configuration** screen will appear. This will say that **[Your Company] will automatically configure your [iPad/iPhone].**
+4.  Log in with your company **Username** and **Password**.
+5.  Agree to the **Terms and Conditions** and decide whether you want to send diagnostic information to Apple.
+6.  Once you complete your enrollment, your device may prompt you to take more actions. Some of these might be entering your password for email access, setup a passcode, agree to application installations all based on what has been setup by your company’s Intune administrator.
 
 Still need help? Contact your company support. For contact information, check the [Company Portal website](https://portal.manage.microsoft.com#HelpDeskDialog).

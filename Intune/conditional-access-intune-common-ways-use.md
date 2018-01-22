@@ -29,7 +29,7 @@ ms.custom: intune-azure
 
 # Common ways to use conditional access with Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 You need to configure Intune mobile device compliance policy, and the Intune mobile application management (MAM) capabilities to drive conditional access compliance at your organization. Let’s talk about the common ways to use conditional access with Intune.
 

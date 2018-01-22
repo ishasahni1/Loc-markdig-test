@@ -28,9 +28,9 @@ ms.custom: intune-classic
 
 # Enable Skycure Mobile Threat Defense in Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
-To enable the Skycure mobile threat defense, you should have already configured the [Intune Connector in the Skycure console] (/intune-classic/deploy-use/setup-the-skycure-integration-with-Intune).
+To enable the Skycure mobile threat defense, you should have already configured the [Intune Connector in the Skycure console](/intune-classic/deploy-use/setup-the-skycure-integration-with-Intune).
 
 ## To enable the Skycure MTD connection in Intune
 
@@ -38,7 +38,7 @@ To enable the Skycure mobile threat defense, you should have already configured 
 
 2.  Choose **Admin** &gt; **Third Party Service Integration**, then choose **Skycure Status** and enable **Synchronization with MTD** using the toggle button.
 
-	![Enable Skycure toggle in Intune classic portal](../media/mtp/enable-skycure-1.png)
+    ![Enable Skycure toggle in Intune classic portal](../media/mtp/enable-skycure-1.png)
 
 > [!IMPORTANT] 
 > You must configure the Skycure apps before creating compliance policy rules and configuring conditional access. This ensures that the app is ready and available for end users to install before they can get access to email or other company resources.

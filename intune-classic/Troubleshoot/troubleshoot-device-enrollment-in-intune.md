@@ -28,7 +28,7 @@ ms.custom: intune-classic
 
 # Troubleshoot device enrollment in Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 This topic provides suggestions for troubleshooting device enrollment issues. If this information does not solve your problem, see [How to get support for Microsoft Intune](how-to-get-support-for-microsoft-intune.md) to find more ways to get help.
 
@@ -37,11 +37,11 @@ This topic provides suggestions for troubleshooting device enrollment issues. If
 
 Before you begin troubleshooting, check to make sure that you've configured Intune properly to enable enrollment. You can read about those configuration requirements in:
 
--	[Get ready to enroll devices in Microsoft Intune](/intune-classic/deploy-use/prerequisites-for-enrollment)
--	[Set up iOS and Mac device management](/intune-classic/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)
--	[Set up Windows device management](/intune-classic/deploy-use/set-up-windows-device-management-with-microsoft-intune)
--	[Set up Android device management](/intune-classic/deploy-use/set-up-android-management-with-microsoft-intune) - No additional steps required
--	[Set up Android for Work device management](/intune-classic/deploy-use/set-up-android-for-work)
+-   [Get ready to enroll devices in Microsoft Intune](/intune-classic/deploy-use/prerequisites-for-enrollment)
+-   [Set up iOS and Mac device management](/intune-classic/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)
+-   [Set up Windows device management](/intune-classic/deploy-use/set-up-windows-device-management-with-microsoft-intune)
+-   [Set up Android device management](/intune-classic/deploy-use/set-up-android-management-with-microsoft-intune) - No additional steps required
+-   [Set up Android for Work device management](/intune-classic/deploy-use/set-up-android-for-work)
 
 Your managed device users can collect enrollment and diagnostic logs for you to review. User instructions for collecting logs are provided in:
 
@@ -86,9 +86,9 @@ Administrators can delete devices in the Azure Active Directory portal.
 8.  Remove devices as appropriate, such as those that are no longer in use, or those that have inaccurate definitions.
 
 > [!NOTE]
-
+> 
 > You can avoid the device enrollment cap by using Device Enrollment Manager account, as described in [Enroll corporate-owned devices with the Device Enrollment Manager in Microsoft Intune](/intune-classic/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune).
->
+> 
 > A user account that is added to Device Enrollment Managers account will not be able to complete enrollment when Conditional Access policy is enforced for that specific user login.
 
 ### Company Portal Temporarily Unavailable
@@ -155,7 +155,7 @@ Administrators can delete devices in the Azure Active Directory portal.
 **Issue:** When you add a second verified domain to your ADFS, users with the user principal name (UPN) suffix of the second domain may not be able to log into the portals or enroll devices.
 
 
-**Resolution:** Microsoft Office 365 customers who use single sign-on (SSO) through AD FS 2.0 and have multiple top level domains for users' UPN suffixes within their organization (for example, @contoso.com or @fabrikam.com) are required to deploy a separate instance of the AD FS 2.0 Federation Service for each suffix. There is now a [rollup for AD FS 2.0](http://support.microsoft.com/kb/2607496) that works in conjunction with the **SupportMultipleDomain** switch to enable the AD FS server to support this scenario without requiring additional AD FS 2.0 servers. See [this blog](https://blogs.technet.microsoft.com/abizerh/2013/02/05/supportmultipledomain-switch-when-managing-sso-to-office-365/) for more information.
+<strong>Resolution:</strong> Microsoft Office 365 customers who use single sign-on (SSO) through AD FS 2.0 and have multiple top level domains for users' UPN suffixes within their organization (for example, @contoso.com or @fabrikam.com) are required to deploy a separate instance of the AD FS 2.0 Federation Service for each suffix. There is now a [rollup for AD FS 2.0](http://support.microsoft.com/kb/2607496) that works in conjunction with the <strong>SupportMultipleDomain</strong> switch to enable the AD FS server to support this scenario without requiring additional AD FS 2.0 servers. See [this blog](https://blogs.technet.microsoft.com/abizerh/2013/02/05/supportmultipledomain-switch-when-managing-sso-to-office-365/) for more information.
 
 
 ## Android issues
@@ -196,27 +196,27 @@ If Resolution #2 doesn't work, have your users follow these steps to make Smart 
 
 1. Launch the Smart Manager app on the device.
 
-  ![Select Smart Manager icon on device](./media/smart-manager-app-icon.png)
+   ![Select Smart Manager icon on device](./media/smart-manager-app-icon.png)
 
 2. Choose the **Battery** tile.
 
-  ![Select the Battery tile](./media/smart-manager-battery-tile.png)
+   ![Select the Battery tile](./media/smart-manager-battery-tile.png)
 
 3. Under **App power saving** or **App optimization**, select **Detail**.
 
-  ![Select Detail under App power saving or App optimization](./media/smart-manager-app-power-saving-detail.png)
+   ![Select Detail under App power saving or App optimization](./media/smart-manager-app-power-saving-detail.png)
 
 4. Choose **Company Portal** from the list of apps.
 
-  ![Select Company Portal from the apps list](./media/smart-manager-company-portal.png)
+   ![Select Company Portal from the apps list](./media/smart-manager-company-portal.png)
 
 5. Choose **Turned off**.
 
-  ![Select Turned off from App optimization dialog](./media/smart-manager-app-optimization-turned-off.png)
+   ![Select Turned off from App optimization dialog](./media/smart-manager-app-optimization-turned-off.png)
 
 6. Under **App power saving** or **App optimization**, confirm that Company Portal is turned off.
 
-  ![Verify that Company Portal is turned off](./media/smart-manager-verify-comp-portal-turned-off.png)
+   ![Verify that Company Portal is turned off](./media/smart-manager-verify-comp-portal-turned-off.png)
 
 
 ### Profile installation failed
@@ -247,16 +247,16 @@ The certificate error occurs because Android devices require intermediate certif
 
 To fix the issue, import the certificates into the Computers Personal Certificates on the AD FS server or proxies as follows:
 
-1.	On the ADFS and proxy servers, launch the Certificate Management console for the local computer by right-clicking the **Start** button, choosing **Run** and typing **certlm.msc**.
-2.	Expand **Personal** and select **Certificates**.
-3.	Find the certificate for your AD FS service communication (a publicly signed certificate), and double-click to view its properties.
-4.	Select the **Certification Path** tab to see the certificate’s parent certificate/s.
-5.	On each parent certificate, select **View Certificate**.
-6.	Select the **Details** tab and choose **Copy to file…**.
-7.	Follow the wizard prompts to export or save the public key of the certificate to the desired file location.
-8.	Import the parent certificates that were exported in Step 3 to Local Computer\Personal\Certificates by right-clicking **Certificates**, selecting **All Tasks** > **Import**, and then following the wizard prompts to import the certificate(s).
-9.	Restart the AD FS servers.
-10.	Repeat the above steps on all of your AD FS and proxy servers.
+1.  On the ADFS and proxy servers, launch the Certificate Management console for the local computer by right-clicking the **Start** button, choosing **Run** and typing **certlm.msc**.
+2.  Expand **Personal** and select **Certificates**.
+3.  Find the certificate for your AD FS service communication (a publicly signed certificate), and double-click to view its properties.
+4.  Select the **Certification Path** tab to see the certificate’s parent certificate/s.
+5.  On each parent certificate, select **View Certificate**.
+6.  Select the **Details** tab and choose **Copy to file…**.
+7.  Follow the wizard prompts to export or save the public key of the certificate to the desired file location.
+8.  Import the parent certificates that were exported in Step 3 to Local Computer\Personal\Certificates by right-clicking **Certificates**, selecting **All Tasks** > **Import**, and then following the wizard prompts to import the certificate(s).
+9.  Restart the AD FS servers.
+10. Repeat the above steps on all of your AD FS and proxy servers.
 The user should now be able to sign in to the Company Portal on the Android device.
 
 **To validate that the certificate installed correctly**:

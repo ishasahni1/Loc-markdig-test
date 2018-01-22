@@ -85,7 +85,7 @@ Skycure supports two modes of integration with Intune:
 
 You need to add an Azure AD security group that contains all devices running Skycure.
 
-1.  Enter and select all the security groups of devices that are running Skycure, then click on **Apply changes**.
+1.  Enter and select all the security groups of devices that are running Skycure, then click on **Apply changes**.
 
     ![Configure security group Skycure Management console](./media/skycure-setup-4.png)
 

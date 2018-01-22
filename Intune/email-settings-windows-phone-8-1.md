@@ -29,8 +29,7 @@ ms.custom: intune-azure
 
 # Email profile settings for Windows Phone 8.1 devices in Microsoft Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
-
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 - **Apply all settings to Windows Phone 8.1 only** - This is a setting you can configure in the Intune classic portal. In the Azure portal, this setting cannot be changed. If this is set to **Configured**, any settings will only be applied to Windows Phone 8.1 devices. If set to **Not Configured**, these settings will also apply to Windows 10 Mobile devices.
 - **Email server** - The host name of your Exchange server.
@@ -53,6 +52,6 @@ ms.custom: intune-azure
 ## Content sync settings
 
 - **Content type to sync** - Select the content types that you want to synchronize to devices from:
-	- **Contacts**
-	- **Calendar**
-	- **Tasks**
+    - **Contacts**
+    - **Calendar**
+    - **Tasks**

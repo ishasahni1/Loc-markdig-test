@@ -41,7 +41,7 @@ AutoPilot deployment profiles are used to configure the AutoPilot devices.
 3. On the **Intune** blade, choose **Device enrollment**.
 4. On the **Windows enrollment** blade, in the **Windows AutoPilot Deployment Program** section, choose **Deployment Profiles**.
 5. Click **Create Profile**, and choose a name and optional description. 
-6. For **Join type**, select **Azure AD joined**.​
+6. For **Join type**, select **Azure AD joined**. 
 7. For **Out-of-box experience (OOBE)**, configure the following options, and then click **OK**: 
    - **Privacy settings**: Choose whether to show privacy settings to users. 
    - **End-user license agreement (EULA)**: Choose whether to show the EULA to users.

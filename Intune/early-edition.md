@@ -71,7 +71,7 @@ The **Account Move** migrates a tenant from one Azure Scale Unit (ASU) to anothe
 
 <!-- the following are present prior to 1712 -->
 ### Assign Office 365 mobile apps to iOS and Android devices using built-in app type <!-- 1332318 -->
-The **Built-in** app type will make it easier for you to create and assign Office 365 apps to the iOS and Android devices that you manage. These apps include 0365 apps such as Word, Excel, PowerPoint, and OneDrive. You can assign specific apps to the app type and edit the app information configuration.
+The **Built-in** app type will make it easier for you to create and assign Office 365 apps to the iOS and Android devices that you manage. These apps include 0365 apps such as Word, Excel, PowerPoint, and OneDrive. You can assign specific apps to the app type and edit the app information configuration.
 
 
 ### Assignment conflict resolution has changed for iOS store apps <!-- 1480316 -->
@@ -90,10 +90,10 @@ For more information, see, [How to assign apps to groups with Microsoft Intune](
 > After the release you will no longer be able to view or modify Mobile Device Management (MDM) app assignments in the Intune classic console. However, you can use Azure console or the Intune Graph API to make your app assignments.
 
 ### Manage Android for Work devices independently from Android devices <!-- 1490731 -->
-Intune will support managing enrollment of Android for Work devices independently from the Android platform. These settings are managed under **Device Enrollment** > **Enrollment restrictions** > **Device Type Restrictions**. (They were previously located under **Device Enrollment** > **Android for Work Enrollment** > **Android for Work Enrollment Settings**.)
+Intune will support managing enrollment of Android for Work devices independently from the Android platform. These settings are managed under **Device Enrollment** > **Enrollment restrictions** > **Device Type Restrictions**. (They were previously located under **Device Enrollment** > **Android for Work Enrollment** > **Android for Work Enrollment Settings**.)
 
 By default, your Android for Work devices settings will be the same as your settings for your Android devices. However, after you change your Android for Work settings that will no longer be the case.
- 
+ 
 If you block personal Android for Work enrollment, only corporate Android devices can enroll as Android for Work.
 
 When working with the new settings, consider the following:
@@ -155,7 +155,7 @@ You are able to find a code repository that contains the Intune App Wrapping Too
 
 
 ### Redirecting macOS users to our new Company Portal app <!--1380728-->   
-When an end user logs into the Company Portal website to enroll their macOS device, they will be directed to download the new Company Portal app for macOS to complete the process. This occurs for macOS devices using OS X El Capitan 10.11 or above. 
+When an end user logs into the Company Portal website to enroll their macOS device, they will be directed to download the new Company Portal app for macOS to complete the process. This occurs for macOS devices using OS X El Capitan 10.11 or above. 
 
 
 

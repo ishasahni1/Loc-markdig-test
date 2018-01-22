@@ -27,7 +27,7 @@ ms.custom: intune-classic
 
 # Help protect Windows PCs using Windows Firewall policies in Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune can help you to secure Windows PCs that you manage with the Intune client in a number of ways. One way in which it does this is to provide policies that enable you to configure Windows Firewall settings on PCs.
 
@@ -41,7 +41,7 @@ The Windows Firewall policy lets you create and deploy settings that control Win
 > [!NOTE]
 > If Microsoft Intune policy and Group Policy are configured to manage the same setting on the PC, the Group Policy setting overrides the Microsoft Intune policy. For information about how to avoid conflicts between Intune policy and Group Policy, see [Resolve GPO and Microsoft Intune policy conflicts](resolve-gpo-and-microsoft-intune-policy-conflicts.md).
 >
-> If you want to deploy Windows Firewall settings to computers that run Windows Vista, you must first install [Hotfix KB971800](http://support2.microsoft.com/kb/971800) on these computers.
+> If you want to deploy Windows Firewall settings to computers that run Windows Vista, you must first install [Hotfix KB971800](http://support2.microsoft.com/kb/971800) on these computers.
 
 > [!IMPORTANT]
 > To manage Windows Firewall by using Intune, ensure that the following two services are enabled on the computers that you manage:
@@ -82,7 +82,7 @@ These policy settings configure Windows Firewall to block incoming network traff
 The default value for each of these settings is **Yes**, which is the most secure value.
 
 > [!IMPORTANT]
-> If your environment includes managed computers that are running Windows Vista with no service packs installed, you must either install the update that's associated with [article 971800](http://go.microsoft.com/fwlink/?LinkId=188405) in the Microsoft Knowledge Base or disable the **Block all incoming connections** policy settings in policies that are deployed to those computers.
+> If your environment includes managed computers that are running Windows Vista with no service packs installed, you must either install the update that's associated with [article 971800](http://go.microsoft.com/fwlink/?LinkId=188405) in the Microsoft Knowledge Base or disable the **Block all incoming connections** policy settings in policies that are deployed to those computers.
 
 ### Notify the user when Windows Firewall blocks a new program
 

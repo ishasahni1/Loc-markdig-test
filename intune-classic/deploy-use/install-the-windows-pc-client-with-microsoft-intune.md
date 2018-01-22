@@ -27,7 +27,7 @@ ms.custom: intune-classic
 
 # Install the Intune software client on Windows PCs
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Windows PCs can be enrolled by installing the Intune client software. The Intune client software can be installed by using the following methods:
 
@@ -45,13 +45,13 @@ One Intune license allows the installation of the Intune client software on up t
 
 All methods, except those in which users install the Intune client software themselves, require that IT admins download the software first so that it can be subsequently deployed to end users.
 
-1.  In the [Microsoft Intune administration console](https://manage.microsoft.com/), click **Admin** &gt; **Client Software Download**.
+1. In the [Microsoft Intune administration console](https://manage.microsoft.com/), click **Admin** &gt; **Client Software Download**.
 
-  ![Download the Intune PC client](../media/pc-sa-client-download.png)
+   ![Download the Intune PC client](../media/pc-sa-client-download.png)
 
 2. On the **Client Software Download** page, click **Download Client Software**. Then save the **Microsoft_Intune_Setup.zip** package that contains the software to a secure location on your network.
 
-  The Intune client software installation package contains unique and specific information, which is available through an embedded certificate, about your account. If unauthorized users gain access to the installation package, they can enroll PCs to the account that is represented by its embedded certificate and might gain access to company resources.
+   The Intune client software installation package contains unique and specific information, which is available through an embedded certificate, about your account. If unauthorized users gain access to the installation package, they can enroll PCs to the account that is represented by its embedded certificate and might gain access to company resources.
 
 3. Extract the contents of the installation package to the secure location on your network.
 
@@ -118,9 +118,9 @@ Users install the Intune client software by going to the [Company Portal website
 
 If users haven't been assigned an Intune license or if the organization's MDM Authority hasn't been set to Intune, users aren't shown any options to enroll.
 
-If users have been assigned an Intune license, and the organization's MDM Authority has been set to Intune:
+If users have been assigned an Intune license, and the organization's MDM Authority has been set to Intune:
 
-- Windows 7 or Windows 8 PC users are shown ONLY the option to enroll to Intune by downloading and installing the PC client software that is unique to their organization.
+- Windows 7 or Windows 8 PC users are shown ONLY the option to enroll to Intune by downloading and installing the PC client software that is unique to their organization.
 
 - Windows 10 or Windows 8.1 PC users are shown two enrollment options:
 
@@ -257,7 +257,7 @@ Check "%ProgramFiles%\Microsoft\OnlineManagement" and ensure that only the follo
 
 The unenrollment process does not remove the OnlineManagement folder. Wait 30 minutes after the uninstall, and then run this command. If you run it too soon, the uninstall could be left in an unknown state. To remove the folder, start an elevated prompt and run:
 
-    "rd /s /q %ProgramFiles%\Microsoft\OnlineManagement".
+    "rd /s /q %ProgramFiles%\Microsoft\OnlineManagement".
 
 ### Next steps
 [Manage Windows PCs with Microsoft Intune](manage-windows-pcs-with-microsoft-intune.md)

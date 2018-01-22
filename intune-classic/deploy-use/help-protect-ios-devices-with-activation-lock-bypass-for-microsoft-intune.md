@@ -28,7 +28,7 @@ ms.custom: intune-classic
 
 # Help protect iOS devices with Activation Lock bypass for Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune can help you manage iOS Activation Lock, a feature of the Find My iPhone app for iOS 8.0 and later devices. Activation Lock is enabled automatically when a user opens the Find My iPhone app on a device. After it is enabled, the user's Apple ID and password must be entered before anyone can: 
 
@@ -102,8 +102,8 @@ You can see which devices are using Activation Lock in two ways:
 
     If you select a device in the **All Corporate-owned Devices** node and Activation Lock is enabled for the device, you can also see the bypass code. This code can be used to manually issue an Activation Lock bypass.
 
-	> [!IMPORTANT]
-	>Intune takes inventory from devices for Activation Lock every seven days. Because of this, devices might not immediately be displayed with their Activation Lock status in the Intune console.
+    > [!IMPORTANT]
+    >Intune takes inventory from devices for Activation Lock every seven days. Because of this, devices might not immediately be displayed with their Activation Lock status in the Intune console.
 
 
 ### See also

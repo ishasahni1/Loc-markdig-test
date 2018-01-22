@@ -28,7 +28,7 @@ ms.custom: intune-classic
 
 # Use iOS mobile provisioning profile policies to prevent your apps from expiring
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Apple iOS line of business apps that are deployed to iPhones and iPads are built with an included provisioning profile and code that is signed with a certificate. When the app is run, iOS confirms the integrity of the iOS app and enforces policies that are defined by the provisioning profile. The following validations happen:
 
@@ -52,8 +52,8 @@ After the certificate expires, you must sign the app again with a new certificat
 1. In the [Microsoft Intune administration console](https://manage.microsoft.com), choose **Policy** > **Overview** > **Add Policy**.
 2. In the **Create a New Policy** dialog box, choose **iOS** > **Mobile Provisioning Profile Policy**, and then choose **Create Policy**.
 3. On the **General** page, configure the following values:
-	- **Name** - Provide a name for this mobile provisioning profile policy.
-	- **Description** - Optionally, provide a description for the policy.
-	- **Configuration profile file** - Click **Import**, and then choose an Apple Mobile Configuration Profile file (with the extension **.mobileprovision**) that you downloaded from the Apple Developer website.
+    - **Name** - Provide a name for this mobile provisioning profile policy.
+    - **Description** - Optionally, provide a description for the policy.
+    - **Configuration profile file** - Click **Import**, and then choose an Apple Mobile Configuration Profile file (with the extension **.mobileprovision**) that you downloaded from the Apple Developer website.
 4. When you are done, choose **Save Policy**.
 5. Now, deploy the policy to the required iOS devices. For more information, see [Manage settings and features on your devices with Microsoft Intune policies](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md).

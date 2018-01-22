@@ -118,17 +118,19 @@ At this point, you may also:
 
     <img src="media/azure-ad-grant-perm.png" width="351" height="162" alt="The Grant permissions button" />
 
+
 - Make the app available to users outside your tenant.  (This is typically only required for partners supporting multiple tenants/organizations.)  
 
     To do so:
 
-    1. Choose **Manifest** from the application blade, which opens the **Edit Manifest** blade.
+  1. Choose **Manifest** from the application blade, which opens the **Edit Manifest** blade.
 
-    <img src="media/azure-ad-edit-mft.png" width="295" height="114" alt="The Edit manifest blade" />
+     <img src="media/azure-ad-edit-mft.png" width="295" height="114" alt="The Edit manifest blade" />
 
-    2. Change the value of the `availableToOtherTenants` setting to `true`.
 
-    3. Save your changes.
+  2. Change the value of the `availableToOtherTenants` setting to `true`.
+
+  3. Save your changes.
 
 ## Intune permission scopes
 
@@ -582,6 +584,7 @@ To invite the user to be a guest of your tenant:
 This sends an invite to the user.
 
    <img src="media/aad-multiple-tenant-invitation.png" width="624" height="523" alt="A sample guest invitation" />
+
 
    The user needs to choose the **Get Started** link to accept your invitation.
 

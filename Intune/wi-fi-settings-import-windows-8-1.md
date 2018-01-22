@@ -29,7 +29,7 @@ ms.custom: intune-azure
 
 # How to import Wi-Fi settings for Windows 8.1 and later devices in Microsoft Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 For devices that run Windows 8.1 or Windows 10 desktop or mobile, you can import a Wi-Fi configuration profile that was previously exported to a file.
 
@@ -52,9 +52,9 @@ In Windows, use the **netsh wlan** utility to export an existing Wi-Fi profile t
 5. From the **Platform** drop-down list, choose **Windows 8.1 and later**.
 6. From the **Profile** type drop-down list, choose **Wi-Fi import**.
 7. On the **Wi-Fi Basic** blade, configure the following:
-	- **Connection name** Enter the name of the Wi-Fi connection. This name will be displayed to end users when they browse available Wi-Fi networks.
-	- **Profile XML** Click the browse button to select the XML file containing the Wi-Fi profile settings that you want to import into Intune.
-	- **File contents** Displays the XML code for the configuration profile you selected.
+    - **Connection name** Enter the name of the Wi-Fi connection. This name will be displayed to end users when they browse available Wi-Fi networks.
+    - **Profile XML** Click the browse button to select the XML file containing the Wi-Fi profile settings that you want to import into Intune.
+    - **File contents** Displays the XML code for the configuration profile you selected.
 8. When you're done, go back to the **Create Profile** blade, and hit **Create**.
 
 The profile will be created and appears on the profiles list blade.

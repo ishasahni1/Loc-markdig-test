@@ -28,7 +28,7 @@ ms.custom: intune-classic
 
 # Enable enrollment for mobile devices
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 This topic describes how an Intune administrator can enable mobile device enrollment. For help using Intune on your phone, see [using managed devices to get work done](https://docs.microsoft.com/intune-user-help/company-portal-frequently-asked-questions).
 
@@ -41,7 +41,7 @@ To set up mobile device management with Intune, you must first set the *mobile d
 
 2. Choose **Yes** in the MDM Authority dialog box.
 
-	![Admin console. Set mdm to Intune](../media/intune-mdm-authority.png)
+    ![Admin console. Set mdm to Intune](../media/intune-mdm-authority.png)
 
 ## Choose how to enroll devices
 

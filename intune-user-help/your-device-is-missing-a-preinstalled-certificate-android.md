@@ -12,7 +12,9 @@ ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
 ms.technology:
-ms.assetid: df973b18-9166-417d-8aa3-49edd2bda256searchScope: - User help
+ms.assetid: df973b18-9166-417d-8aa3-49edd2bda256
+searchScope:
+ - User help
 
 # optional metadata
 
@@ -41,7 +43,7 @@ You can fix this issue by getting the required certificate from [Digicert's cert
 
 4. Ensure that **Credential Use** is set to **Used for VPN and apps**, and then tap **OK**.
 
-	![screenshot-certificate-name-dialog-showing-baltimore-certificate-name](./media/andr-cert_install-2-add_cert_name.png)
+    ![screenshot-certificate-name-dialog-showing-baltimore-certificate-name](./media/andr-cert_install-2-add_cert_name.png)
 
 5. Close your browser and the Company Portal app.
 

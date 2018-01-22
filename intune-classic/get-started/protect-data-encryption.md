@@ -28,7 +28,7 @@ ms.custom: intune-classic
 
 # Quick Start Guide: Protect company data with data encryption
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune can help you prevent data loss from Office mobile apps in a variety of ways, including:
 - By encrypting corporate data with the highest level of device encryption provided by iOS and Android.
@@ -48,9 +48,9 @@ This quick start guide is a good resource if you meet the following prerequisite
 This guide can help you protect your company from data loss by forcing passcodes and data encryption using policies on the mobile apps that your employees use to access sensitive data, without requiring full enrollment in any device management solution. Microsoft Intune allows you to set mobile application management (MAM) policies on Office mobile apps for [iOS](https://products.office.com/mobile/office-mobile-apps-for-ios) and [Android](https://products.office.com/mobile/office-mobile-apps-for-android). This approach protects O365 data without requiring users to enroll their devices into a mobile device management solution while also maintaining a great end-user experience with Office mobile apps.
 
 ## How do I do it?
-1.	[Review how you can protect app data](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)
-2.	[Get ready to configure mobile app management policies](/intune-classic/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)
-3.	[Create and deploy mobile app management policies](/intune-classic/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune)
+1.  [Review how you can protect app data](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)
+2.  [Get ready to configure mobile app management policies](/intune-classic/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)
+3.  [Create and deploy mobile app management policies](/intune-classic/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune)
 
 ## Additional information:
 - [Find out about the end user experience for MAM enabled apps with Microsoft Intune.](/intune-classic/eploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune)

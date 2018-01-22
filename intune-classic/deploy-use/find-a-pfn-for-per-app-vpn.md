@@ -28,7 +28,7 @@ ms.custom: intune-classic
 
 # Find a package family name (PFN) for per-app VPN configuration
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 There are two ways to find a PFN so that you can set up a per-app VPN.
 
@@ -42,7 +42,7 @@ The syntax for Get-AppxPackage is:
 ` Get-AppxPackage [[-Name] <String> ] [[-Publisher] <String> ] [-AllUsers] [-User <String> ] [ <CommonParameters>]`
 
 > [!NOTE]
-You may have to run PowerShell as an admin to retrieve the PFN.
+> You may have to run PowerShell as an admin to retrieve the PFN.
 
 For example, to get info about all the universal apps installed on the computer, use `Get-AppxPackage`.
 
@@ -77,11 +77,11 @@ Here is the information retrieved for OneNote:
 
 ## Find a PFN if the app is not installed on a computer
 
-1.	Go to https://www.microsoft.com/store/apps.
-2.	Enter the name of the app in the search bar. In our example, search for OneNote.
-3.	Choose the link to the app. Note that the URL has a series of letters at the end. In our example, the URL looks like this:
+1.  Go to https://www.microsoft.com/store/apps.
+2.  Enter the name of the app in the search bar. In our example, search for OneNote.
+3.  Choose the link to the app. Note that the URL has a series of letters at the end. In our example, the URL looks like this:
 `https://www.microsoft.com/store/apps/onenote/9wzdncrfhvjl`.
-4.	In a different tab, paste the following URL, `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/<app id>/applockerdata`. Replace `<app id>` with the app id that you got from https://www.microsoft.com/store/apps - that series of letters at the end of the URL in step 3. In our example of OneNote, you'd paste: `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/9wzdncrfhvjl/applockerdata`.
+4.  In a different tab, paste the following URL, `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/<app id>/applockerdata`. Replace `<app id>` with the app id that you got from https://www.microsoft.com/store/apps - that series of letters at the end of the URL in step 3. In our example of OneNote, you'd paste: `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/9wzdncrfhvjl/applockerdata`.
 
 Microsoft Edge shows the information that you want; in Internet Explorer, choose **Open** to see the information. The PFN value is given on the first line. Here are the results for our example:
 

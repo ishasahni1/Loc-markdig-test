@@ -28,7 +28,7 @@ ms.custom: intune-classic
 
 # Prepare Android apps for app protection policies with the Intune App Wrapping Tool
 
-[!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
+[!INCLUDE [both-portals](./includes/note-for-both-portals.md)]
 
 Use the Microsoft Intune App Wrapping Tool for Android to change the behavior of your in-house Android apps by restricting features of the app without changing the code of the app itself.
 
@@ -68,21 +68,21 @@ Note the folder to which you installed the tool. The default location is: C:\Pro
 
 ## Run the App Wrapping Tool
 
-1.  On the Windows computer where you installed the App Wrapping Tool, open a PowerShell window.
+1. On the Windows computer where you installed the App Wrapping Tool, open a PowerShell window.
 
-2.  From the folder where you installed the tool, import the App Wrapping Tool PowerShell module:
+2. From the folder where you installed the tool, import the App Wrapping Tool PowerShell module:
 
-    ```
-    Import-Module .\IntuneAppWrappingTool.psm1
-    ```
+   ```
+   Import-Module .\IntuneAppWrappingTool.psm1
+   ```
 
-3.  Run the tool by using the **invoke-AppWrappingTool** command, which has the following usage syntax:
-	```
-	Invoke-AppWrappingTool [-InputPath] <String> [-OutputPath] <String> -KeyStorePath <String> -KeyStorePassword <SecureString>
-    -KeyAlias <String> -KeyPassword <SecureString> [-SigAlg <String>] [<CommonParameters>]
-	```
+3. Run the tool by using the **invoke-AppWrappingTool** command, which has the following usage syntax:
+   ```
+   Invoke-AppWrappingTool [-InputPath] <String> [-OutputPath] <String> -KeyStorePath <String> -KeyStorePassword <SecureString>
+   -KeyAlias <String> -KeyPassword <SecureString> [-SigAlg <String>] [<CommonParameters>]
+   ```
 
- The following table details the properties of the **invoke-AppWrappingTool** command:
+   The following table details the properties of the **invoke-AppWrappingTool** command:
 
 |Property|Information|Example|
 |-------------|--------------------|---------|
@@ -123,8 +123,8 @@ The wrapped app and a log file are generated and saved in the output path you sp
 Android requires that all apps must be signed by a valid certificate in order to be installed on Android devices.
 
 Wrapped apps can be signed either as part of the wrapping process or *after* wrapping using your existing signing tools (any signing information in the app before wrapping is discarded).
- 
-If possible, the signing information that was already used during the build process should be used during wrapping. In certain organizations, this may require working with whoever owns the keystore information (ie. the app build team). 
+ 
+If possible, the signing information that was already used during the build process should be used during wrapping. In certain organizations, this may require working with whoever owns the keystore information (ie. the app build team). 
 
 If the previous signing certificate cannot be used, or the app has not been deployed before, you may create a new signing certificate by following the instructions in the [Android Developer Guide](https://developer.android.com/studio/publish/app-signing.html#signing-manually).
 

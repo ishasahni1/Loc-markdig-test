@@ -28,7 +28,7 @@ ms.custom: intune-classic
 
 # Create Skycure Mobile Threat Defense compliance policy
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Intune with Skycure Mobile Threat Defense lets you detect threats on mobile devices and assess risk on those devices. You can create an Intune compliance policy rule that assesses risk to determine if the device is compliant. You can then use conditional access policy to block access to services based on device compliance.
 
@@ -67,8 +67,8 @@ As part of the Skycure Mobile Threat Defense setup, in the Skycure console, you 
 
 -   Create a conditional access policy for:
 
-	-   [Exchange Online](/intune-classic/deploy-use/restrict-access-to-exchange-online-with-microsoft-intune)
-	-   [Exchange On-premises](/intune-classic/deploy-use/restrict-access-to-exchange-onpremises-with-microsoft-intune)
-	-   [SharePoint Online](/intune-classic/deploy-use/restrict-access-to-sharepoint-online-with-microsoft-intune)
-	-   [Skype for Business Online](/intune-classic/deploy-use/restrict-access-to-skype-for-business-online-with-microsoft-intune)
-	-   [Dynamics CRM](/intune-classic/deploy-use/restrict-access-to-dynamics-crm-online-with-microsoft-intune)
+    -   [Exchange Online](/intune-classic/deploy-use/restrict-access-to-exchange-online-with-microsoft-intune)
+    -   [Exchange On-premises](/intune-classic/deploy-use/restrict-access-to-exchange-onpremises-with-microsoft-intune)
+    -   [SharePoint Online](/intune-classic/deploy-use/restrict-access-to-sharepoint-online-with-microsoft-intune)
+    -   [Skype for Business Online](/intune-classic/deploy-use/restrict-access-to-skype-for-business-online-with-microsoft-intune)
+    -   [Dynamics CRM](/intune-classic/deploy-use/restrict-access-to-dynamics-crm-online-with-microsoft-intune)

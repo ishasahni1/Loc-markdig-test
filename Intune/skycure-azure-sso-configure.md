@@ -45,23 +45,23 @@ You need to retrieve the Azure AD Tenant ID.
 
 2.  You can see the **Dashboard,** choose **Azure Active Directory**.
 
-	![Azure AD Dashboard](./media/skycure-sso-1.png)
+    ![Azure AD Dashboard](./media/skycure-sso-1.png)
 
 3.  The **Azure Active Directory** blade opens, choose **Properties**.
 
-	![Azure AD Properties blade](./media/skycure-sso-2.png)
+    ![Azure AD Properties blade](./media/skycure-sso-2.png)
 
 4.  Click on the **Copy icon** under the **Tenant Directory ID** at **Azure Active Directory Properties** blade.
 
 5. Paste the copied Directory ID value in a text file so you can use it later. The Directory ID value will be required later in the Skycure and Intune integration process.
 
-	![Azure AD Dashboard](./media/skycure-sso-3.png)
+    ![Azure AD Dashboard](./media/skycure-sso-3.png)
 
 ## Allow Skycure to communicate with Azure Active Directory
 
 1.  Enter the below URL in your browser. Instead of **DIRECTORY_ID**, enter your Azure Active Directory Tenant ID previously copied to the text file.
 
-		https://login.microsoftonline.com/<DIRECTORY_ID>/oauth2/authorize?client_id=28fd67fdb1794629a8b0dad420b697c7&prompt=admin_consent&redirect_uri=https%3A%2F%2Fmc.skycure.com%2Fapi%2Fexternal%2Fmdm%2Faad_app_consent%2Fmanagement_callback&response_type=code
+        https://login.microsoftonline.com/<DIRECTORY_ID>/oauth2/authorize?client_id=28fd67fdb1794629a8b0dad420b697c7&prompt=admin_consent&redirect_uri=https%3A%2F%2Fmc.skycure.com%2Fapi%2Fexternal%2Fmdm%2Faad_app_consent%2Fmanagement_callback&response_type=code
 
 2.  You need to login using your Azure Active Directory credentials. Click **Accept** to continue.
 
