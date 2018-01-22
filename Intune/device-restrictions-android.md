@@ -29,7 +29,7 @@ ms.custom: intune-azure
 
 # Android and Samsung KNOX Standard device restriction settings in Microsoft Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Use these settings with an Android device restriction policy to configure devices in your organization.
 
@@ -48,7 +48,7 @@ Use these settings with an Android device restriction policy to configure device
 - **Screen capture (Samsung KNOX only)** - Lets the user capture the screen contents as an image.
 - **Voice assistant (Samsung KNOX only)** - Allows the use of voice assistant software on the device.
 - **YouTube (Samsung KNOX only)** - Allows the use of the YouTube app on the device.
-- **Shared devices (Samsung KNOX only)** - Configure a managed Samsung KNOX Standard device as shared. In this mode, end users can sign in and out of the device with their Azure AD credentials. The device remains managed whether it’s in use or not.<br>When used in conjunction with a SCEP certificate profile, this feature allows end users to share a device with the same set of apps for all users, but with their own SCEP user cert.  When users sign out, all app data is cleared.  This feature is limited to LOB apps only.
+- **Shared devices (Samsung KNOX only)** - Configure a managed Samsung KNOX Standard device as shared. In this mode, end users can sign in and out of the device with their Azure AD credentials. The device remains managed whether it’s in use or not.<br>When used in conjunction with a SCEP certificate profile, this feature allows end users to share a device with the same set of apps for all users, but with their own SCEP user cert.  When users sign out, all app data is cleared.  This feature is limited to LOB apps only.
 - **Block date and time changes (Samsung KNOX)** - Prevent the user from changing the date and time settings on the device. 
 
 ## Password
@@ -59,13 +59,13 @@ Use these settings with an Android device restriction policy to configure device
 - **Number of sign-in failures before wiping device** - Specifies the number of sign-in failures to allow before the device is wiped.
 - **Password expiration (days)** - Specifies the number of days before the device password must be changed.
 -  **Required password type** - Specifies the required password complexity level, and whether biometric devices can be used. Choose from:
-	- **Device default**
-	- **Low security biometric**
-	- **At least numeric**
-	- **Numeric complex** - Repeating, or consecutive numbers like '1111' or '1234' are not allowed<sup>1</sup>
-	- **At least alphabetic**
-	- **At least alphanumeric**
-	- **At least alphanumeric with symbols**
+    - **Device default**
+    - **Low security biometric**
+    - **At least numeric**
+    - **Numeric complex** - Repeating, or consecutive numbers like '1111' or '1234' are not allowed<sup>1</sup>
+    - **At least alphabetic**
+    - **At least alphanumeric**
+    - **At least alphanumeric with symbols**
 - **Prevent reuse of previous passwords** - Stops the end user from creating a password they have used before.
 - **Fingerprint unlock (Samsung KNOX only)** - Allows the use of a fingerprint to unlock supported devices.
 - **Smart Lock and other trust agents** - Lets you control the Smart Lock feature on compatible Android devices (Samsung KNOX Standard 5.0 and later). This phone capability, sometimes known as a trust agent, lets you disable or bypass the device lock screen password if the device is in a trusted location. For example, this could be used when the device is connected to a specific Bluetooth device, or when it's close to an NFC tag. You can use this setting to prevent users from configuring Smart Lock.
@@ -104,7 +104,7 @@ Example: Search Google Play for Microsoft Office Mobile. Use the URL: **https://
 
 ### Additional options
 
-You can also click **Import** to get the list from a csv file. Use the format <*app url*>, <*app name*>, <*app publisher*> or click **Export** in the csv file containing the contents of the restricted apps list in the same format.		
+You can also click **Import** to get the list from a csv file. Use the format <*app url*>, <*app name*>, <*app publisher*> or click **Export** in the csv file containing the contents of the restricted apps list in the same format.      
 
 ## Browser
 
@@ -152,9 +152,9 @@ For each setting, configure a list of apps using one of the following:
 Kiosk settings apply only to Samsung KNOX Standard devices, and only to apps you manage using Intune.
 
 - **Select a managed app** - Choose one of the following options to add one or more managed apps that can run when the device is in kiosk mode. No other apps are allowed to run on the device.
-	- **Add apps by package name**
-	- **Add apps by URL**
-	- **Add managed apps**.
+    - **Add apps by package name**
+    - **Add apps by URL**
+    - **Add managed apps**.
 - **Screen sleep button** - Enables or disables the screen sleep wake button on the device.
 - **Volume buttons** - Enables or disables the use of the volume buttons on the device.
 

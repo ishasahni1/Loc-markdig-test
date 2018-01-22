@@ -28,7 +28,7 @@ ms.custom: intune-classic
 
 # Manage settings and features on your devices with Microsoft Intune policies
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune *policies* are groups of settings that control features on mobile devices and computers. You create policies by using templates that contain recommended or custom settings, and then you deploy them to device or user groups.
 
@@ -55,8 +55,8 @@ For a complete list of Intune policies, see [Microsoft Intune policy reference](
 
 2.  Choose the policy that you want, choose to use the recommended settings for the policy (if available; you can change these settings later), or choose to create a custom policy with your own settings.
 
-	> [!TIP]
-	> For help choosing the right policy, see the [Microsoft Intune policy reference](microsoft-intune-policy-reference.md).
+    > [!TIP]
+    > For help choosing the right policy, see the [Microsoft Intune policy reference](microsoft-intune-policy-reference.md).
 
 3.  When you are ready, choose **Create Policy**.
 
@@ -64,20 +64,20 @@ For a complete list of Intune policies, see [Microsoft Intune policy reference](
 
 5.  Configure the required policy settings, and then choose **Save Policy**.
 
-	If you need help with any policy settings, choose your policy type from the following list:
+    If you need help with any policy settings, choose your policy type from the following list:
 
-	- [Settings for iOS devices](ios-policy-settings-in-microsoft-intune.md)
-	- [Settings for Android devices](android-policy-settings-in-microsoft-intune.md)
-	- [Settings for Android for Work devices](android-for-work-policy-settings-in-microsoft-intune.md)
-	- [Settings for Windows 8 and Windows 8.1 devices](windows-configuration-policy-settings-in-microsoft-intune.md)
-	- [Settings for Windows Phone 8.1 devices](windows-phone-8-1-policy-settings-in-microsoft-intune.md)
-	- [Settings for Windows 10 desktop and mobile devices](windows-10-policy-settings-in-microsoft-intune.md)
-	- [Settings for Windows Team devices](windows-team-configuration-policy-settings-in-microsoft-intune.md)
-	- [Settings for Windows edition upgrade](edition-upgrade-policy-settings-in-microsoft-intune.md)
-	- [Settings for Mac OS X devices](mac-os-x-policy-settings-in-microsoft-intune.md)
-	- [Settings for Exchange ActiveSync](exchange-activesync-policy-settings-in-microsoft-intune.md)
-	- [Settings for the terms and conditions policy](terms-and-condition-policy-settings-in-microsoft-intune.md)
-	- [General settings for mobile devices (legacy)](mobile-device-security-policy-settings-in-microsoft-intune.md)
+    - [Settings for iOS devices](ios-policy-settings-in-microsoft-intune.md)
+    - [Settings for Android devices](android-policy-settings-in-microsoft-intune.md)
+    - [Settings for Android for Work devices](android-for-work-policy-settings-in-microsoft-intune.md)
+    - [Settings for Windows 8 and Windows 8.1 devices](windows-configuration-policy-settings-in-microsoft-intune.md)
+    - [Settings for Windows Phone 8.1 devices](windows-phone-8-1-policy-settings-in-microsoft-intune.md)
+    - [Settings for Windows 10 desktop and mobile devices](windows-10-policy-settings-in-microsoft-intune.md)
+    - [Settings for Windows Team devices](windows-team-configuration-policy-settings-in-microsoft-intune.md)
+    - [Settings for Windows edition upgrade](edition-upgrade-policy-settings-in-microsoft-intune.md)
+    - [Settings for Mac OS X devices](mac-os-x-policy-settings-in-microsoft-intune.md)
+    - [Settings for Exchange ActiveSync](exchange-activesync-policy-settings-in-microsoft-intune.md)
+    - [Settings for the terms and conditions policy](terms-and-condition-policy-settings-in-microsoft-intune.md)
+    - [General settings for mobile devices (legacy)](mobile-device-security-policy-settings-in-microsoft-intune.md)
 
 4.  In the confirmation dialog box, choose **Yes** to deploy the policy now, or choose **No** to create the policy without deploying it.
 
@@ -167,38 +167,38 @@ When you delete a policy, or you remove a device from a group to which a policy 
 
 - Wi-Fi, VPN, certificate, and email profiles: These profiles are removed from all supported enrolled devices.
 - All other policy types:
-	- **Windows and Android devices**: Settings are not removed from the device.
-	- **Windows Phone 8.1 devices**: The following settings are removed:
-		- Require a password to unlock mobile devices
-		- Allow simple passwords
-		- Minimum password length
-		- Required password type
-		- Password expiration (days)
-		- Remember password history
-		- Number of repeated sign-in failures to allow before the device is wiped
-		- Minutes of inactivity before password is required
-		- Required password type – minimum number of character sets
-		- Allow camera
-		- Require encryption on mobile device
-		- Allow removable storage
-		- Allow web browser
-		- Allow application store
-		- Allow screen capture
-		- Allow geolocation
-		- Allow Microsoft account
-		- Allow copy and paste
-		- Allow Wi-Fi tethering
-		- Allow automatic connection to free Wi-Fi hotspots
-		- Allow Wi-Fi hotspot reporting
-		- Allow factory reset
-		- Allow Bluetooth
-		- Allow NFC
-		- Allow Wi-Fi
+    - **Windows and Android devices**: Settings are not removed from the device.
+    - **Windows Phone 8.1 devices**: The following settings are removed:
+        - Require a password to unlock mobile devices
+        - Allow simple passwords
+        - Minimum password length
+        - Required password type
+        - Password expiration (days)
+        - Remember password history
+        - Number of repeated sign-in failures to allow before the device is wiped
+        - Minutes of inactivity before password is required
+        - Required password type – minimum number of character sets
+        - Allow camera
+        - Require encryption on mobile device
+        - Allow removable storage
+        - Allow web browser
+        - Allow application store
+        - Allow screen capture
+        - Allow geolocation
+        - Allow Microsoft account
+        - Allow copy and paste
+        - Allow Wi-Fi tethering
+        - Allow automatic connection to free Wi-Fi hotspots
+        - Allow Wi-Fi hotspot reporting
+        - Allow factory reset
+        - Allow Bluetooth
+        - Allow NFC
+        - Allow Wi-Fi
 
-	- **iOS**: All settings are removed, except:
-		- Allow voice roaming
-		- Allow data roaming
-		- Allow automatic synchronization while roaming
+    - **iOS**: All settings are removed, except:
+        - Allow voice roaming
+        - Allow data roaming
+        - Allow automatic synchronization while roaming
 
 #### Windows PCs running the Intune client software
 

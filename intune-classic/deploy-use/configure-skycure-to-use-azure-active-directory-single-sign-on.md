@@ -28,7 +28,7 @@ ms.custom: intune-classic
 
 # Configure Skycure to use Azure Active Directory Single Sign On (SSO)
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Azure AD SSO is used when you integrate Intune with Skycure. Here are the main benefits:
 
@@ -62,7 +62,7 @@ You need to retrieve the Azure AD Tenant ID.
 
 1.  Enter the below URL in your browser. Instead of **DIRECTORY_ID**, enter your Azure Active Directory Tenant ID previously copied to the text file.
 
-		https://login.microsoftonline.com/<DIRECTORY_ID>/oauth2/authorize?client_id=28fd67fdb1794629a8b0dad420b697c7&prompt=admin_consent&redirect_uri=https%3A%2F%2Fmc.skycure.com%2Fapi%2Fexternal%2Fmdm%2Faad_app_consent%2Fmanagement_callback&response_type=code
+        https://login.microsoftonline.com/<DIRECTORY_ID>/oauth2/authorize?client_id=28fd67fdb1794629a8b0dad420b697c7&prompt=admin_consent&redirect_uri=https%3A%2F%2Fmc.skycure.com%2Fapi%2Fexternal%2Fmdm%2Faad_app_consent%2Fmanagement_callback&response_type=code
 
 2.  You need to login using your Azure Active Directory credentials. Click **Accept** to continue.
 

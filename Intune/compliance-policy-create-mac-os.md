@@ -1,7 +1,8 @@
 ---
 # required metadata
 
-title: How to create a compliance policy for macOStitleSuffix: "Azure portal"
+title: How to create a compliance policy for macOS
+titleSuffix: "Azure portal"
 description: Learn how to create a compliance policy for macOS devices."
 keywords:
 author: andredm7
@@ -29,7 +30,7 @@ ms.custom: intune-azure
 # Create a device compliance policy for macOS devices with Intune
 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 ## Before you begin
 
@@ -45,14 +46,15 @@ The table below describes how noncompliant settings are managed when a complianc
 -------------------------------
 
 
-| **Policy setting** | **macOS 10.11 and later** |
-| --- | --- |
-| **PIN or password configuration** | Remediated |   
-| **Device encryption** | Remediated (by setting PIN) |
-| **Email profile** | Quarantined |
-|**Minimum OS version** | Quarantined |
-| **Maximum OS version** | Quarantined |  
-| **Windows health attestation** | Not applicable |  
+|        <strong>Policy setting</strong>         | <strong>macOS 10.11 and later</strong> |
+|------------------------------------------------|----------------------------------------|
+| <strong>PIN or password configuration</strong> |               Remediated               |
+|       <strong>Device encryption</strong>       |      Remediated (by setting PIN)       |
+|         <strong>Email profile</strong>         |              Quarantined               |
+|      <strong>Minimum OS version</strong>       |              Quarantined               |
+|      <strong>Maximum OS version</strong>       |              Quarantined               |
+|  <strong>Windows health attestation</strong>   |             Not applicable             |
+
 ----------------------------
 
 
@@ -97,11 +99,11 @@ You have different categories with different settings to choose from when creati
 
 - **Number of non-alphanumeric character in password** : If you set **Required password type** to **Alphanumeric** , use this setting to specify the minimum number of character sets that the password must have. 
 
-	> [!NOTE]
-	> Setting a higher number will require the user to create a password that is more complex.
+    > [!NOTE]
+    > Setting a higher number will require the user to create a password that is more complex.
 
-	> [!IMPORTANT]
-	> For macOS devices, this setting refers to the number of special characters (for example, **!** , **#** , **&amp;** ) that must be included in the password.
+    > [!IMPORTANT]
+    > For macOS devices, this setting refers to the number of special characters (for example, **!** , **#** , **&amp;** ) that must be included in the password.
 
 - **Maximum minutes of inactivity before password is required** : Specify the idle time before the user must reenter their password.
 
@@ -109,8 +111,8 @@ You have different categories with different settings to choose from when creati
 
 - **Number of previous passwords to prevent reuse** : Specify the number of previously used passwords that cannot be reused.
 
-	> [!IMPORTANT]
-	> When the password requirement is changed on a macOS device it doesn’t take effect until the next time the user changes their password. For example, if you set the password length restriction to eight digits and the macOS device currently has a 6 digits password, the device remains compliant until the next time the user updates their password on the device.
+    > [!IMPORTANT]
+    > When the password requirement is changed on a macOS device it doesn’t take effect until the next time the user changes their password. For example, if you set the password length restriction to eight digits and the macOS device currently has a 6 digits password, the device remains compliant until the next time the user updates their password on the device.
 
 ## To create a device compliance policy
 
@@ -146,8 +148,8 @@ To assign a compliance policy to users, choose a policy that you have configured
 
 4. Once you're done assigning the device compliance policy to your groups, you can close the **Assignments** blade.
 
-	> [!TIP]
-	> By default, devices check for compliance every 8 hours but users can force this process through the Intune company portal app.
+    > [!TIP]
+    > By default, devices check for compliance every 8 hours but users can force this process through the Intune company portal app.
 
 ## Next steps
 

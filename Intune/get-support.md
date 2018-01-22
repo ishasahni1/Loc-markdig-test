@@ -30,7 +30,7 @@ ms.custom: intune-classic
 
 # How to get support for Microsoft Intune
 
-[!INCLUDE[azure_portal](./includes/note-for-both-portals.md)]
+[!INCLUDE [azure_portal](./includes/note-for-both-portals.md)]
 
 Microsoft provides global technical, pre-sales, billing, and subscription support for Microsoft Intune. Support is available both online and by phone for paid and trial subscriptions. Online technical support is available in English and Japanese. Phone support and online billing support are available in additional languages.
 
@@ -41,38 +41,38 @@ Microsoft provides global technical, pre-sales, billing, and subscription suppor
 
 As an IT admin, you can file a support ticket from the Azure portal by using the following steps:
 
-1. Log on to the Azure portal (https://portal.azure.com) with your Intune admin credentials, choose the **?** icon in the upper-right corner of the portal, and then select **Help + support** to go to the [Azure Help + support](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview target=_blank) page.
+1. Log on to the Azure portal (<https://portal.azure.com>) with your Intune admin credentials, choose the <strong>?</strong> icon in the upper-right corner of the portal, and then select <strong>Help + support</strong> to go to the [Azure Help + support](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview target=_blank) page.
 
-	![Screenshot of Azure portal help and support question mark link with the Help + support link highlighted](./media/azure-get-support.png)
+    ![Screenshot of Azure portal help and support question mark link with the Help + support link highlighted](./media/azure-get-support.png)
 
 2. On the Azure Help and support page, select **New support request**.
 
-	![Screenshot of Azure portal help and support page with New support request link highlighted](./media/azure-support-ticket-link.png)
+    ![Screenshot of Azure portal help and support page with New support request link highlighted](./media/azure-support-ticket-link.png)
 3. On the **Basics** blade, for most Intune technical support issues, choose the following options:
-	- **Issue type**: **Technical**
-	- **Service**: **Microsoft Intune**
-	- **Support plan**: **Technical support - included**  (For Intune technical issues, support is complimentary.)
+   - **Issue type**: **Technical**
+   - **Service**: **Microsoft Intune**
+   - **Support plan**: **Technical support - included**  (For Intune technical issues, support is complimentary.)
 
-	>[!IMPORTANT]
-	>Support for Intune, and for Intune when used with Configuration Manager, is free of charge. To review details of the Premier Support offering, please see the [Description of Services](https://www.microsoft.com/microsoftservices/services-list.aspx) documentation, section 5.3.3 "Advisory Services."
+     >[!IMPORTANT]
+     >Support for Intune, and for Intune when used with Configuration Manager, is free of charge. To review details of the Premier Support offering, please see the [Description of Services](https://www.microsoft.com/microsoftservices/services-list.aspx) documentation, section 5.3.3 "Advisory Services."
 
-	Choose **Next** to continue.
+     Choose **Next** to continue.
 4. On the **Problem** blade, to ensure your request is addressed by the right subject matter expert for your problem, select the following options:
-	- **Severity**
-	- **Problem type**
-	- **Category**
+   - **Severity**
+   - **Problem type**
+   - **Category**
 
-	These details also lets us provide **Related help** that might solve your problem without filing a ticket.
+     These details also lets us provide **Related help** that might solve your problem without filing a ticket.
 
-	![Screenshot of Azure portal help and support page with Problem items filled out and displaying solutions based on your problem](./media/support-need-solutions.png)
+     ![Screenshot of Azure portal help and support page with Problem items filled out and displaying solutions based on your problem](./media/support-need-solutions.png)
 
-	To help us research and resolve your problem, enter the following information:
-	-	**Details**
-	- **Date**
-	- **Time**
-	- Supplemental data
+     To help us research and resolve your problem, enter the following information:
+   - **Details**
+   - **Date**
+   - **Time**
+   - Supplemental data
 
-	Choose **Next**.
+     Choose **Next**.
 5. Provide **Contact information** for this support request. Microsoft support uses this information to contact you.
 6. Choose **Create** to submit your support request.
 

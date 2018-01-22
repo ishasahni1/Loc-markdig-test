@@ -28,7 +28,7 @@ ms.custom: intune-azure
 ---
 
 # How to monitor app protection policies
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 **If you are not in the Azure portal**, this topic explains [how to create app protection policies](https://docs.microsoft.com/intune-classic/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune) in the Intune classic portal.
 
@@ -57,8 +57,8 @@ There are three different places to monitor the compliance status:
 -   **MANAGED BY POLICY**: The number of users who have used an app who have a policy assigned to them in a work context.
 
 -   **NO POLICY**: The number of users who are using an app that is not targeted by any policy in a work context. You might consider adding these users to the policy.
-	> [!NOTE]
-	> If you have multiple policies per platform, a user will be considered managed by policy when they have at least one policy assigned to them.
+    > [!NOTE]
+    > If you have multiple policies per platform, a user will be considered managed by policy when they have at least one policy assigned to them.
 
 - **Flagged users**: The number of users who are experiencing issues. Currently, only users with jailbroken devices are reported under **Flagged users**.
 
@@ -85,7 +85,7 @@ To see the reporting for a user, follow these steps:
 
 1.  To select a user, choose the **Summary** tile.
 
-	![Screenshot 3](./media/MAM-reporting-6.png)
+    ![Screenshot 3](./media/MAM-reporting-6.png)
 
 2. On the **App reporting** blade that opens, choose **Select user** to search for an Azure Active Directory user.
 
@@ -133,11 +133,11 @@ Follow these steps to generate the App protection report:
 
 1. On the Intune mobile application management blade, choose App protection report.
 
-	![Screenshot-6](./media/app-protection-report-csv-2.png)
+    ![Screenshot-6](./media/app-protection-report-csv-2.png)
 
 2. Choose Yes to save your report, then choose Save As and select the folder you want to save the report in.
 
-	![Screenshot-7](./media/app-protection-report-csv-1.png)
+    ![Screenshot-7](./media/app-protection-report-csv-1.png)
 
 ## See also
 [Manage data transfer between iOS apps](data-transfer-between-apps-manage-ios.md)

@@ -29,7 +29,7 @@ ms.custom: intune-azure
 
 # Web content filter settings for iOS devices
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Use these settings to configure URLs that end users of web browsers, on iOS devices, can, or cannot visit. There are two methods you can use to do configure URLs:
 
@@ -44,30 +44,30 @@ If you do not specify any URLs, then end users cannot access any websites except
 
 1. On the Device features blade, choose **Web Content Filter (supervised only)**.
 2. On the **Web Content Filter** blade, choose the **Filter type** you want to configure from:
-	- **Not Configured** - No filtering is performed.
-	- **Configure URLs**
-	- **Specific websites only**
+    - **Not Configured** - No filtering is performed.
+    - **Configure URLs**
+    - **Specific websites only**
 3. Next, depending on the filter type you are using, use one of the following procedures:
 
 
 ## Configure URLs
 
 1. On the **Web Content Filter** blade, choose one of the following settings as required:
-	- **Permitted URLs** - On the **Permitted URLs** blade, enter the URLs you want to allow (bypassing the Apple web filter), and choose enter after each.
-	- **Blocked URLs** - On the **Blocked URLs** blade, enter the URLs you want to block (regardless of the Apple web filter settings), and choose enter after each.
+    - **Permitted URLs** - On the **Permitted URLs** blade, enter the URLs you want to allow (bypassing the Apple web filter), and choose enter after each.
+    - **Blocked URLs** - On the **Blocked URLs** blade, enter the URLs you want to block (regardless of the Apple web filter settings), and choose enter after each.
 2. When you are finished, click **OK**.
 
 
 ## Specific websites only
 
 1. On the **Web Content Filter** blade, for each web site you want to permit, configure the following settings:
-	- **URL** - Enter the URL of the website you want to permit, for example, **http://www.contoso.com**.
-	- **Bookmark Path** - Enter the path to where you want to store the bookmark, for example **/Contoso/Business Apps**. If you don't add a path, the bookmark is added to the default bookmark folder on the device.
-	- **Title** - Enter a descriptive title for the bookmark.
+    - **URL** - Enter the URL of the website you want to permit, for example, **http://www.contoso.com**.
+    - **Bookmark Path** - Enter the path to where you want to store the bookmark, for example **/Contoso/Business Apps**. If you don't add a path, the bookmark is added to the default bookmark folder on the device.
+    - **Title** - Enter a descriptive title for the bookmark.
 2. Click **Add** after you enter the information for each website.
 3. When you are finished, click **OK**.
 
->[!IMPORTANT] 
+> [!IMPORTANT]
 > The following URLs are permitted automatically by Intune.
 > - www.microsoft.com
 > - www.microsoft.net

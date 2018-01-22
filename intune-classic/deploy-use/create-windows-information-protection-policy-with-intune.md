@@ -28,7 +28,7 @@ ms.custom: intune-classic
 
 # Create and deploy Windows Information Protection (WIP) app protection policy with Intune
 
-[!INCLUDE[note for both-portals](../includes/note-for-both-portals.md)]
+[!INCLUDE [note for both-portals](../includes/note-for-both-portals.md)]
 
 Beginning with Intune 1704 release, you can use app protection policies with Windows 10 in the mobile application management (MAM) without enrollment scenario.
 
@@ -102,8 +102,8 @@ After you set up Intune in your organization, you can create a WIP-specific poli
 
 4.  Type the name of the app and the name of its publisher, and then choose **OK**.
 
-	> [!TIP]
-	> Here’s an app example, where the **Publisher** is *CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US* and the Product **name** is *Microsoft.MicrosoftAppForWindows*.
+    > [!TIP]
+    > Here’s an app example, where the **Publisher** is *CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US* and the Product **name** is *Microsoft.MicrosoftAppForWindows*.
 
 5.  After you’ve entered the info into the fields, choose **OK** to add the app to your **Allowed apps** list.
 
@@ -138,27 +138,27 @@ We recommend that you start with **Silent** or **Allow Overrides** while verifyi
 #### What the protection modes are?
 
 - **Hide Overrides:**
-	- WIP looks for inappropriate data sharing practices and stops the user from completing the action.
-	- This can include sharing info across non-corporate-protected apps, and sharing corporate data between other people and devices outside of your organization.
+    - WIP looks for inappropriate data sharing practices and stops the user from completing the action.
+    - This can include sharing info across non-corporate-protected apps, and sharing corporate data between other people and devices outside of your organization.
 <br></br>
 
 - **Allow Overrides:**
-	- WIP looks for inappropriate data sharing, warning users if they do something deemed potentially unsafe.
-	- However, this mode lets the user override the policy and share the data, logging the action to your audit log.
+    - WIP looks for inappropriate data sharing, warning users if they do something deemed potentially unsafe.
+    - However, this mode lets the user override the policy and share the data, logging the action to your audit log.
 <br></br>
 - **Silent:**
-	- WIP runs silently, logging inappropriate data sharing, without blocking anything that would’ve been prompted for employee interaction while in Allow Override mode.
-	- Unallowed actions, like apps inappropriately trying to access a network resource or WIP-protected data, are still stopped.
+    - WIP runs silently, logging inappropriate data sharing, without blocking anything that would’ve been prompted for employee interaction while in Allow Override mode.
+    - Unallowed actions, like apps inappropriately trying to access a network resource or WIP-protected data, are still stopped.
 <br></br>
 - **Off (not recommended):**
-	- WIP is turned off and doesn't help to protect or audit your data.
-	- After you turn off WIP, an attempt is made to decrypt any WIP-tagged files on the locally attached drives. Be aware that your previous decryption and policy info isn’t automatically reapplied if you turn WIP protection back on.
+    - WIP is turned off and doesn't help to protect or audit your data.
+    - After you turn off WIP, an attempt is made to decrypt any WIP-tagged files on the locally attached drives. Be aware that your previous decryption and policy info isn’t automatically reapplied if you turn WIP protection back on.
 
 ### To add a protection mode
 
 1.  From the **App policy** blade, choose the name of your policy, then click **Required settings** from the **Add Policy** blade.
 
-	![Learning Mode screen-shot](../media/AppManagement/learning-mode-sc1.png)
+    ![Learning Mode screen-shot](../media/AppManagement/learning-mode-sc1.png)
 
 1.  Choose **Save**.
 
@@ -184,6 +184,6 @@ After you created your WIP app protection policy, you need to deploy it to your 
 
 1.  On the **App policy** blade, choose your newly-created app protection policy, choose **User groups**, then choose **Add user group**.
 
-	A list of user groups, made up of all the security groups in your Azure Active Directory, opens in the **Add user group** blade.
+    A list of user groups, made up of all the security groups in your Azure Active Directory, opens in the **Add user group** blade.
 
 1.  Choose the group you want your policy to apply to, then click **Select** to deploy the policy.

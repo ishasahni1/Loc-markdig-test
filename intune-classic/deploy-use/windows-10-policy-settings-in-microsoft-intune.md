@@ -28,7 +28,7 @@ ms.custom: intune-classic
 
 # Intune policy settings for Windows 10 devices in Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 This topic contains information to help you to understand the Intune policy settings that you can use to manage Windows 10 devices. Read this topic alongside the procedures in [Manage settings and features on your-devices with Microsoft Intune policies](/intune-classic/get-started/windows-pc-management-capabilities-in-microsoft-intune).
 
@@ -52,12 +52,12 @@ For each OMA-URI setting you want to add, enter the following information:
 - **Setting name**: Enter a unique name for the OMA-URI setting to help you identify it in the list of settings. You can find more information about URI settings at [Policy Configuration Service Provider (Policy CSP)](https://technet.microsoft.com/itpro/windows/manage/how-it-pros-can-use-configuration-service-providers).
 - **Setting description**: Optionally, enter a description for the setting.
 - **Data type**: Choose from the following data types:
-	- **String**
-	- **String (XML)**
-	- **Date and time**
-	- **Integer**
-	- **Floating point**
-	- **Boolean**
+    - **String**
+    - **String (XML)**
+    - **Date and time**
+    - **Integer**
+    - **Floating point**
+    - **Boolean**
 - **OMA-URI (case sensitive)**: Specify the OMA-URI you want to supply a setting for.
 - **Value**: Specify the value to associate with the OMA-URI that you entered.
 

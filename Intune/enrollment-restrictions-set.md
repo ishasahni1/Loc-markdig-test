@@ -28,7 +28,7 @@ ms.custom: intune-azure
 
 # Set enrollment restrictions
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 As an Intune administrator, you can create and manage enrollment restrictions which define the number and types of devices that can enroll into management with Intune. You can create multiple restrictions and apply them to different user groups. You can set the [priority order](#change-enrollment-restriction-priority) for your different restrictions.
 
@@ -82,10 +82,10 @@ You can change the settings for a device type restriction by following these ste
 5. Under the restriction name (**All Users** for the default restriction), select **Platforms**. Choose **Allow** or **Block** for each platform listed.
 6. Click **Save**.
 7. Under the restriction name (**All Users** for the default restriction), select **Platform Configurations** and select the minimum and maximum **Versions** for the platforms listed. Supported versions include:
-  - Android and Android for Work support major.minor.rev.build.
-  - iOS supports major.minor.rev.
-  - Windows supports major.minor.rev.build for Windows 10 only.
-  Operating system versions don't apply to Apple devices enrolling with Device Enrollment Program, Apple School Manager, or the Apple Configurator app. 
+   - Android and Android for Work support major.minor.rev.build.
+   - iOS supports major.minor.rev.
+   - Windows supports major.minor.rev.build for Windows 10 only.
+   Operating system versions don't apply to Apple devices enrolling with Device Enrollment Program, Apple School Manager, or the Apple Configurator app. 
 8. Specify whether to **Allow** or **Block** **Personally owned** devices for each platform listed.
 
     ![Screenshot of the device restrictions workspace with the default device platform configurations showing personally owned settings configured.](media/device-restrictions-platform-configurations.png)

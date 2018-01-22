@@ -30,7 +30,7 @@ ms.custom: intune-azure
 # Remotely restart devices with Intune
 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 The **Restart** device action causes the device you choose to be restarted. The device owner is not automatically notified of the restart, therefore might lose work.
 

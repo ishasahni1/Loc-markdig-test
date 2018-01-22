@@ -67,22 +67,22 @@ Xamarin apps built with the Intune App SDK Xamarin Component can now receive Int
 
 ## Get started
 
-1.	Download **Xamarin-component.exe** from [here](https://components.xamarin.com/submit/xpkg) and extract it.
+1.  Download **Xamarin-component.exe** from [here](https://components.xamarin.com/submit/xpkg) and extract it.
 
 2. Read the [license terms](https://components.xamarin.com/license/microsoft.intune.mam) for the Microsoft Intune MAM Xamarin Component.
 
-3.	Download the Intune App SDK Xamarin Component folder from [GitHub](https://github.com/msintuneappsdk/intune-app-sdk-xamarin) or [Xamarin](https://components.xamarin.com/license/microsoft.intune.mam) and extract it. Both files downloaded from step 1 and step 3 should be in the same directory level.
+3.  Download the Intune App SDK Xamarin Component folder from [GitHub](https://github.com/msintuneappsdk/intune-app-sdk-xamarin) or [Xamarin](https://components.xamarin.com/license/microsoft.intune.mam) and extract it. Both files downloaded from step 1 and step 3 should be in the same directory level.
 
-4.	In the command line as an administrator, run `Xamarin.Component.exe install <.xam> file`.
+4.  In the command line as an administrator, run `Xamarin.Component.exe install <.xam> file`.
 
-5.	In Visual Studio, right-click **components** in your previously created Xamarin project.
+5.  In Visual Studio, right-click **components** in your previously created Xamarin project.
 
-6.	Select **Edit Components** and add the Intune App SDK component you’ve downloaded locally to your computer.
+6.  Select **Edit Components** and add the Intune App SDK component you’ve downloaded locally to your computer.
 
 
 
 ## Enabling Intune app protection polices in your iOS mobile app
-1.	In order to initialize the Intune App SDK, you need to make a call for any API in the `AppDelegate.cs` class. For example:
+1.  In order to initialize the Intune App SDK, you need to make a call for any API in the `AppDelegate.cs` class. For example:
 
       ```csharp
       public override bool FinishedLaunching (UIApplication application, NSDictionary launchOptions)
@@ -93,7 +93,7 @@ Xamarin apps built with the Intune App SDK Xamarin Component can now receive Int
 
       ```
 
-2.	Now that the component is added and initialized, you can follow the general steps required for building the App SDK into an iOS mobile app. You can find the full documentation for enabling native iOS apps in the [Intune App SDK for iOS Developer Guide](app-sdk-ios.md).
+2.  Now that the component is added and initialized, you can follow the general steps required for building the App SDK into an iOS mobile app. You can find the full documentation for enabling native iOS apps in the [Intune App SDK for iOS Developer Guide](app-sdk-ios.md).
 3. **Important**: There are several modifications specific to Xamarin-based iOS apps. For instance, when enabling keychain groups, you need to add the following to include the Xamarin sample app we included in the component. Below is an example of the groups you would need to have in your Keychain Access groups:
 
       ```xml
@@ -119,15 +119,15 @@ For Xamarin-based Android apps not using a UI framework, you need to read and fo
 
 For Xamarin Forms and other UI frameworks, we have provided a tool called `MAM.Remapper`. The tool accomplishes the class replacement for you. However, you need to do the following steps:
 
-1.  Add a reference to the `Microsoft.Intune.MAM.Remapper.Tasks` NuGet package version 0.1.0.0 or greater.
+1. Add a reference to the `Microsoft.Intune.MAM.Remapper.Tasks` NuGet package version 0.1.0.0 or greater.
 
-2.  Add the following line to your Android csproj:
-  ```xml
-  <Import
-  Project="$(NugetPack)\\Microsoft.Intune.MAM.Remapper.Tasks.0.1.X.X\\build\\MonoAndroid10\\Microsoft.Intune.MAM.Remapper.targets" />
-  ```
+2. Add the following line to your Android csproj:
+   ```xml
+   <Import
+   Project="$(NugetPack)\\Microsoft.Intune.MAM.Remapper.Tasks.0.1.X.X\\build\\MonoAndroid10\\Microsoft.Intune.MAM.Remapper.targets" />
+   ```
 
-3.  Set the build action of the added `remapping-config.json` file to **RemappingConfigFile**. The included `remapping-config.json` only works with Xamarin.Forms. For other UI frameworks, refer to the Readme included with the Remapper NuGet package.
+3. Set the build action of the added `remapping-config.json` file to **RemappingConfigFile**. The included `remapping-config.json` only works with Xamarin.Forms. For other UI frameworks, refer to the Readme included with the Remapper NuGet package.
 
 ## Next steps
 

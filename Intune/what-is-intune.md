@@ -31,7 +31,7 @@ ms.custom:
 # Introduction to Microsoft Intune in the Azure portal
 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Microsoft Intune is now in the Azure portal, meaning that the workflows and functionality you are used to are now different.
 The new portal offers you new and updated functionality in the Azure portal where you can manage your organization's mobile devices, PCs, and apps.

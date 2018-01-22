@@ -28,7 +28,7 @@ ms.custom: intune-classic
 
 # Configure Android for Work apps with mobile app configuration policies in Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Use mobile app configuration policies in Microsoft Intune to supply settings that might be required when users run an app. For example, an app might require users to specify:
 
@@ -56,8 +56,8 @@ You deploy the app configuration policy to the same users to whom you have deplo
 3.  In the **General** section of the **Create Policy** page, supply a name and an optional description for the mobile app configuration policy.
 
 4. In the **Mobile App Configuration Policy** section of the page, specify the following information:
-	- **Package ID for the application that this configuration applies to** - The package ID can be found in the 'id=' section of the app URL on it's Google Play page. For example, the package ID for the Microsoft Excel app is **com.microsoft.office.excel**.
-	- In the text box, enter the data for the app settings you want to configure. You get these settings from the supplier of the app. Not all apps support these settings.
+    - **Package ID for the application that this configuration applies to** - The package ID can be found in the 'id=' section of the app URL on it's Google Play page. For example, the package ID for the Microsoft Excel app is **com.microsoft.office.excel**.
+    - In the text box, enter the data for the app settings you want to configure. You get these settings from the supplier of the app. Not all apps support these settings.
 5.  Click **Validate** to ensure that the data that you entered is in a valid property list format.
 
     > [!IMPORTANT]

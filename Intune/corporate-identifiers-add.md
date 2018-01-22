@@ -28,7 +28,7 @@ ms.custom: intune-azure
 
 # Identify devices as corporate-owned
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 As an Intune admin, you can identify devices as corporate-owned to refine management and identification. Intune can perform additional management tasks and collect additional information such as the full phone number and an inventory of apps from corporate-owned devices. You can also set device restrictions to block enrollment by devices that aren't corporate-owned.
 
@@ -76,7 +76,7 @@ This .csv file when viewed in a text editor appears as:
 
 1. In Intune in the Azure portal, choose **Device enrollment** > **Corporate Device Identifiers**, and then click **Add**.
 
- ![Screenshot of the corporate device identifier workspace with the Add button highlighted.](./media/add-corp-id.png)
+   ![Screenshot of the corporate device identifier workspace with the Add button highlighted.](./media/add-corp-id.png)
 
 2. In the **Add Identifiers** blade, specify the identifier type: **IMEI** or **Serial**. You can specify whether previously imported numbers should **Overwrite details for existing identifiers**.
 
@@ -101,7 +101,7 @@ Devices properties display **Ownership** for each device records in Intune. As a
 
 **To change device ownership:**
 1. In Intune in the Azure portal, go **Devices** > **All devices**, and choose the device.
-3. Choose **Properties**.
-4. Specify **Device ownership** as **Personal** or **Corporate**.
+2. Choose **Properties**.
+3. Specify **Device ownership** as **Personal** or **Corporate**.
 
-  ![Screenshot of device properties showing Device category and Device ownership options.](./media/device-properties.png)
+   ![Screenshot of device properties showing Device category and Device ownership options.](./media/device-properties.png)

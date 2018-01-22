@@ -28,7 +28,7 @@ ms.custom: intune-azure
 
 # Multi-factor authentication for Intune device enrollments
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Intune can use Azure Active Directory (AD) multi-factor authentication (MFA) for device enrollment to help you secure your corporate resources.
 
@@ -65,7 +65,7 @@ To require MFA when a device is enrolled, follow these steps:
 12. In **Conditions**, you do not need to configure any settings for MFA.
 13. In the **Access controls** section, choose **Grant**.
 14. In **Grant**, choose **Grant access**, and then select **Require multi-factor authentication**.
-	Do not select **Require device to be marked as compliant** because a device cannot be evaluated for compliance until it is enrolled.
+    Do not select **Require device to be marked as compliant** because a device cannot be evaluated for compliance until it is enrolled.
 15. Choose **Select**.
 16. In **New policy**, choose **Enable policy** > **On**, and then choose **Create**.
 

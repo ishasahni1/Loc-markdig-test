@@ -28,7 +28,7 @@ ms.custom: intune-azure
 
 # Add app configuration policies for managed iOS devices
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Use app configuration policies in Microsoft Intune to supply settings when users run an iOS app. You do not assign these policies directly to users and devices. Instead, you associate a policy with an app, and then assign the app. The policy settings are used when the app checks for them, typically the first time it is run.
 
@@ -54,8 +54,8 @@ Use app configuration policies in Microsoft Intune to supply settings when users
     - **Device enrollment type**<br>
       Choose **Managed devices**.
 6. Select **iOS** for **Platform**.
-7.	Choose **Associated App**. Then, on the **Associated App** blade, choose the managed app to which you want to apply the configuration.
-8.	On the **Add Configuration Policy** blade, choose **Configuration settings**.
+7.  Choose **Associated App**. Then, on the **Associated App** blade, choose the managed app to which you want to apply the configuration.
+8.  On the **Add Configuration Policy** blade, choose **Configuration settings**.
 9. Select **Configuration settings format**. Select one of the following:
     - **[Use configuration designer](#Use-the-configuration-designer)**
     - **[Enter XML data](#enter-xml-data)**

@@ -28,7 +28,7 @@ ms.custom: intune-classic
 
 # Multi-factor authentication for Intune device enrollments
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Intune integrates Azure AD multi-factor authentication (MFA) for device enrollment to help you secure your corporate resources.
 
@@ -52,12 +52,12 @@ To require MFA when a device is enrolled, follow these steps:
 3. Choose **Microsoft Intune enrollment**.
 4. Choose **Configure**. 
 5. Under **multi-factor authentication and location-based access rules** you can:
-	
-	-  Enable the access rules
-	-  Choose whether to apply the rules to all users or to specific Azure AD security groups.
-	-  Require multi-factor authentication for enrollment of all devices.
-	-  Require multi-factor authentication for enrollment when the device is not at work.
-	-  Choose **Block access to corporate resources** to prevent enrollment of a device when it is not connected to the corporate network. 
+    
+    -  Enable the access rules
+    -  Choose whether to apply the rules to all users or to specific Azure AD security groups.
+    -  Require multi-factor authentication for enrollment of all devices.
+    -  Require multi-factor authentication for enrollment when the device is not at work.
+    -  Choose **Block access to corporate resources** to prevent enrollment of a device when it is not connected to the corporate network. 
 4. You can also click the link to **define/edit your work network location**, to configure network connectivity requirements for device enrollment.
 
 > [!IMPORTANT]

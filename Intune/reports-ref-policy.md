@@ -85,12 +85,14 @@ The **UserConfigurationProfileDeviceActivity** entity lists the number of users 
 
 The **PolicyTypeActivity** entity lists the cumulative number of devices in the succeeded, pending, failed, or error state. It lists these states with respect to a device configuration profile, app configuration profile, or compliance policy per day.
 
-| Property  | Description | Example |
-|---------|------------|--------|
-| DateKey |Date Key when the device Configuration profile check-in was recorded in the data warehouse. |20160703 |
-| PolicyKey |Policy Key, can be joined with Policy to get the policyName. |Windows 10 baseline |
-| PolicyTypeKey |Type of Policy Key,  can be joined with Policy Type to get the policy type name. |Windows10 Compliance Policy |
-| Pending |Number of unique devices in pending state. |123 |
-| Succeeded |Number of unique devices in success state. |12 |
-| Error |Number of unique devices in error state. |10 |
-| Fail- |Number of unique devices in failed state. |2 |
+
+|   Property    |                                         Description                                         |           Example           |
+|---------------|---------------------------------------------------------------------------------------------|-----------------------------|
+|    DateKey    | Date Key when the device Configuration profile check-in was recorded in the data warehouse. |          20160703           |
+|   PolicyKey   |                Policy Key, can be joined with Policy to get the policyName.                 |     Windows 10 baseline     |
+| PolicyTypeKey |      Type of Policy Key,  can be joined with Policy Type to get the policy type name.       | Windows10 Compliance Policy |
+|    Pending    |                         Number of unique devices in pending state.                          |             123             |
+|   Succeeded   |                         Number of unique devices in success state.                          |             12              |
+|     Error     |                          Number of unique devices in error state.                           |             10              |
+|     Fail-     |                          Number of unique devices in failed state.                          |              2              |
+

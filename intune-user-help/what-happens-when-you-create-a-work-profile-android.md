@@ -4,14 +4,17 @@
 title: What happens when you create a work profile | Microsoft Docs
 description: Describes how to encrypt an Android device
 keywords:
-author: barlanmsftms.author: barlan
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 03/16/2017
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
 ms.technology:
-ms.assetid: b217da11-2cd7-49ab-a91f-2f6d7784c6b6searchScope: - User help
+ms.assetid: b217da11-2cd7-49ab-a91f-2f6d7784c6b6
+searchScope:
+ - User help
 
 # optional metadata
 
@@ -40,7 +43,7 @@ When you create a work profile:
 
 - Work app icons have a “badge” that looks like a white briefcase inside a red circle, as shown below. Personal app icons don’t show the briefcase, and will look the same as they do now.
 
-	![Android Play Store for Work](./media/afw-google-play-store-for-work.png)
+    ![Android Play Store for Work](./media/afw-google-play-store-for-work.png)
 
 - Your company or school owns your work profile, so your company support can install or remove work apps or your profile, but not your personal apps or data.
 - Your company support cannot reset or wipe your device.

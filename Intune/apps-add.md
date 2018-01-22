@@ -28,7 +28,7 @@ ms.custom: intune-azure
 
 # How to add an app to Microsoft Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Before you can manage and assign apps for your users, you must add them to Intune. Intune supports a wide range of different app types, and the options might be different for each type.
 
@@ -78,8 +78,8 @@ When you add an app to Intune, you are given the option to select the category y
 3. On the **Intune** blade, choose **Mobile apps**.
 4. In the **Mobile apps** workload, choose **Setup** > **App categories**.
 5. On the **App categories** blade, a list of the current categories is shown. Choose one of the following actions:
-	- **Create a category** - On the **Create category** blade, enter a name for the new category. Names can be entered in one language only, and are not translated by Intune. When you are done, click **Create**.
-	- **Edit a category** - For any category in the list, choose '**...**'. On the **Properties** blade, you can enter a new name for the category, or delete the category.
+    - **Create a category** - On the **Create category** blade, enter a name for the new category. Names can be entered in one language only, and are not translated by Intune. When you are done, click **Create**.
+    - **Edit a category** - For any category in the list, choose '**...**'. On the **Properties** blade, you can enter a new name for the category, or delete the category.
 
 
 ## Apps added automatically by Intune

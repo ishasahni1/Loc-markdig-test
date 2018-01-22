@@ -4,14 +4,17 @@
 title: How to protect your Windows device with encryption | Microsoft Docs
 description: Describes how to encrypt a Windows device
 keywords:
-author: barlanmsftms.author: barlan
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 01/23/2017
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
 ms.technology:
-ms.assetid: 8d022ea7-d9b6-43c4-adcd-4f6421606a7fsearchScope: - User help
+ms.assetid: 8d022ea7-d9b6-43c4-adcd-4f6421606a7f
+searchScope:
+ - User help
 
 # optional metadata
 

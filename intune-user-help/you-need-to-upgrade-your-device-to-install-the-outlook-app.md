@@ -3,14 +3,17 @@
 title: You need to upgrade your device | Microsoft Docs
 description:
 keywords:
-author: barlanmsftms.author: barlan
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 01/03/2017
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
 ms.technology:
-ms.assetid: ccb7451e-5ffc-4604-b28e-8322cc64c58csearchScope: - User help
+ms.assetid: ccb7451e-5ffc-4604-b28e-8322cc64c58c
+searchScope:
+ - User help
 
 # optional metadata
 

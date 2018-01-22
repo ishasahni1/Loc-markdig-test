@@ -29,7 +29,7 @@ ms.custom: intune-azure
 
 # Shared device configuration settings to display messages on the iOS device lock screen
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Shared device configuration settings let you specify optional text displayed on the login window and lock screen. For example, you can enter an "If Lost, Return to" message and Asset Tag Information. 
 
@@ -40,9 +40,9 @@ Shared device configuration settings let you specify optional text displayed on 
 
 1. On the **Device features** blade, choose **Shared Device Configuration (supervised only)**.
 2. On the **Shared Device Configuration (supervised only)** blade, configure the following settings:
-	- **Asset tag information** - Enter information about the asset tag of the device. For example: **Owned by Contoso Corp**.
-	The information you enter is applied to all devices you assign this profile to.
-	- **Lock screen footnote** - If the device is lost or stolen, enter a note that might help get the device returned. For example: **If found, call 'number'**.
+    - **Asset tag information** - Enter information about the asset tag of the device. For example: **Owned by Contoso Corp**.
+    The information you enter is applied to all devices you assign this profile to.
+    - **Lock screen footnote** - If the device is lost or stolen, enter a note that might help get the device returned. For example: **If found, call 'number'**.
 3. When you are finished, choose **OK** until you return to the **Create Profile** blade, then choose **Create**. 
 
 

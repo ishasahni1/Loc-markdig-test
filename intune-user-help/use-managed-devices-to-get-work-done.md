@@ -73,10 +73,10 @@ To learn about what your company support can and can't see on your device, use t
 -   Apple devices using iOS (such as iPhone and iPad) and macOS (such as MacBook and iMac)
 -   Android devices
 -   Windows devices
-	-   Windows 10 Mobile
-	-   Windows 10 Desktop
-	-   Windows Phone 8.1
-	-   Windows 8.1
+    -   Windows 10 Mobile
+    -   Windows 10 Desktop
+    -   Windows Phone 8.1
+    -   Windows 8.1
 
 ## Can you remove a computer or device from the Company Portal?
 You can either remove or reset a computer or device from the Company Portal. There is a difference between **remove** and **reset**.

@@ -34,7 +34,7 @@ You need to follow the steps below to integrate the Zimperium Mobile Threat Defe
 ## Before you begin
 
 > [!NOTE]
-> The steps below need to be taken in the [Zimperium MTD console](https://staging2-console.zimperium.com).
+> The steps below need to be taken in the [Zimperium MTD console](https://staging2-console.zimperium.com).
 
 Before starting the process of integrating Zimperium with Intune, make sure you have the following:
 
@@ -66,24 +66,24 @@ The Zimperium app authorization process consists of the following:
 
 ## To set up Zimperium integration
 
-1.  Go to [Zimperium MTD console](https://staging2-console.zimperium.com) and sign in with your credentials.
+1.  Go to [Zimperium MTD console](https://staging2-console.zimperium.com) and sign in with your credentials.
 
 2.  Choose **Management** from the left menu.
 
-3.  Choose the **MDM settings** tab.
+3.  Choose the **MDM settings** tab.
 
 4.  Choose **Add MDM,** then select **Microsoft Intune** from the **MDM provider** list.
 
-5.  Once you set Microsoft Intune as the MDM service, the **Microsoft Intune Configuration** window pops up, choose the **Add Azure Active Directory** for each option: **Zimperium zConsole**, **zIPS iOS and Android apps** to authorize Zimperium to communicate with Intune and Azure AD through Azure AD Single Sign-On.
+5.  Once you set Microsoft Intune as the MDM service, the **Microsoft Intune Configuration** window pops up, choose the **Add Azure Active Directory** for each option: **Zimperium zConsole**, **zIPS iOS and Android apps** to authorize Zimperium to communicate with Intune and Azure AD through Azure AD Single Sign-On.
 
-	> [!IMPORTANT]
-	> You must add the Zimperium zConsole, zIPS iOS and Android apps to complete to the integration process with Intune.
+    > [!IMPORTANT]
+    > You must add the Zimperium zConsole, zIPS iOS and Android apps to complete to the integration process with Intune.
 
-6.  Choose **Accept** to authorize the Zimperium app to communicate with Intune and Azure Active Directory.
+6.  Choose **Accept** to authorize the Zimperium app to communicate with Intune and Azure Active Directory.
 
 7.  Once you added the **Zimperium zConsole** and the **zIPS iOS and Android** apps to Azure AD, you need to add the Azure AD security groups so Zimperium can synchronize the Azure AD security group with its service.
 
-8.  Choose **Finish** to save the configuration and start the first Azure AD security group synchronization.
+8.  Choose **Finish** to save the configuration and start the first Azure AD security group synchronization.
 
 ## Next steps
 

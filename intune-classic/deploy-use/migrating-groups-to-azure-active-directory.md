@@ -28,7 +28,7 @@ ms.custom: intune-classic
 
 # A new way of using groups in Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 We've heard your feedback and are making some changes to how you work with groups in Microsoft Intune.
 We are in the process of migrating all of our customers Intune groups to Azure Active Directory security groups.
@@ -50,17 +50,17 @@ Some existing capabilities of Intune groups are not available in Azure AD:
 
 - The **Ungrouped Users** and **Ungrouped Devices** Intune groups won't be migrated.
 - The option to **Exclude specific members** from a group that currently exists in the Intune console does not exist in the Azure portal. However, you can use an Azure AD security group with advanced rules to replicate this behavior. For example, you could create an advanced rule that includes all people in your Sales department in a security group, but not those who have the word "Assistant" in their title, by using this advanced rule:
- `(user.department -eq "Sales") -and -not (user.jobTitle -contains "Assistant")`.
+  `(user.department -eq "Sales") -and -not (user.jobTitle -contains "Assistant")`.
 - The **All Exchange ActiveSync Managed Devices** group that's built-in to the Intune console will not be migrated to Azure AD. However, you can still access information about EAS managed devices from the Azure portal.
 - You won't be able to filter reports by groups in the classic Intune console.
-<!--- - Custom group targeting of notification rules will not be available. ROB I took this out as I couldn't replicate the behavior. --->
+  <!--- - Custom group targeting of notification rules will not be available. ROB I took this out as I couldn't replicate the behavior. --->
 
 ## How to get ready
 
 - Read the following Azure AD topics to learn about Azure AD security groups and how they work:
-	-  [Managing access to resources with Azure Active Directory groups](https://azure.microsoft.com/documentation/articles/active-directory-manage-groups/).
-	-  [Managing groups in Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-manage-groups/).
-	-  [Using attributes to create advanced rules](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/).
+    -  [Managing access to resources with Azure Active Directory groups](https://azure.microsoft.com/documentation/articles/active-directory-manage-groups/).
+    -  [Managing groups in Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-manage-groups/).
+    -  [Using attributes to create advanced rules](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/).
 - Consider removing any Intune groups you no longer use before you migrate.
 -  Make sure that any admins who need to create groups are added to the **Intune Service Administrator** Azure AD role. Note that the Azure AD Service Admin role does not have **Manage Group** permissions.
 -  If you use groups with the option **Exclude specific members**, consider whether you can redesign these groups to not need exclusions, or whether you can use advanced rules in your Azure AD query to achieve the same result.

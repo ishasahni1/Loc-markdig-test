@@ -29,7 +29,7 @@ ms.custom: intune-azure
 
 # How to configure Wi-Fi settings in Microsoft Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Use Microsoft Intune Wi-Fi profiles to assign wireless network settings to users and devices in your organization. When you assign a Wi-Fi profile, your users will have access to your corporate Wi-Fi network without having to configure it themselves.
 
@@ -59,17 +59,17 @@ Use the information in this topic to learn the basics about configuring a Wi-Fi 
 3. On the profiles blade, choose **Create Profile**.
 4. On the **Create Profile** blade, enter a **Name** and **Description** for the Wi-Fi profile.
 5. From the **Platform** drop-down list, select the device platform to which you want to apply Wi-Fi settings. Currently, you can choose one of the following platforms for Wi-Fi settings:
-	- **Android**
-	- **Android for Work**
-	- **iOS**
-	- **macOS**
-	- **Windows 8.1 and later (import a profile)**
+    - **Android**
+    - **Android for Work**
+    - **iOS**
+    - **macOS**
+    - **Windows 8.1 and later (import a profile)**
 6. From the **Profile** type drop-down list, choose **Wi-Fi basic** or **Wi-Fi enterprise**. You can use **Wi-fi basic** to supply basic features like the network name, and the SSID. **Wi-Fi enterprise** lets you supply more advanced information like the  Extensible Authentication Protocol (EAP) if your Wi-Fi network uses this. **Wi-Fi import** (for Windows 8.1 and Windows 10) lets you import Wi-Fi settings as an XML file that you previously exported from a different device.
 7. Depending on the platform you chose, the settings you can configure will be different. Go to one of the following topics for detailed settings for each platform:
-	- [Android and Android for Work settings](wi-fi-settings-android.md)
-	- [iOS settings](wi-fi-settings-ios.md)
-	- [macOS settings](wi-fi-settings-macos.md)
-	- [Windows Phone 8.1 settings](wi-fi-settings-import-windows-8-1.md)
+    - [Android and Android for Work settings](wi-fi-settings-android.md)
+    - [iOS settings](wi-fi-settings-ios.md)
+    - [macOS settings](wi-fi-settings-macos.md)
+    - [Windows Phone 8.1 settings](wi-fi-settings-import-windows-8-1.md)
 8. When you're done, go back to the **Create Profile** blade, and hit **Create**.
 
 The profile will be created and appears on the profiles list blade.

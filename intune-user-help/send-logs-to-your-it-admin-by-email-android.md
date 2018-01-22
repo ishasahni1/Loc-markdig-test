@@ -4,14 +4,17 @@
 title: Send logs to your company support by email | Microsoft Docs
 description: Send data logs by using email on an Android device
 keywords:
-author: barlanmsftms.author: barlan
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 03/16/2017
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
 ms.technology:
-ms.assetid: 85c868e7-8d63-480c-9770-4e99614a5c94searchScope: - User help
+ms.assetid: 85c868e7-8d63-480c-9770-4e99614a5c94
+searchScope:
+ - User help
 
 # optional metadata
 
@@ -39,8 +42,8 @@ To send logs to your company support using email:
 
 2.  Tap **Menu** >  **Help and Feedback**.
 
-	> [!NOTE]
-	> **Menu** could be a software button or a hardware button, depending on which Android device you have.
+    > [!NOTE]
+    > **Menu** could be a software button or a hardware button, depending on which Android device you have.
 
 3.  Under **Help**, tap **Get Help**.
 

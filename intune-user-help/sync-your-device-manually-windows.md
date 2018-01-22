@@ -12,7 +12,9 @@ ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
 ms.technology:
-ms.assetid: 443c6de7-5187-4dc4-b844-6085a0c659bdsearchScope: - User help
+ms.assetid: 443c6de7-5187-4dc4-b844-6085a0c659bd
+searchScope:
+ - User help
 
 # optional metadata
 
@@ -52,13 +54,13 @@ There is more than one version of Windows 10, so there are two sets of steps. To
 
 3. Look at the next two screens, and find the one that looks like the one you see on your device. Follow the steps that go with the screen that you see on your device.
 
-	If you see this screen, which shows "Access work or school," follow the instructions in [Steps to follow if you see Access work or school](#steps-to-follow-if-you-see-access-work-or-school).
+    If you see this screen, which shows "Access work or school," follow the instructions in [Steps to follow if you see Access work or school](#steps-to-follow-if-you-see-access-work-or-school).
 
-	![Sync steps to follow if you see Access work or school](./media/w10-enroll-rs1-connect-to-work-or-school.png)
+    ![Sync steps to follow if you see Access work or school](./media/w10-enroll-rs1-connect-to-work-or-school.png)
 
-	If you see this screen, which shows "Work access," follow the steps in [Steps to follow if you see Work access](#steps-to-follow-if-you-see-work-access).
+    If you see this screen, which shows "Work access," follow the steps in [Steps to follow if you see Work access](#steps-to-follow-if-you-see-work-access).
 
-	![Choosing work access as the account type](./media/win10pc-sync-3-work-access.png)
+    ![Choosing work access as the account type](./media/win10pc-sync-3-work-access.png)
 
 ### Steps to follow if you see Access work or school
 
@@ -68,10 +70,10 @@ There is more than one version of Windows 10, so there are two sets of steps. To
 
 2. Choose your work or school account. Depending on how your company support has set things up, you might see two accounts that look similar to the example shown below. One account has a briefcase next to it, and the other has the Microsoft logo next to it.
 
-	- If you see the account with the briefcase, select it, and look for an **Info** button under it.
-	- If you see only the account with the Microsoft logo, select the account, and look for an **Info** button under it.
+   - If you see the account with the briefcase, select it, and look for an **Info** button under it.
+   - If you see only the account with the Microsoft logo, select the account, and look for an **Info** button under it.
 
-    ![Choose your account name next to the briefcase or Microsoft logo](./media/win10pc-rs1-sync-info-button.png)
+     ![Choose your account name next to the briefcase or Microsoft logo](./media/win10pc-rs1-sync-info-button.png)
 
 3. Choose the **Info** button. A dialog opens that looks similar to the example below.
 

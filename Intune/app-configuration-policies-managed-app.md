@@ -28,7 +28,7 @@ ms.custom: intune-azure
 
 # Add app configuration policies for managed apps without device enrollment
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 You can use app configuration policies with managed apps that support the Intune App SDK, even on devices that are not enrolled. 
 
@@ -43,7 +43,7 @@ You can use app configuration policies with managed apps that support the Intune
       The  description of the profile that will appear in the Azure portal.
     - **Device enrollment type**  
       Choose **Manage apps**.
-6. Select **Associated app** to choose the app that you are going to configure. Select the app from the list of apps that you have approved and synchronized with Intune.
+6. Select **Associated app** to choose the app that you are going to configure. Select the app from the list of apps that you have approved and synchronized with Intune.
 7. For each configuration setting that the app supports, type the **Name** and **Value**, and choose the ellipsis (**…**).  
     To delete a configuration, choose the ellipsis (**…**) and select **Delete**.  
     Intune App SDK-enabled apps support configurations in key/value pairs. To learn more about which key-value configurations are supported, consult the documentation for each app.  

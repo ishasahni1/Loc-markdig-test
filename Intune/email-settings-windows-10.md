@@ -29,9 +29,7 @@ ms.custom: intune-azure
 
 # Email profile settings for Windows 10 devices in Microsoft Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
-
-
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 - **Email server** - The host name of your Exchange server.
 - **Account name** - The display name for the email account as it will appear to users on their devices.
@@ -53,6 +51,6 @@ ms.custom: intune-azure
 ## Content sync settings
 
 - **Content type to sync** - Select the content types that you want to synchronize to devices from:
-	- **Contacts**
-	- **Calendar**
-	- **Tasks**
+    - **Contacts**
+    - **Calendar**
+    - **Tasks**

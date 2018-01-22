@@ -28,7 +28,7 @@ ms.custom: intune-azure
 
 # Use iOS mobile provisioning profiles to prevent your apps from expiring
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 ## Introduction
 
@@ -50,9 +50,9 @@ After the certificate expires, you must sign the app again with a new certificat
 1.  In the **Mobile apps** workload, choose **Manage** > **iOS provisioning profiles**.
 2.  In the list of profiles blade, choose **Create profile**.
 3. In the **Create profile** blade, configure the following values:
-	- **Name** - Provide a name for this mobile provisioning profile.
-	- **Description** - Optionally, provide a description for the policy.
-	- **Upload profile file** - Choose **Import**, and then choose an Apple Mobile Configuration Profile file (with the extension **.mobileprovision**) that you downloaded from the Apple Developer website.
+    - **Name** - Provide a name for this mobile provisioning profile.
+    - **Description** - Optionally, provide a description for the policy.
+    - **Upload profile file** - Choose **Import**, and then choose an Apple Mobile Configuration Profile file (with the extension **.mobileprovision**) that you downloaded from the Apple Developer website.
 4. When you are done, choose **Create**.
 
 ## Next steps

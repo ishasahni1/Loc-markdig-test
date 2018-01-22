@@ -27,7 +27,7 @@ ms.custom: intune-classic
 ---
 # What's new in the Intune classic portal - previous months
 
-[!INCLUDE[classic-portal](./includes/classic-portal.md)]
+[!INCLUDE [classic-portal](./includes/classic-portal.md)]
 
 This page lists new features and notices previously announced on the [What's new page](whats-new.md) for the Intune classic portal.
 
@@ -62,15 +62,15 @@ New, more specific error messages will now be displayed within the Company Porta
 #### Improved app install status for the Windows 10 Company Portal app <!--676495-->
 
 New improvements for app installs started in the Windows 10 Company Portal app include:
--	Faster install progress reporting for MSI packages
--	Faster install progress reporting for modern apps on devices running the Windows 10 Anniversary Update and beyond
--	New progress bar for modern app installs on devices running the Windows 10 Anniversary Update and beyond
+-   Faster install progress reporting for MSI packages
+-   Faster install progress reporting for modern apps on devices running the Windows 10 Anniversary Update and beyond
+-   New progress bar for modern app installs on devices running the Windows 10 Anniversary Update and beyond
 
 You can see the new progress bar on the [what's new in Intune app UI page](whats-new-app-ui.md).
 
 #### Bulk Enroll Windows 10 devices <!-- 747607 -->
 
-You can now join large numbers of devices that run the Windows 10 Creators update to Azure Active Directory and Intune with Windows Configuration Designer (WCD). To enable [bulk MDM enrollment](/intune-classic/deploy-use/bulk-enroll-windows) for your Azure AD tenant, create a provisioning package that joins devices to your Azure AD tenant using Windows Configuration Designer, and apply the package to corporate-owned devices you'd like to bulk enroll and manage. Once the package is applied to your devices, they will Azure AD join, enroll in Intune, and be ready for your Azure AD users to log on.  Azure AD users are standard users on these devices and receive assigned policies and required apps. Self-service and Company Portal scenarios are not supported at this time.
+You can now join large numbers of devices that run the Windows 10 Creators update to Azure Active Directory and Intune with Windows Configuration Designer (WCD). To enable [bulk MDM enrollment](/intune-classic/deploy-use/bulk-enroll-windows) for your Azure AD tenant, create a provisioning package that joins devices to your Azure AD tenant using Windows Configuration Designer, and apply the package to corporate-owned devices you'd like to bulk enroll and manage. Once the package is applied to your devices, they will Azure AD join, enroll in Intune, and be ready for your Azure AD users to log on.  Azure AD users are standard users on these devices and receive assigned policies and required apps. Self-service and Company Portal scenarios are not supported at this time.
 
 ### What's new in the public preview of Intune in the Azure portal<!--736542-->
 
@@ -106,7 +106,7 @@ After migration, you will need to re-upload the appx again as a PC appx if you w
 
 #### Administration roles being replaced in Azure portal
 
-The existing mobile application management (MAM) administration roles (Contributor, Owner, and Read-Only) used in the Intune classic portal (Silverlight) are being replaced with a full set of new role-based administration controls (RBAC) in the Intune Azure portal. Once you are migrated to the Azure portal, you will need to re-assign your admins to these new administration roles. For more information about RBAC and the new roles, see [Role-based access control for Microsoft Intune](role-based-access-control.md).
+The existing mobile application management (MAM) administration roles (Contributor, Owner, and Read-Only) used in the Intune classic portal (Silverlight) are being replaced with a full set of new role-based administration controls (RBAC) in the Intune Azure portal. Once you are migrated to the Azure portal, you will need to re-assign your admins to these new administration roles. For more information about RBAC and the new roles, see [Role-based access control for Microsoft Intune](role-based-access-control.md).
 
 ### What's coming
 
@@ -377,7 +377,7 @@ App developers can now use the Intune App SDK Xamarin component to enable MAM fu
 __Symantec signing certificate no longer requires signed Windows Phone 8 Company Portal for upload__
 Uploading the Symantec signing certificate will no longer require a signed Windows Phone 8 Company Portal app. The certificate can be uploaded independently.
 
-###Deprecations
+### Deprecations
 
 __Support for the Windows Phone 8 Company Portal__
 Support for Windows Phone 8 Company Portal will now be deprecated. Support for the Windows Phone 8 and WinRT platforms was deprecated in October 2016. Support for the Windows 8 Company Portal was also deprecated in October 2016.

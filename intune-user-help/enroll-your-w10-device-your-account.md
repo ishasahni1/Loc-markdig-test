@@ -33,10 +33,10 @@ ms.custom: intune-enduser
   > [!NOTE]
   > Windows 10 works across all types of devices. Whether you're using a desktop, phone, or tablet, the steps you follow are the same - even if they look slightly different from the images on this page.
 
-1.  Go to **Start**.
+1. Go to **Start**.
 
-  - If you are on a **Windows 10 desktop** device, go to the **Start menu**.
-  - If you are on a **Windows 10 Mobile** device, go to the **Start screen**, then swipe to the **All Apps** list.
+   - If you are on a **Windows 10 desktop** device, go to the **Start menu**.
+   - If you are on a **Windows 10 Mobile** device, go to the **Start screen**, then swipe to the **All Apps** list.
 
 2. Open the Windows **Settings** app by searching for "settings" in the search bar.
 
@@ -50,11 +50,11 @@ ms.custom: intune-enduser
 
 5. Select **Add a work or school account**.
 
-	![Select add a work or school account](./media/w10-enroll-3-add-work-school-acct.png)
+    ![Select add a work or school account](./media/w10-enroll-3-add-work-school-acct.png)
 
 6. Sign in with your work or school credentials.
 
-	![Sign in](./media/W10-enroll-4-sign-in.png)
+    ![Sign in](./media/W10-enroll-4-sign-in.png)
 
 Still can't access your work or school email, files, or other data? Try to fix your access by [troubleshooting issues with your account](troubleshoot-your-windows-10-device-windows.md#troubleshooting-steps-to-follow-if-you-see-your-account). If it still doesn't work, you'll need to contact your company support for further help.
 

@@ -30,7 +30,7 @@ ms.custom: intune-azure
 # Activate lost mode on iOS devices
 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 The **Lost mode** device action helps you enable lost mode on lost or stolen iOS devices. This mode lets you specify a message and a phone number that is displayed on the lock screen of the device.
 

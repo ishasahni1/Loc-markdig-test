@@ -4,14 +4,17 @@
 title: How to reconnect a compromised iOS device | Microsoft Docs
 description:
 keywords:
-author: barlanmsftms.author: barlan
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 03/16/2017
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
 ms.technology:
-ms.assetid: 09e97df0-d032-48ff-ab8a-8c2c4ec29897searchScope: - User help
+ms.assetid: 09e97df0-d032-48ff-ab8a-8c2c4ec29897
+searchScope:
+ - User help
 
 # optional metadata
 

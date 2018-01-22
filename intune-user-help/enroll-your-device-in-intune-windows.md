@@ -40,6 +40,6 @@ If your company or school uses Microsoft Intune, you can enroll your Windows dev
 
 To enroll, use the link that corresponds to the device that you are using:
 
--  [Windows 10 Mobile and Windows 10 desktop](enroll-your-w10-phone-or-w10-pc-windows.md)
--  [Windows 8.1 or Windows RT 8.1](enroll-your-w81-or-rt81-windows.md)
--  [Windows Phone 8.1](enroll-your-wp81-windows.md)
+-  [Windows 10 Mobile and Windows 10 desktop](enroll-your-w10-phone-or-w10-pc-windows.md)
+-  [Windows 8.1 or Windows RT 8.1](enroll-your-w81-or-rt81-windows.md)
+-  [Windows Phone 8.1](enroll-your-wp81-windows.md)

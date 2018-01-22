@@ -28,7 +28,7 @@ ms.custom: intune-classic
 
 # Troubleshoot company resource access problems with Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Use the error and status codes in this topic to help you troubleshoot problems when a Microsoft Intune action returns an error code.
 
@@ -43,7 +43,7 @@ If this information does not solve your problem, see [How to get support for Mic
 |30 (APP_CI_ENFORCEMENT_ERROR_RETRIEVING_CONTENT)|Retrieving content|Probable Cause: Job status 30 indicates that a user download of an app failed.<br /><br />Likely causes for this may be:<br /><br />The device lost Internet connectivity while the download was in progress.<br /><br />The certificate issued to the device at the time of enrollment may have expired.<br /><br />Mitigation:<br /><br />Launch the Company Apps app from Control Panel on the device to confirm that the device certificate hasn’t expired; if it has then you will need to re-enroll the device.<br /><br />Confirm that the device is connected to the Internet and try to request the app again.|
 |40 (APP_CI_ENFORCEMENT_IN_PROGRESS_CONTENT_DOWNLOADED)|Content download complete||
 |50 (APP_CI_ENFORCEMENT_IN_PROGRESS_INSTALLING)|Installation in progress||
-|60 (APP_CI_ENFORCEMENT_ERROR_INSTALLING)|Installation ​Error occurred|The app installation failed after download.<br /><br />The code signing certificate with which app was signed is not present on the device.<br /><br />A framework dependency on which the application depends is not found installed on the device.<br /><br />Ensure that the code signing certificate with which your app was signed is present on the device and confirm with the admin that such a certificate was targeted for all enterprise enrolled Windows RT devices.<br /><br />In case the installation failure is due to a missing framework dependency, the admin will have to re-publish the application again packaging the framework along with the application package.<br /><br />The application package downloaded isn’t a valid package, may have been corrupted, or may not be compatible with the OS version on the device.|
+|60 (APP_CI_ENFORCEMENT_ERROR_INSTALLING)|Installation  Error occurred|The app installation failed after download.<br /><br />The code signing certificate with which app was signed is not present on the device.<br /><br />A framework dependency on which the application depends is not found installed on the device.<br /><br />Ensure that the code signing certificate with which your app was signed is present on the device and confirm with the admin that such a certificate was targeted for all enterprise enrolled Windows RT devices.<br /><br />In case the installation failure is due to a missing framework dependency, the admin will have to re-publish the application again packaging the framework along with the application package.<br /><br />The application package downloaded isn’t a valid package, may have been corrupted, or may not be compatible with the OS version on the device.|
 |70 (APP_CI_ENFORCEMENT_SUCCEEDED)|Installation Success||
 |80 (APP_CI_ENFORCEMENT_IN_PROGRESS)|Uninstall in progress||
 |90 (APP_CI_ENFORCEMENT_ERROR)|Uninstall Error occurred||

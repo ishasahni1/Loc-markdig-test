@@ -39,17 +39,17 @@ You can add the following types of groups:
 
 Use the following steps to create a new group.
 1. In the Azure portal, go **Groups** and then choose **New group** in the **All groups** blade.
-  ![Screenshot of the Azure portal with New Group selected](./media/groups-add-new.png)
+   ![Screenshot of the Azure portal with New Group selected](./media/groups-add-new.png)
 2. Specify the **Name** and **Description** of the new group. These properties only appear in the management portal and are not displayed to users.
 
 3. Choose **Membership type**:
-  - **Assigned** to create group with manually assigned members. Learn more about [Azure AD assigned groups](https://docs.microsoft.com/azure/active-directory/active-directory-groups-create-azure-portal).
-  - **Dynamic User** to create a user group defined with a **Dynamic query**.
-  - **Dynamic Device** to create a device group defined with a **Dynamic query**.
+   - **Assigned** to create group with manually assigned members. Learn more about [Azure AD assigned groups](https://docs.microsoft.com/azure/active-directory/active-directory-groups-create-azure-portal).
+   - **Dynamic User** to create a user group defined with a **Dynamic query**.
+   - **Dynamic Device** to create a device group defined with a **Dynamic query**.
 
-  ![Screenshot of Intune group properties with Name, Description, Membership type, Enable Office features, and Members](./media/groups-add-properties.png)
+   ![Screenshot of Intune group properties with Name, Description, Membership type, Enable Office features, and Members](./media/groups-add-properties.png)
 
-  Azure AD lets you create dynamic groups based on rules that define membership. Learn to [create attribute-based dynamic groups](https://docs.microsoft.com/azure/active-directory/active-directory-groups-dynamic-membership-azure-portal).
+   Azure AD lets you create dynamic groups based on rules that define membership. Learn to [create attribute-based dynamic groups](https://docs.microsoft.com/azure/active-directory/active-directory-groups-dynamic-membership-azure-portal).
 
 4. You can select **Enable Office features** to give user group members access to shared Office 365 apps. Learn more about [Office 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 5. Choose **Create** to add the new group.

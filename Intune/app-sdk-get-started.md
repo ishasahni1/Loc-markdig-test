@@ -121,7 +121,7 @@ Microsoft Intune collects data on usage statistics for your app.
 
 * **Intune App SDK for Android**: Telemetry data is not logged through the SDK.
 
- iOS and Android line-of-business app version number is visible <!-- 1380712 -->
+  iOS and Android line-of-business app version number is visible <!-- 1380712 -->
 
 ## Line-of-business app version numbers
 
@@ -153,8 +153,8 @@ Build number|CFBundleVersion|PackageVersionCode |This number is used to indicate
 #### iOS
 
 - **CFBundleShortVersionString**  
-    Specifies the release version number of the bundle. This number identifies a released version of the app. The number is used by end users to reference the app.​
- - **CFBundleVersion**  
+    Specifies the release version number of the bundle. This number identifies a released version of the app. The number is used by end users to reference the app. 
+  - **CFBundleVersion**  
     The build version of the bundle, which identifies an iteration of the bundle. The number may be identify a release or unreleased bundle. The number is used for app detection.
 
 #### Android
@@ -171,9 +171,9 @@ After you finish the necessary steps to integrate your iOS or Android app with t
 
 * **Microsoft Intune test account**: To test your Intune-enlightened app against Intune app protection features, you will need a Microsoft Intune account.
 
-	* If you are an ISV enabling your iOS or Android store apps for Intune app protection policy, you will receive a promo code after you finish the registration with Microsoft Intune, as outlined in the registration step. The promo code will let you sign up for a Microsoft Intune trial for one year of extended use.
+    * If you are an ISV enabling your iOS or Android store apps for Intune app protection policy, you will receive a promo code after you finish the registration with Microsoft Intune, as outlined in the registration step. The promo code will let you sign up for a Microsoft Intune trial for one year of extended use.
 
-	* If you are developing a line-of-business app that will not be shipped to the store, you are expected to have access to Microsoft Intune through your organization. You can also sign up for a one-month free trial in [Microsoft Intune](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0).
+    * If you are developing a line-of-business app that will not be shipped to the store, you are expected to have access to Microsoft Intune through your organization. You can also sign up for a one-month free trial in [Microsoft Intune](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0).
 
 * **Intune app protection policies**: To test your app against all the Intune app protection policies, you should know what the expected behavior is for each policy setting. See the descriptions for [iOS app protection policies](/intune-classic/deploy-use/ios-mam-policy-settings) and [Android app protection policies](/intune-classic/deploy-use/android-mam-policy-settings).
 

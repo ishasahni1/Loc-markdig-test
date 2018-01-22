@@ -29,7 +29,7 @@ ms.custom: intune-azure
 
 # Create and deploy Windows Information Protection (WIP) app protection policy with Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Beginning with Intune 1704 release, you can use app protection policies with Windows 10 in to protect apps without device enrollment.
 
@@ -45,11 +45,11 @@ Let’s talk about a few concepts when adding a WIP policy.
 
 ### Types of apps
 
--   **Recommended apps:** a pre-populated list of (mostly Microsoft Office) apps that allow you easily import into policy. <!---I really don't know what you mean by "easily import into policy"--->
+- <strong>Recommended apps:</strong> a pre-populated list of (mostly Microsoft Office) apps that allow you easily import into policy. <!---I really don't know what you mean by "easily import into policy"--->
 
--   **Store apps:** You can add any app from the Windows store to the policy.
+- **Store apps:** You can add any app from the Windows store to the policy.
 
--   **Windows desktop apps:** You can add any traditional Windows desktop apps to the policy (for example, .exe, .dll)
+- **Windows desktop apps:** You can add any traditional Windows desktop apps to the policy (for example, .exe, .dll)
 
 ## Pre-requisites
 
@@ -62,7 +62,7 @@ Additionally, you need to have the following:
 
 > [!IMPORTANT]
 > WIP does not support multi-identity, only one managed identity can exist at a time.
-<!---Should you be linking to a topic that explains what multi-identity is?--->
+> <!---Should you be linking to a topic that explains what multi-identity is?--->
 
 ## To add a WIP policy
 
@@ -102,8 +102,8 @@ After you set up Intune in your organization, you can create a WIP-specific poli
 
 4.  Type the name of the app and the name of its publisher, and then choose **OK**.
 
-	> [!TIP]
-	> Here’s an app example, where the **Publisher** is *CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US* and the Product **name** is *Microsoft.MicrosoftAppForWindows*.
+    > [!TIP]
+    > Here’s an app example, where the **Publisher** is *CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US* and the Product **name** is *Microsoft.MicrosoftAppForWindows*.
 
 5.  After you’ve entered the info into the fields, choose **OK** to add the app to your **Allowed apps** list.
 
@@ -155,7 +155,7 @@ After you turn off WIP, an attempt is made to decrypt any WIP-tagged files on th
 
 1.  From the **App policy** blade, choose the name of your policy, then chose **Required settings**.
 
-	![Learning Mode screen-shot](./media/learning-mode-sc1.png)
+    ![Learning Mode screen-shot](./media/learning-mode-sc1.png)
 
 1.  Choose **Save**.
 
@@ -180,6 +180,6 @@ After you created your WIP app protection policy, you need to deploy it to your 
 
 1.  On the **App policy** blade, choose your newly created app protection policy, choose **User groups** > **Add user group**.
 
-	A list of user groups, made up of all the security groups in your Azure Active Directory, opens in the **Add user group** blade.
+    A list of user groups, made up of all the security groups in your Azure Active Directory, opens in the **Add user group** blade.
 
 1.  Choose the group you want your policy to apply to, then choose **Select** to deploy the policy.

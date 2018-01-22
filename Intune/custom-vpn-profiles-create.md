@@ -49,11 +49,11 @@ This type of policy can be useful when the standard Intune VPN policies do not c
 5. On the profiles blade, choose **Create Profile**.
 6. On the **Create Profile** blade, enter a **Name** and **Description** for the VPN profile.
 7. From the **Platform** drop-down list, select the device platform to which you want to apply VPN settings. Currently, you can choose one of the following platforms for custom device settings:
-	- **Android**
-	- **iOS** (configured using a file you exported from Apple Configurator).
-	- **macOS** (configured using a file you exported from Apple Configurator).
-	- **Windows Phone 8.1**
-	- **Windows 10 and later**
+    - **Android**
+    - **iOS** (configured using a file you exported from Apple Configurator).
+    - **macOS** (configured using a file you exported from Apple Configurator).
+    - **Windows Phone 8.1**
+    - **Windows 10 and later**
 6. From the **Profile** type drop-down list, choose **Custom**.
 7. On the **Custom OMA-URI Settings** blade, for each URI setting you want to specify, choose **Add**, provide the requested information, then choose **OK**. Here's an example:
 

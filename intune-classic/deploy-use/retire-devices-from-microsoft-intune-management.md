@@ -28,7 +28,7 @@ ms.custom: intune-classic
 
 # Retire devices from Intune management
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Whether devices are corporate-owned or personally owned, eventually a managed device needs to be removed from Intune management.
 
@@ -36,10 +36,10 @@ Devices are never removed from Intune without your intervention, even if the dev
 
 You might need to retire a device for a variety of reasons:
 
--	User leaves a company in a planned way (“managed” departure)
--	User leaves abruptly (gets fired, quits, etc.).
--	Loss of device
--	Repurpose of a device (move to another user, reuse for a different purpose, etc.)
+-   User leaves a company in a planned way (“managed” departure)
+-   User leaves abruptly (gets fired, quits, etc.).
+-   Loss of device
+-   Repurpose of a device (move to another user, reuse for a different purpose, etc.)
 
 You can do either a selective wipe or a full wipe on a device that's managed as a mobile device, or you can lock a device and reset its password. By wiping the device, you free up the user's subscription to add a different device. You can also retire PCs that are managed with the Intune client software.
 

@@ -29,7 +29,7 @@ ms.custom: intune-azure
 ---
 # Use custom policies to allow and block apps for Samsung KNOX Standard devices in Microsoft Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Use the procedures in this topic to create a Microsoft Intune custom policy that creates one of the following:
 
@@ -55,9 +55,9 @@ These settings can only be used by devices that run Samsung KNOX Standard.
 
 - **Name** - Enter **PreventStartPackages**.
 - **Description** - Enter an optional description like 'List of apps that are blocked from running.'
-- 	**Data type** - From the drop-down list, choose **String**.
-- 	**OMA-URI** - Enter **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/PreventStartPackages**
-- 	**Value** - Enter a list of the app package names you want to allow. You can use **; : ,** or **|** as a delimiter. (Example: package1;package2;)
+-   **Data type** - From the drop-down list, choose **String**.
+-   **OMA-URI** - Enter **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/PreventStartPackages**
+-   **Value** - Enter a list of the app package names you want to allow. You can use **; : ,** or **|** as a delimiter. (Example: package1;package2;)
 
 ### For a list of apps that users are allowed to install from the Google Play store while excluding all other apps:
 - **Name** - Enter **AllowInstallPackages**.

@@ -29,7 +29,7 @@ ms.custom: intune-azure
 # How to manage iOS apps purchased through a volume-purchase program with Microsoft Intune
 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 The iOS app store lets you purchase multiple licenses for an app that you want to run in your company. Purchasing multiple copies helps you to efficiently manage apps in your company.
 
@@ -87,17 +87,17 @@ Ensure that when you set up a device for a new Intune user, you configure it wit
 
 1. Sign into the Azure portal.
 2. Choose **More Services** > **Monitoring + Management** > **Intune**.
-1.	On the **Intune** blade, choose **Mobile apps** > **iOS VPP Tokens** under **Setup**.
+1.  On the **Intune** blade, choose **Mobile apps** > **iOS VPP Tokens** under **Setup**.
 2.  On the list of VPP tokens blade, select **Create**.
 4. On the **Create VPP token** blade, specify the following information:
-	- **VPP token file** - If you haven't already, sign up for the Volume Purchase Program for Business or the program for Education. After you sign up, download the Apple VPP token for your account and select it here.
-	- **Apple ID** - Enter the Apple ID of the account associated with the volume-purchase program.
-	- **Country/Region** - Select the VPP country store.  Intune synchronizes VPP apps for all locales from the specified VPP country store.
-	    > [!WARNING]  
-	    > Changing the country will update the apps metadata and store URL on next sync with the Apple service for apps created with this token. The app will not be updated if it does not exist in the new country store.
+    - **VPP token file** - If you haven't already, sign up for the Volume Purchase Program for Business or the program for Education. After you sign up, download the Apple VPP token for your account and select it here.
+    - **Apple ID** - Enter the Apple ID of the account associated with the volume-purchase program.
+    - **Country/Region** - Select the VPP country store.  Intune synchronizes VPP apps for all locales from the specified VPP country store.
+        > [!WARNING]  
+        > Changing the country will update the apps metadata and store URL on next sync with the Apple service for apps created with this token. The app will not be updated if it does not exist in the new country store.
 
-	- **Type of VPP account** - Choose from **Business** or **Education**.
-	- **Automatic app updates** - Choose from **On** to **Off** to enable automatic updates. When enabled, Intune updates all apps purchased for the specified token through the Intune service when the device checks-in.
+    - **Type of VPP account** - Choose from **Business** or **Education**.
+    - **Automatic app updates** - Choose from **On** to **Off** to enable automatic updates. When enabled, Intune updates all apps purchased for the specified token through the Intune service when the device checks-in.
 detect the VPP app updates inside the app store and automatically push them to the device when the device checks-in.
 4. When you are done, select **Upload**.
 
@@ -107,13 +107,13 @@ You can synchronize the data held by Apple with Intune at any time by choosing *
 
 ## To assign a volume-purchased app
 
-1.	On the **Intune** blade, choose **Mobile apps** > **Apps** under **Manage**.
-2.	On the list of apps blade, choose the app you want to assign, and then choose **Assignments**.
-3.	On the ***App name*** - **Assignments** blade, choose **Select Groups** then, on the **Select groups** blade, choose the Azure AD user or device groups to which you want to assign the app.
-5.	For each group you selected, choose the following settings:
-	- **Type** - Choose whether the app will be **Available** (end users can install the app from the Company Portal), or **Required** (end user devices will automatically get the app installed).
-	- **License type** - Choose from **User licensing**, or **Device licensing**.
-6.	Once you are done, choose **Save**.
+1.  On the **Intune** blade, choose **Mobile apps** > **Apps** under **Manage**.
+2.  On the list of apps blade, choose the app you want to assign, and then choose **Assignments**.
+3.  On the ***App name*** - **Assignments** blade, choose **Select Groups** then, on the **Select groups** blade, choose the Azure AD user or device groups to which you want to assign the app.
+5.  For each group you selected, choose the following settings:
+    - **Type** - Choose whether the app will be **Available** (end users can install the app from the Company Portal), or **Required** (end user devices will automatically get the app installed).
+    - **License type** - Choose from **User licensing**, or **Device licensing**.
+6.  Once you are done, choose **Save**.
 
 
 >[!NOTE]

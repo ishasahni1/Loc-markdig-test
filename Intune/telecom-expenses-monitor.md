@@ -26,7 +26,7 @@ ms.custom: intune-azure
 ---
 
 # Set up a telecom expense management service in Intune
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Intune enables you to manage telecom expenses incurred from data usage on corporate-owned mobile devices. To enable this capability, Intune has integrated with the third-party software developer Saaswedo’s Datalert telecom expense management solution. Datalert is real-time telecom expense management software that lets you manage telecom data usage and avoid costly and unexpected data and roaming overages for your Intune-managed devices.
 
@@ -76,7 +76,7 @@ Before you start, make sure that you already have an Intune and a Datalert telec
 
     The following screenshot shows the green check marks that you can expect to see once the connection is successful.
 
-  ![Datalert page showing connection successful](./media/tem-mdm-configuration-mdm-server-page.png)
+   ![Datalert page showing connection successful](./media/tem-mdm-configuration-mdm-server-page.png)
 
 ### Step 2: Check that the telecom expense management feature is Active in Intune
 
@@ -92,7 +92,7 @@ After you complete Step 1 above, your connection should be automatically enabled
 
    Look for the **Active** connection status at the top of the page.
 
-  ![Azure portal showing datalert connection status Active](./media/tem-azure-portal-enable-service.png)
+   ![Azure portal showing datalert connection status Active](./media/tem-azure-portal-enable-service.png)
 
 ### Step 3: Deploy the Datalert app to corporate enrolled devices
 
@@ -122,11 +122,11 @@ Follow these steps to create the Datalert app in Intune for each platform. iOS i
 
 6. Select the **Datalert** app, and select **OK**.
 
-  ![Screenshot of the Add a policy blade](./media/tem-select-app-from-apple-app-store.png)
+   ![Screenshot of the Add a policy blade](./media/tem-select-app-from-apple-app-store.png)
 
 7. Complete the remaining steps to create an app for iOS.
 
-  ![Screenshot of the Add a policy blade](./media/tem-steps-to-create-the-app.png)
+   ![Screenshot of the Add a policy blade](./media/tem-steps-to-create-the-app.png)
 
 #### Assign the Datalert app to the corporate device group
 
@@ -138,7 +138,7 @@ Follow these steps to create the Datalert app in Intune for each platform. iOS i
 
 4. Choose whether to make the app installation required or optional for the group. The following example screenshot shows the installation as required, which means that users must install the Datalert app installation after enrolling their device.
 
-  ![Screenshot of the Add a policy blade](./media/tem-assign-datalert-app-to-device-group.png)
+   ![Screenshot of the Add a policy blade](./media/tem-assign-datalert-app-to-device-group.png)
 
 ### Step 4: Add corporate paid phone lines to the Datalert console
 
@@ -153,8 +153,8 @@ The Datalert service is now active, and it starts monitoring data usage and disa
 
 ## Client enrollment experience
 For client enrollment experience see following:
--	[Enroll your iOS device in telecom expense management](https://docs.microsoft.com/intune-user-help/enroll-your-device-with-telecom-expense-management-ios)
--	[Enroll your Android device in telecom expense management](https://docs.microsoft.com/intune-user-help/enroll-your-device-with-telecom-expense-management-android)
+-   [Enroll your iOS device in telecom expense management](https://docs.microsoft.com/intune-user-help/enroll-your-device-with-telecom-expense-management-ios)
+-   [Enroll your Android device in telecom expense management](https://docs.microsoft.com/intune-user-help/enroll-your-device-with-telecom-expense-management-android)
 
 ## Turning off the Datalert service
 

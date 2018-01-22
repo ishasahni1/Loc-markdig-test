@@ -28,7 +28,7 @@ ms.custom: intune-classic
 
 # Enroll devices for management in Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 You can enroll devices, including Windows PCs, to enable mobile device management (MDM) with Microsoft Intune. This topic describes different ways to enroll mobile devices in Intune management. The way you enroll your devices depends on the device type, ownership, and the level of management that's needed. "Bring your own device" (BYOD) enrollment lets users enroll their personal phones, tablets, or PCs. Corporate-owned device (COD) enrollment enables management scenarios like automatic enrollment, shared devices, or pre-authorized enrollment requirements.
 
@@ -46,40 +46,40 @@ The following table shows Intune enrollment methods and the supported capabiliti
 
 **iOS enrollment methods**
 
-| **Method** |	**Wipe required?** |	**Affinity**	|	**Lock** | **Details** |
+| **Method** |  **Wipe required?** |    **Affinity**    |   **Lock** | **Details** |
 |:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | No|	Yes |	No | [More information](prerequisites-for-enrollment.md)|
-|**[DEM](#dem)**|	No |No |No	| [More information](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
-|**[DEP](#dep)**|	Yes |	Optional |	Optional|[More information](ios-device-enrollment-program-in-microsoft-intune.md)|
-|**[USB-SA](#usb-sa)**|	Yes |	Optional |	No| [More information](ios-setup-assistant-enrollment-in-microsoft-intune.md)|
-|**[USB-Direct](#usb-direct)**|	No |	No	| No|[More information](ios-direct-enrollment-in-microsoft-intune.md)|
+|**[BYOD](#byod)** | No|    Yes |   No | [More information](prerequisites-for-enrollment.md)|
+|**[DEM](#dem)**|   No |No |No  | [More information](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
+|**[DEP](#dep)**|   Yes |   Optional |  Optional|[More information](ios-device-enrollment-program-in-microsoft-intune.md)|
+|**[USB-SA](#usb-sa)**| Yes |   Optional |  No| [More information](ios-setup-assistant-enrollment-in-microsoft-intune.md)|
+|**[USB-Direct](#usb-direct)**| No |    No  | No|[More information](ios-direct-enrollment-in-microsoft-intune.md)|
 
 **Windows enrollment methods**
 
-| **Method** |	**Wipe required?** |	**Affinity**	|	**Lock** | **Details**|
+| **Method** |  **Wipe required?** |    **Affinity**    |   **Lock** | **Details**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | No|	Yes |	No | [More information](prerequisites-for-enrollment.md)|
-|**[DEM](#dem)**|	No |No |No	|[More information](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
+|**[BYOD](#byod)** | No|    Yes |   No | [More information](prerequisites-for-enrollment.md)|
+|**[DEM](#dem)**|   No |No |No  |[More information](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
 
 **Android enrollment methods**
 
-| **Method** |	**Wipe required?** |	**Affinity**	|	**Lock** | **Details**|
+| **Method** |  **Wipe required?** |    **Affinity**    |   **Lock** | **Details**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | No|	Yes |	No | [More information](prerequisites-for-enrollment.md)|
-|**[DEM](#dem)**|	No |No |No	|[More information](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
+|**[BYOD](#byod)** | No|    Yes |   No | [More information](prerequisites-for-enrollment.md)|
+|**[DEM](#dem)**|   No |No |No  |[More information](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
 
 **Android for Work enrollment methods**
 
-| **Method** |	**Wipe required?** |	**Affinity**	|	**Lock** | **Details**|
+| **Method** |  **Wipe required?** |    **Affinity**    |   **Lock** | **Details**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | No|	Yes |	No | [More information](prerequisites-for-enrollment.md)|
-|**[DEM](#dem)**|	No |No |No	|[More information](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
+|**[BYOD](#byod)** | No|    Yes |   No | [More information](prerequisites-for-enrollment.md)|
+|**[DEM](#dem)**|   No |No |No  |[More information](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
 
 **macOS enrollment methods**
 
-| **Method** |	**Wipe required?** |	**Affinity**	|	**Lock** | **Details**|
+| **Method** |  **Wipe required?** |    **Affinity**    |   **Lock** | **Details**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | No|	Yes |	No | [More information](prerequisites-for-enrollment.md)|
+|**[BYOD](#byod)** | No|    Yes |   No | [More information](prerequisites-for-enrollment.md)|
 
 
 For a series of questions that help you find the right method, see [Choose how to enroll devices](/intune-classic/get-started/choose-how-to-enroll-devices1).
@@ -97,15 +97,15 @@ Device enrollment manager is a special Intune account that's used to enroll and 
 
 ### DEP
 Apple Device Enrollment Program (DEP) management lets you create and deploy policy “over the air” to iOS devices that are purchased and managed with DEP. The device is enrolled when users turn on the device for the first time and run iOS Setup Assistant. This method supports **iOS Supervised** mode, which in turn enables:
-  -	Locked enrollment
-  -	Kiosk mode and other advanced configurations and restrictions
+  - Locked enrollment
+  - Kiosk mode and other advanced configurations and restrictions
 
 Learn more about [DEP](ios-device-enrollment-program-in-microsoft-intune.md). ([Go back to the table](#overview-of-device-enrollment-methods))
 
 ### USB-SA
 IT admins use Apple Configurator, via USB, to prepare each corporate-owned device manually for enrollment using Setup Assistant. The IT admin creates an enrollment profile and exports it to Apple Configurator. When users receive their devices, they are then prompted to run Setup Assistant to enroll their device. This method supports **iOS Supervised** mode, which in turn enables:
-  -	Locked enrollment
-  -	Kiosk mode and other advanced configurations and restrictions
+  - Locked enrollment
+  - Kiosk mode and other advanced configurations and restrictions
 
 Learn more about [Setup Assistant enrollment with Apple Configurator](ios-setup-assistant-enrollment-in-microsoft-intune.md). ([Go back to the table](#overview-of-device-enrollment-methods))
 
@@ -129,7 +129,7 @@ PCs that are managed with the Intune client software cannot be fully wiped, alth
 
 Intune can manage the following device platforms:
 
-[!INCLUDE[mdm-supported-devices](../includes/mdm-supported-devices.md)]
+[!INCLUDE [mdm-supported-devices](../includes/mdm-supported-devices.md)]
 
 ## Next steps
 - [Prerequisites for device enrollment](prerequisites-for-enrollment.md)

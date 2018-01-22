@@ -44,7 +44,7 @@ When you enroll your Android device, you are giving your company support permiss
 
 -   Reset your device back to the manufacturer’s defaults. This is helpful if the device is lost or stolen.
 
--   Remove all company-related data. Your personal data and settings aren’t removed.
+-   Remove all company-related data. Your personal data and settings aren’t removed.
 
 -   Set requirements on your device, like requiring you to have a device password or PIN to help protect company data. Your company support might also limit how many times you can enter an incorrect password, and might lock you out of the device if you try too many times.
 

@@ -1,7 +1,8 @@
 ---
 # required metadata
 
-title: How to use device categories in IntunetitleSuffix: "Azure portal"
+title: How to use device categories in Intune
+titleSuffix: "Azure portal"
 description: Learn how to use device categories that users can choose when they enroll their devices in Intune."
 keywords:
 author: arob98
@@ -28,7 +29,7 @@ ms.custom: intune-azure
 
 # Map device groups
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Use Microsoft Intune device categories to automatically add devices to groups based on categories that you define, in order to make it easier for you to manage those devices.
 
@@ -67,13 +68,13 @@ After you configure device groups, and users enroll their device, they are prese
 
 ### How to view the categories of devices you manage
 
-1.	In the Azure portal, choose **More Services** > **Monitoring + Management** > **Intune**.
+1.  In the Azure portal, choose **More Services** > **Monitoring + Management** > **Intune**.
 
 2. In the Intune blade of the Azure portal, choose **Devices and Groups**.
 
-3.	Under **Manage**, click **All devices**.
+3.  Under **Manage**, click **All devices**.
 
-4.	In the list of devices, examine the **Category** column.
+4.  In the list of devices, examine the **Category** column.
 
 If the **Category** column isn’t displayed, click **Columns**, choose **Category** from the list, and then click **Apply**.
 
